@@ -39,13 +39,13 @@ function CardGrid() {
       title: 'Semester 1 — Programming Principles',
       description: 'Variabelen, datatypes, beslissingen, loops, methoden, arrays en meer.',
       to: '/semester-1-programming-principles/h0-werken-met-visual-studio',
-      emoji: '1️⃣',
+      badge: '1',
     },
     {
       title: 'Semester 2 — OOP',
       description: 'Klassen, objecten, overerving, interfaces, generics, testing en meer.',
       to: '/semester-2-oop/h8-klassen-en-objecten',
-      emoji: '2️⃣',
+      badge: '2',
     },
     {
       title: 'Appendices',
@@ -60,7 +60,10 @@ function CardGrid() {
       <div className={styles.cardGrid}>
         {cards.map((card) => (
           <Link key={card.to} className={styles.card} to={card.to}>
-            <span className={styles.cardEmoji}>{card.emoji}</span>
+            {card.badge
+              ? <span className={styles.cardBadge}>{card.badge}</span>
+              : <span className={styles.cardEmoji}>{card.emoji}</span>
+            }
             <h2 className={styles.cardTitle}>{card.title}</h2>
             <p className={styles.cardDesc}>{card.description}</p>
           </Link>

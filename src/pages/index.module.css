@@ -109,6 +109,20 @@
   margin-bottom: 0.75rem;
 }
 
+.cardBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
 .cardTitle {
   font-size: 1.1rem;
   font-weight: 700;

@@ -49,6 +49,10 @@ const config = {
     ({
       navbar: {
         title: 'Programmeren & OOP',
+        logo: {
+          alt: 'C# logo',
+          src: 'img/favicon.png',
+        },
         items: [
           {
             type: 'docSidebar',
