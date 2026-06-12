@@ -31,18 +31,18 @@ Deze methode **verandert een string niet**. Er is geen enkele methode die dat do
 
 ```csharp
 string hallo1 = "hallo";
-hallo1.substring(0,2);
+hallo1.Substring(0,2);
 Console.WriteLine(hallo1);
 ```
 
 ```csharp
 string hallo1 = "hallo";
-Console.WriteLine(hallo1.substring(0,2));
+Console.WriteLine(hallo1.Substring(0,2));
 ```
 
 ```csharp
 string hallo1 = "hallo";
-string hallo2 = hallo1.substring(0,2);
+string hallo2 = hallo1.Substring(0,2);
 Console.WriteLine(hallo2);
 ```
 

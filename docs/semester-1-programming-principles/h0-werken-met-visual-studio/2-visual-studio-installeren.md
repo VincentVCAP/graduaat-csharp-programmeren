@@ -65,7 +65,7 @@ Hierbij ga je ervoor zorgen dat je met afkortingen kan coderen die dan automatis
 
 Bv. **cr** (gevolgd door twee TABs) \*\*\*\* wordt dan **Console.ReadLine()**
 
-Je kan volgende code kopiï¿½ren in een tekstbestand met als extensie .snippet of je kan het hieronder downloaden.
+Je kan volgende code kopiëren in een tekstbestand met als extensie .snippet of je kan het hieronder downloaden.
 
 
 

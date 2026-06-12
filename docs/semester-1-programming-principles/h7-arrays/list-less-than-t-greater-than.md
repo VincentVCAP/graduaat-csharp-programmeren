@@ -22,7 +22,7 @@ Via de `Add()` methode kan je elementen toevoegen aan de lijst. Je dient als par
 In volgende voorbeeld maken we een List aan die objecten van het type string mag bevatten en vervolgens plaatsen we er twee elementen in.
 
 ```csharp
-List<String> myStringList = new List<String>();
+List<string> myStringList = new List<string>();
 myStringList.Add("This is the first item in my list!");
 myStringList.Add("And another one!");
 ```

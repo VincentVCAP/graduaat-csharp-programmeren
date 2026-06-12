@@ -55,9 +55,9 @@ De `IndexOf`-methode maakt het mogelijk om te zoeken naar de index van een gegev
 
 Volgende code zal bijvoorbeeld de index teruggeven van het item `"koffie"` indien dit in de array `items` staat:
 
-```
-Array.Sort(items);
-Array.BinarySearch(items, "koffie");
+```csharp
+string[] items = {"brood","koffie","fruit"};
+int index = Array.IndexOf(items, "koffie"); // geeft 1
 ```
 
 Volgend voorbeeld toont het gebruik van deze methode:

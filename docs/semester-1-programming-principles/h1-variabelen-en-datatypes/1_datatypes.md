@@ -43,7 +43,7 @@ Voor de gehele getallen:
 | `int`    | 32 bits      | -2 147 483 648 tot 2 147 483 647                         | [info](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int)    |
 | `uint`   | 32 bits      | 0 tot 4294967295                                         | [info](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/uint)   |
 | `long`   | 64 bits      | -9 223 372 036 854 775 808 tot 9 223 372 036 854 775 807 | [info](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/long)   |
-| `ulong`  | 64 bits      | 0 tot 18 446 744 073 709 551 615                         | [info](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/long)   |
+| `ulong`  | 64 bits      | 0 tot 18 446 744 073 709 551 615                         | [info](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/ulong)  |
 | `char`   | 16 bits      | 0 tot 65535                                              | [info](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/char)   |
 
 Enkele opmerkingen bij deze tabel:

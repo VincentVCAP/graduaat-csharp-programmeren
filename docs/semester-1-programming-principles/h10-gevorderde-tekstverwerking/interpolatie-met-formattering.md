@@ -24,7 +24,7 @@ Je mag eender welke *expressie* tussen de accolades zetten bij string interpolat
 string result = $"Ik ben {name} en ik ben {age+4} jaar oud.";
 ```
 
-Alle expressies tussen de accolades zullen eerst uitgevoerd worden voor ze tussen de string worden geplaatst. De uitvoer wordt nu dus: `Ik ben Finkelstein en ik ben 17 jaar oud.`
+Alle expressies tussen de accolades zullen eerst uitgevoerd worden voor ze tussen de string worden geplaatst. De uitvoer wordt nu dus: `Ik ben Finkelstein en ik ben 21 jaar oud.`
 
 Eender welke expressie is toegelaten, dus je kan ook complexe berekeningen of zelfs andere methoden aanroepen:
 

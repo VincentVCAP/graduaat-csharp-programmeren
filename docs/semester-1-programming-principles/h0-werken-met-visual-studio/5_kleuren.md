@@ -47,7 +47,7 @@ Console.WriteLine("Het programma sluit nu af");
 
 ## Mogelijke kleuren
 
-Alle kleuren die beschikbaar zijn zijn beschreven in `ConsoleColor` deze zijn:
+Alle kleuren die beschikbaar zijn in `ConsoleColor` zijn:
 
 * `ConsoleColor.Black`
 * `ConsoleColor.DarkBlue`
@@ -64,5 +64,6 @@ Alle kleuren die beschikbaar zijn zijn beschreven in `ConsoleColor` deze zijn:
 * `ConsoleColor.Red`
 * `ConsoleColor.Magenta`
 * `ConsoleColor.Yellow`
+* `ConsoleColor.White`
 
 ![Bron afbeelding : https://www.c-sharpcorner.com/article/change-console-foreground-and-background-color-in-c-sharp/](/img/img-3030.jpg)

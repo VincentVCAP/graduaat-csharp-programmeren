@@ -69,7 +69,7 @@ In het volgende voorbeeld maken we een nieuwe methode aan en geven aan dat de la
 
 ```csharp
 static double ComputePrice(int numberOfItems, double itemPrice, double discountPercentage = 0, bool doubleDiscount = false) {
-    if (not doubleDiscount) {
+    if (!doubleDiscount) {
         return (numberOfItems * itemPrice) * (1.0 - discountPercentage / 100);
     }
     else {
@@ -101,7 +101,7 @@ Console.WriteLine(ComputePrice(4,10.0,doubleDiscount: true));
 
 ### Method overloading
 
-Method overloading wil zeggen dat je een **methode met dezelfde naam en returntype** meerdere keren definieert maar met andere parameters qua type en aantal. De compiler zal dan zelf bepalen welke methode moet aangeroepen worden gebaseerd op het aantal en type parameters dat je meegeeft.
+Method overloading wil zeggen dat je een **methode met dezelfde naam** meerdere keren definieert maar met andere parameters qua type en aantal. De compiler zal dan zelf bepalen welke methode moet aangeroepen worden gebaseerd op het aantal en type parameters dat je meegeeft.
 
 Volgende methoden zijn overloaded:
 

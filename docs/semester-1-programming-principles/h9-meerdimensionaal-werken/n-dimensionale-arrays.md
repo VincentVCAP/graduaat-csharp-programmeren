@@ -45,7 +45,7 @@ Je kan de array ook als volgt initialiseren.
 ```csharp
 string[,] oxoRooster = {{null,null,null},
                         {null,null,null},
-                        {null,null,null}}
+                        {null,null,null}};
 ```
 
 Of hij mag al ingevuld zijn:
@@ -53,7 +53,7 @@ Of hij mag al ingevuld zijn:
 ```csharp
 string[,] oxoRooster = {{"o","o","o"},
                         {"x","o","x"},
-                        {"o","x","x"}}
+                        {"o","x","x"}};
 ```
 
 Technisch gesproken bevatten de binnenste accolades groepjes waarden in de tweede dimensie van de array en de buitenste ordenen deze groepjes dan in de eerste dimensie. **Maar het volstaat als je onthoudt dat je hier zaken kan noteren alsof ze in rijen en kolommen stonden.**

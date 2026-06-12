@@ -111,7 +111,7 @@ Je ziet dat het getal enkel gewijzigd is binnen de methode VeranderGetal en daar
 1. een waarde 4 krijgt de naam `mijnGetal`
 2. de waarde met naam `mijnGetal` wordt getoond
 3. de waarde met naam `mijnGetal` wordt gekopieerd en krijgt de naam `getal`
-4. de naam `mijnGetal` wordt toegekend aan het getal dat je verkrijgt door de kopie met één te verminderen en verwijst nu dus naar een 3
+4. de naam `getal` wordt toegekend aan het getal dat je verkrijgt door de kopie met één te verminderen en verwijst nu dus naar een 3
 5. deze 3 wordt getoond
 6. de oproep eindigt
 7. heel de tijd is `mijnGetal` blijven verwijzen naar 4 en daarom wordt er terug een 4 getoond

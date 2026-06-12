@@ -6,7 +6,7 @@ Met meerdimensionale arrays kunnen we de richtingen los van elkaar bekijken. Bij
 
 ```csharp
 public static void PrintRij(int rij, string[,] array) {
-	for(int i = 0; i < array.getLength(1); i++) {
+	for(int i = 0; i < array.GetLength(1); i++) {
 		Console.Write(array[rij,i]);
 	}
 	Console.WriteLine();
@@ -56,7 +56,7 @@ Volgend voorbeeld toont hoe je enkel een driehoekig deel van een rooster toont:
 
 ```csharp
 public static void PrintRij(int rij, string[,] array, int maxI) {
-	for(int i = 0; i < array.getLength(1) && i <= maxI; i++) {
+	for(int i = 0; i < array.GetLength(1) && i <= maxI; i++) {
 		Console.Write(array[rij,i]);
 	}
 	Console.WriteLine();

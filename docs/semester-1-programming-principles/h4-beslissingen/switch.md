@@ -3,8 +3,8 @@
 Een switch statement is een element om een veelvoorkomende constructie van if/if else...else eenvoudiger te schrijven. Vaak komt het voor dat we bijvoorbeeld aan de gebruiker vragen om een keuze te maken (bijvoorbeeld een getal van 1 tot 10, waarbij ieder getal een ander menu-item uitvoert van het programma), zoals:
 
 ```csharp
-Console.WriteLine("Kies: 1)afbreken);
-COnsole.WriteLine("2)opslaan");
+Console.WriteLine("Kies: 1)afbreken");
+Console.WriteLine("2)opslaan");
 Console.WriteLine("3)laden");
 int option = Convert.ToInt32(Console.ReadLine());
  
@@ -49,10 +49,10 @@ Tijdens de uitvoer zal het programma `value` vergelijken met iedere case constan
 
 Het menu van zonet kunnen we nu herschrijven naar een `switch`:
 
-```java
+```csharp
 int option;
-Console.WriteLine("Kies: 1)afbreken);
-COnsole.WriteLine("2)opslaan");
+Console.WriteLine("Kies: 1)afbreken");
+Console.WriteLine("2)opslaan");
 Console.WriteLine("3)laden");
 option = Convert.ToInt32(Console.ReadLine());
 
