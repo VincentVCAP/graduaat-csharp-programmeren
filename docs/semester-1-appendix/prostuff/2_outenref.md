@@ -1,6 +1,8 @@
 # Opgelet
 
-#### <mark style="color:red;">MAG NIET GEBRUIKT WORDEN TIJDENS EXAMEN/PROJECT. (Dit is informatief)</mark>
+:::danger Mag niet gebruikt worden tijdens examen/project
+Dit hoofdstuk is puur informatief.
+:::
 
 ## Parameters by reference doorgeven
 
