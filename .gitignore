@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+
+# Docusaurus cache
+.docusaurus/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.local

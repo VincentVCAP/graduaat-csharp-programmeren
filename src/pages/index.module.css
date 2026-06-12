@@ -1,0 +1,124 @@
+.hero {
+  background: linear-gradient(135deg, var(--ifm-color-primary-darkest) 0%, var(--ifm-color-primary) 100%);
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.heroInner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroLabel {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  color: #fff;
+}
+
+.heroSub {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  background: #fff;
+  color: var(--ifm-color-primary-darkest);
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.btnPrimary:hover {
+  opacity: 0.9;
+  color: var(--ifm-color-primary-darkest);
+  text-decoration: none;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: border-color 0.15s;
+}
+
+.btnSecondary:hover {
+  border-color: #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cardSection {
+  padding: 3rem 2rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  color: inherit;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.cardEmoji {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--ifm-color-primary);
+}
+
+.cardDesc {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin: 0;
+  line-height: 1.5;
+}
