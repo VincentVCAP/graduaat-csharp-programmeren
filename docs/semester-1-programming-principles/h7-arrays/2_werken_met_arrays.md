@@ -43,7 +43,7 @@ Wanneer je de Sort-methode toepast op een array van strings dan zullen de elemen
 
 Met de `Array.Reverse()`-methode kunnen we dan weer de elementen van de array omkeren (dus het laatste element vooraan zetten en zo verder.
 
-```
+```csharp
 Array.Reverse(items);
 ```
 
@@ -102,6 +102,4 @@ if (productIndex < 0) {
     System.Console.WriteLine("Het product is niet aanwezig.");
 }
 else {
-    System.Console.WriteLine(prijzen[productIndex]);
-}
-```
+    Syst

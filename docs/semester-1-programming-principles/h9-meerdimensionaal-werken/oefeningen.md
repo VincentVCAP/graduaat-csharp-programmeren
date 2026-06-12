@@ -48,7 +48,7 @@ Maak in een methode `MultiplicationTables`een twee dimensionale array van 10 rij
 ![](/img/img-3155.png)
 
 
-```
+```csharp
 // Tip
 table[row,column]:d3
 ```
@@ -152,7 +152,7 @@ Schrijf in de klasse `Meerdimensionaal` een methode `RowSums`. Deze maakt een tw
 
 ### Voorbeeldinteractie
 
-```
+```csharp
 Hoe veel rijen telt je array?
 > 3
 Hoe veel kolommen telt je array?
@@ -223,7 +223,7 @@ Deze oefening kan je niet rechtstreeks oproepen via het keuzemenu voor deze klas
 
 ### Voorbeeldinteractie
 
-```
+```csharp
 Wat wil je doen?
 1. een pixel kleuren
 2. afbeelding tonen
@@ -249,7 +249,7 @@ Deze oefening kan je niet rechtstreeks oproepen via het keuzemenu voor deze klas
 
 ### Voorbeeldinteractie
 
-```
+```csharp
 Wat wil je doen?
 1. een pixel kleuren
 2. afbeelding tonen

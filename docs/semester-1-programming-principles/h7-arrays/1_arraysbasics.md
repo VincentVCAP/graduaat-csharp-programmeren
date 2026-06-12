@@ -72,7 +72,7 @@ Merk wel op: hier vindt ook meteen een **initialisatie** plaats.
 
 Een initialisatie vertelt de compiler niet alleen dat deze variabele bestaat, maar ook wat zijn eerste waarde is. Een waarde van een array-type stelt eigenlijk een hoeveelheid ruimte in het geheugen voor. Ruimte voor een bepaald aantal strings, voor een bepaald aantal getallen, maakt niet uit. Om technische redenen die we later in meer detail bekijken, moet je deze ruimte reserveren met het keyword `new`. Je moet ook zeggen hoe veel ruimte je nodig hebt. Bijvoorbeeld, met de declaraties van hierboven:
 
-```
+```csharp
 items = new string[10]; // ruimte om 10 items op het lijstje bij te houden
 metingen = new double[365]; // ruimte om een jaar aan metingen te voorzien
 aandelen = new decimal[365*10]; // ruimte om de koers over (ongeveer) 10 jaar bij te houden
@@ -109,7 +109,7 @@ items[9] = Console.ReadLine();
 
 Dit zorgt dat je code kan uitsparen. Met 10 individuele variabelen, dus **zonder array**, zou je bovenstaande code ongeveer zo moeten schrijven:
 
-```
+```csharp
 Console.WriteLine(); // geef 10 items die je nodig hebt
 item1 = Console.ReadLine(); // het eerste element heeft index 0
 item2 = Console.ReadLine();
@@ -120,7 +120,7 @@ item10 = Console.ReadLine();
 
 Maar **met een array** heb je ook deze optie:
 
-```
+```csharp
 Console.WriteLine(); // geef 10 items die je nodig hebt
 for(int i = 0; i <= 9; i++) {
     items[i] = Console.ReadLine();
@@ -133,7 +133,7 @@ En als je je lijstje wil uitbreiden tot 1000 items, moet je alleen de 10 door 10
 
 Je gebruikt de notatie met rechte haken ook om een array uit te lezen:
 
-```
+```csharp
 Console.WriteLine($"Het 1e item op je lijstje is {items[0]}");
 Console.WriteLine($"Het 2e item op je lijstje is {items[1]}");
 // herhaald
@@ -142,7 +142,7 @@ Console.WriteLine($"Het 10e item op je lijstje is {items[9]}");
 
 Ook hier bespaar je vervelend werk met een lus:
 
-```
+```csharp
 for(int i = 0; i <= 9; i++) {
     Console.WriteLine($"Het {i+1}e item op je lijstje is {items[i]}");
 }
@@ -150,17 +150,17 @@ for(int i = 0; i <= 9; i++) {
 
 Als je een element probeert uit te lezen dat nog geen waarde gekregen heeft, krijg je een defaultwaarde. Wat voor waarde dat is, hangt af van de array. Er zit een systeem achter, maar dat behandelen we pas later in de cursus. Voorlopig mag je dit onthouden: voor getallen krijg je 0. Voor booleans krijg je `false`. Voor strings krijg je een speciale waarde `null`, die verschillend is van `""`. intWat je vooral moet weten over `null` is dat je er geen eigenschappen van kan opvragen of methodes op kan toepassen. Ik laat even zien wat ik bedoel.
 
-```
+```csharp
 string[] stukkenTekst;
 Console.WriteLine(stukkenTekst[0].Length);
 ```
 
-```
+```csharp
 string[] stukkenTekst;
 Console.WriteLine(stukkenTekst[0].ToUpper());
 ```
 
-```
+```csharp
 int[][] arrayVanArrays;
 Console.WriteLine(arrayVanArrays.Length);
 ```

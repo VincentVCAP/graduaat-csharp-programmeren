@@ -50,7 +50,7 @@ Operators in C# zijn de welgekende 'wiskundige bewerkingen' zoals optellen (`+`)
 
 Net zoals in de wiskunde kan je in C# met behulp van de haakjes verplichten het deel tussen de haakjes eerst te doen, ongeacht de andere operators en hun volgorde van berekeningen:
 
-```
+```csharp
 3+5*2 => zal 13 als resultaat geven
 (3+5)*2 => zal 16 geven
 ```

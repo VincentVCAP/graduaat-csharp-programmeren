@@ -6,7 +6,7 @@
 
 Wanneer je de waarde van een variabele wil toekennen aan een variabele van een ander type mag dit niet zomaar. Volgende code zal bijvoorbeeld een error geven, omdat aan de linkerkant staat dat je een geheel getal wil bijhouden (door middel van `int`) en aan de rechterkant een kommagetal staat:
 
-```
+```csharp
 int age = 4.3;
 ```
 
@@ -29,14 +29,14 @@ Het is belangrijk in te zien dat het casten van een variabele naar een ander typ
 
 Casting duid je aan door voor de variabele of literal het datatype tussen haakjes te plaatsen naar wat het omgezet moet worden:
 
-```
+```csharp
 int mijngetal = (int) 3.5;
 Console.WriteLine(mijngetal);
 ```
 
 of
 
-```
+```csharp
 double kommagetal = 13.8;
 int kommaNietWelkom = (int) kommagetal;
 Console.WriteLine(kommaNietWelkom);
@@ -50,7 +50,7 @@ Casting gebruik je vaak als je een variabele wil gebruiken als een ander type da
 
 Bekijk eens het volgende voorbeeld:
 
-```
+```csharp
 double var1;
 int var2;
 
@@ -64,7 +64,7 @@ Dit gaat enkel als je expliciet aan de compiler zegt: het is goed, je mag inform
 
 En je doet dit door voor de variabele die dienst moet doen als een ander type, het nieuwe type, tussen ronde haakjes te typen, als volgt:
 
-```
+```csharp
 double var1;
 int var2;
 
@@ -80,7 +80,7 @@ Het resultaat in `var2` zal `20` zijn (alles na de komma wordt bij casting van e
 
 Casting kan je ook gebruiken als je aan **widening** doet (een kleiner type in een groter type steken), als volgt:
 
-```
+```csharp
 int var1;
 double var2;
 
@@ -100,7 +100,7 @@ Echter, .NET heeft ook methoden die je kunnen helpen om data van het ene type na
 
 Het gebruik hiervan is zeer eenvoudig. Enkele voorbeelden:
 
-```
+```csharp
 int getal= Convert.ToInt32(3.2); //double to int
 double anderGetal= Convert.ToDouble(5); //int to double
 bool isWaar= Convert.ToBoolean(1); //int to bool

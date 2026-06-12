@@ -99,7 +99,7 @@ Schrijf dit programma als een methode met de naam `Rubbish`binnen de klasse `Een
 
 #### voorbeeldinteractie(s)
 
-```
+```csharp
 Wat is je favoriete kleur?
 > blauw
 Wat is je favoriete eten?

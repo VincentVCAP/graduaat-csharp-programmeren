@@ -22,7 +22,7 @@ Noem je methode `LengthAreaVolume`.
 
 ### Voorbeeldinteractie
 
-```
+```csharp
 Hoe lang is de zijde in meter?
 > 10
 De lengte is: 10m
@@ -57,7 +57,7 @@ Noem je methode `RockScissorsPaper`.
 
 ### Voorbeeldinteractie
 
-```
+```csharp
 Maak een keuze:
 1 voor schaar
 2 voor steen
@@ -86,14 +86,14 @@ Jij hebt 1 punt, de computer heeft 1 punt.
 
 (Helemaal op het einde)
 
-```
+```csharp
 Jij hebt 10 punten, de computer heeft 8 punten.
 Jij bent gewonnen!
 ```
 
 of
 
-```
+```csharp
 Jij hebt 8 punten, de computer heeft 10 punten.
 De computer is gewonnen!
 ```

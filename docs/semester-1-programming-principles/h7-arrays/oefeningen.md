@@ -225,7 +225,7 @@ Maak een een alternatieve versie van H6-Shopping. Maak ditmaal gebruik van List\
 
 #### **Voorbeeldinteractie**
 
-```
+```csharp
 Wat is item 1 op je lijst?
 > kaas
 Wat is item 2 op je lijst?
@@ -268,7 +268,7 @@ Maak een een alternatieve versie van H6-ChristmasShopping. Maak ditmaal gebruik 
 
 #### Voorbeeldinteractie
 
-```
+```csharp
 Wat is het budget voor je kerstinkopen?
 > 500
 Prijs van cadeau 1?

@@ -28,7 +28,7 @@ else
 
 Met een `switch` kan dit eenvoudiger wat we zo meteen zullen tonen. Eerst bekijken we hoe `switch` juist werkt. De syntax van een `switch` is specialer dan de andere programma flow-elementen (`if`, `while`, enz.), namelijk als volgt:
 
-```
+```csharp
 switch (value)
 {
     case constant:
@@ -79,7 +79,7 @@ De case waarden moeten constanten zijn en mogen dus geen variabelen zijn. Consta
 
 Soms wil je dat dezelfde code uitgevoerd wordt bij 2 of meer cases. Je kan ook zogenaamde fallthrough cases beschrijven wat er als volgt uit ziet:
 
-```
+```csharp
 switch (option)
 {
     case 1:
@@ -95,4 +95,4 @@ switch (option)
 }
 ```
 
-In dit geval zullen zowel de waarden `2` en `3` resulteren in de zin "Laden of opslaan gekozen" op het scherm.
+In dit geval zullen zowel de waarden `2` en `3` resulteren in de zin "Laden of opslaan gekozen" op h

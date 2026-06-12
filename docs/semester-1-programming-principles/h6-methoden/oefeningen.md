@@ -100,7 +100,7 @@ Schrijf een methode `DrawTriangle`. Deze methode verwacht twee zaken: een karakt
 
 #### Voorbeeldinteractie
 
-```
+```csharp
 Hoe hoog is de driehoek?
 > 4
 Welk karakter gebruiken we als patroon?
@@ -111,7 +111,7 @@ Welk karakter gebruiken we als patroon?
 ####
 ```
 
-```
+```csharp
 Hoe hoog is de driehoek?
 > 3
 Welk karakter gebruiken we als patroon?

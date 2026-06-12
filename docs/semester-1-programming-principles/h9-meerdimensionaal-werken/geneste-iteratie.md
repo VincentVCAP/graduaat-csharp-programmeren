@@ -86,7 +86,7 @@ Geneste lussen komen vaak voor bij meerdimensionale arrays, maar dat is vooral o
 
 Je kan geneste lussen gebruiken voor allerlei taken waarbij je herhaling hebt op meerdere niveaus. Bijvoorbeeld voor volgende figuur:
 
-```
+```csharp
 1 
 2 2 
 3 3 3 

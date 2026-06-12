@@ -28,7 +28,7 @@ Dankzij `ReadAllLines` en `Split` hebben we nu alle bouwstenen om eenvoudig een 
 
 Stel je voor dat een bestand `soccer.csv` volgende tekst bevat:
 
-```
+```csharp
 Dams;Tim;1981
 Hamdaoui;Mounir;1984
 Stoffels;José;1950

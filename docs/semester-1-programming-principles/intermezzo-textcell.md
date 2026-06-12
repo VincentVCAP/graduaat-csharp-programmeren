@@ -337,7 +337,7 @@ public static string BerekenOntbrekendeCelRechtstreeks(string formule, string[] 
 
 Nu nog even uittesten.
 
-```
+```csharp
 Hoe veel cellen telt je spreadsheet?
 8
 |A         |B         |C         |D         |E         |F         |G         |H         |

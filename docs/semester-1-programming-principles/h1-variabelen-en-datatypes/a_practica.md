@@ -25,7 +25,7 @@ Noem de methode voor deze oefening `AddUp`.
 
 #### voorbeeldinteractie(s)
 
-```
+```csharp
 Wat is het eerste getal?
 > 1
 Wat is het tweede getal?
@@ -121,7 +121,7 @@ Noem de methode voor deze oefening `LittleMath`.
 
 #### voorbeeldinteractie(s)
 
-```
+```csharp
 23
 280
 12
@@ -161,7 +161,7 @@ Noem de methode voor deze oefening `Average`.
 
 #### voorbeeldinteractie(s)
 
-```
+```csharp
 12
 ```
 
@@ -194,17 +194,17 @@ Noem de methode voor deze oefening `MultiplicationTables`. Je kent nog geen luss
 
 #### voorbeeldinteractie(s)
 
-```
+```csharp
 1 * 411 is 411.
 ```
 
-```
+```csharp
 2 * 411 is 822.
 ```
 
 (enzovoort)
 
-```
+```csharp
 10 * 411 is 4110.
 ```
 
@@ -245,7 +245,7 @@ Noem de methode voor deze oefening `Space`.
 
 #### voorbeeldinteractie(s)
 
-```
+```csharp
 Op Mercurius voel je je alsof je 26.22kg weegt.
 Op Venus voel je je alsof je 62.79kg weegt.
 Op Aarde voel je je alsof je 69kg weegt.

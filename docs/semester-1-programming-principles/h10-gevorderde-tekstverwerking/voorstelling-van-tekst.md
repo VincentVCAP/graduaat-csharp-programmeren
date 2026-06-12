@@ -62,7 +62,7 @@ Dit wordt vaak gebruikt om een filepath iets leesbaarder te maken.
 
 Volgende stukken code doen dus hetzelfde:
 
-```
+```csharp
 string tekst = @"Back
 
 \
@@ -71,7 +71,7 @@ Slash";
 Console.WriteLine(tekst);
 ```
 
-```
+```csharp
 string tekst = "Back\n\n\\\n\nSlash";
 Console.WriteLine(tekst);
 ```
