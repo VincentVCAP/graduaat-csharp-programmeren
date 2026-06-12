@@ -5,7 +5,7 @@ const { themes: prismThemes } = require('prism-react-renderer');
 const config = {
   title: 'Programmeren & OOP',
   tagline: 'Cursus Programming Principles & Object-Oriented Programming',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   url: 'https://VincentVCAP.github.io',
   baseUrl: '/graduaat-csharp-programmeren/',

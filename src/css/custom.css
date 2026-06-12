@@ -1,27 +1,25 @@
-/**
- * Custom CSS voor Programmeren & OOP cursus
- */
-
 :root {
-  --ifm-color-primary: #2e6da4;
-  --ifm-color-primary-dark: #29629c;
-  --ifm-color-primary-darker: #275d93;
-  --ifm-color-primary-darkest: #204d79;
-  --ifm-color-primary-light: #3378ac;
-  --ifm-color-primary-lighter: #357db5;
-  --ifm-color-primary-lightest: #4a8fc5;
+  /* Exact orange extracted from C# icon (#FD8803 bright, #E05700 dark) */
+  /* Slightly darkened for contrast on white backgrounds */
+  --ifm-color-primary: #cc6800;
+  --ifm-color-primary-dark: #b85e00;
+  --ifm-color-primary-darker: #ad5900;
+  --ifm-color-primary-darkest: #8e4900;
+  --ifm-color-primary-light: #e07200;
+  --ifm-color-primary-lighter: #ea7800;
+  --ifm-color-primary-lightest: #fd8803;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #5c9fd6;
-  --ifm-color-primary-dark: #4793cf;
-  --ifm-color-primary-darker: #3d8dcb;
-  --ifm-color-primary-darkest: #2676b8;
-  --ifm-color-primary-light: #71abdd;
-  --ifm-color-primary-lighter: #7bb1e0;
-  --ifm-color-primary-lightest: #9ec3e9;
+  --ifm-color-primary: #fd9b18;
+  --ifm-color-primary-dark: #f08e0a;
+  --ifm-color-primary-darker: #e58700;
+  --ifm-color-primary-darkest: #cc7800;
+  --ifm-color-primary-light: #fea730;
+  --ifm-color-primary-lighter: #feb040;
+  --ifm-color-primary-lightest: #fec568;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
