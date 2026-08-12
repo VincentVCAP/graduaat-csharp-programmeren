@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.10.1">
 <title data-rh="true">Oefeningen | Programmeren &amp; OOP</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://VincentVCAP.github.io/graduaat-csharp-programmeren/semester-1-programming-principles/h4-beslissingen/oefeningen"><meta data-rh="true" property="og:locale" content="nl"><meta data-rh="true" name="docusaurus_locale" content="nl"><meta data-rh="true" name="docsearch:language" content="nl"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Oefeningen | Programmeren &amp; OOP"><meta data-rh="true" name="description" content="Al deze oefeningen maak je in een klasse Beslissingen"><meta data-rh="true" property="og:description" content="Al deze oefeningen maak je in een klasse Beslissingen"><link data-rh="true" rel="icon" href="/graduaat-csharp-programmeren/img/favicon.png"><link data-rh="true" rel="canonical" href="https://VincentVCAP.github.io/graduaat-csharp-programmeren/semester-1-programming-principles/h4-beslissingen/oefeningen"><link data-rh="true" rel="alternate" href="https://VincentVCAP.github.io/graduaat-csharp-programmeren/semester-1-programming-principles/h4-beslissingen/oefeningen" hreflang="nl"><link data-rh="true" rel="alternate" href="https://VincentVCAP.github.io/graduaat-csharp-programmeren/semester-1-programming-principles/h4-beslissingen/oefeningen" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"H4: Beslissingen","item":"https://VincentVCAP.github.io/graduaat-csharp-programmeren/semester-1-programming-principles/h4-beslissingen"},{"@type":"ListItem","position":2,"name":"Oefeningen","item":"https://VincentVCAP.github.io/graduaat-csharp-programmeren/semester-1-programming-principles/h4-beslissingen/oefeningen"}]}</script><link rel="stylesheet" href="/graduaat-csharp-programmeren/assets/css/styles.a3c7e5ef.css">
-<script src="/graduaat-csharp-programmeren/assets/js/runtime~main.afe22069.js" defer="defer"></script>
+<script src="/graduaat-csharp-programmeren/assets/js/runtime~main.ef6ed14f.js" defer="defer"></script>
 <script src="/graduaat-csharp-programmeren/assets/js/main.49ce6940.js" defer="defer"></script>
 </head>
 <body>
@@ -46,10 +46,18 @@
 <p>Maak een programma dat aan de gebruiker een geheel getal vraagt. Het programma geeft terug of het ingegeven getal even of oneven is.</p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="technische-analyse"><strong>Technische analyse</strong><a href="#technische-analyse" class="hash-link" aria-label="Direct link naar technische-analyse" title="Direct link naar technische-analyse" translate="no">​</a></h4>
 <p>Maak een methode met de naam <code>EvenOrOdd</code>.</p>
-<p>Een getal is even als de rest van de deling door 2 nul is. Hiervoor kan je de modulo operator gebruiken. Het teken voor de modulo is het <code>%</code> -teken.<br>
+<p>Een getal is even als de rest van de deling door 2 nul is. Hiervoor kan je de modulo operator gebruiken.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-modulo">⚠️ Modulo<a href="#️-modulo" class="hash-link" aria-label="Direct link naar ⚠️ Modulo" title="Direct link naar ⚠️ Modulo" translate="no">​</a></h4>
+<blockquote>
+<p>Ook wel de restoperator genoemd, geeft de restwaarde terug die niet gedeeld kan worden. <br>
+<!-- -->Het teken voor de modulo is het <code>%</code> -teken.<br>
 <!-- -->Voorbeelden:<br>
-<!-- -->7%2 geeft 1 =&gt; 7 is oneven<br>
-<!-- -->8%2 geeft 0 =&gt; 8 is even</p>
+<code>10 % 3</code> = 1, want 9 is deelbaar door 3, 10-9 = 1<br>
+<code>14 % 5</code> = 4, want 10 is deelbaar door 5, 14-10 = 4<br>
+<!-- -->Voorbeelden voor (on)even:<br>
+<code>7 % 2</code> geeft 1 =&gt; 7 is oneven<br>
+<code>8 % 2</code> geeft 0 =&gt; 8 is even</p>
+</blockquote>
 <p>Zet volgende flowchart om in code:</p>
 <p><img decoding="async" loading="lazy" src="/graduaat-csharp-programmeren/assets/images/img-3070-bc57cfa84b57fec7d0106d434c487d95.png" width="784" height="682" class="img_ev3q"></p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="voorbeeldinteracties-1"><strong>Voorbeeldinteractie(s)</strong><a href="#voorbeeldinteracties-1" class="hash-link" aria-label="Direct link naar voorbeeldinteracties-1" title="Direct link naar voorbeeldinteracties-1" translate="no">​</a></h4>
