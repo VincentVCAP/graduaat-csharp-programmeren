@@ -7,10 +7,13 @@ const config = {
   tagline: 'Cursus Programming Principles & Object-Oriented Programming',
   favicon: 'img/favicon.png',
 
-  url: 'https://VincentVCAP.github.io',
+  // Wie de site publiceert wordt uit de omgeving gehaald, zodat een fork vanzelf naar
+  // zijn eigen GitHub Pages verwijst in plaats van naar die van de hoofdrepo.
+  // GITHUB_REPOSITORY_OWNER zet GitHub Actions zelf; lokaal valt alles terug op VincentVCAP.
+  url: `https://${(process.env.GITHUB_REPOSITORY_OWNER || 'VincentVCAP').toLowerCase()}.github.io`,
   baseUrl: '/graduaat-csharp-programmeren/',
 
-  organizationName: 'VincentVCAP',
+  organizationName: process.env.GITHUB_REPOSITORY_OWNER || 'VincentVCAP',
   projectName: 'graduaat-csharp-programmeren',
 
   onBrokenLinks: 'warn',
@@ -25,6 +28,23 @@ const config = {
   i18n: {
     defaultLocale: 'nl',
     locales: ['nl'],
+  },
+
+  customFields: {
+    // Overschrijft de standaardwaarden van de oefening-assistent (zie
+    // src/components/OefeningAssistent/config.js).
+    oefeningAssistent: {
+      // Adres van de Cloudflare Worker die de referentie-oplossing aan de prompt
+      // toevoegt. Volgorde: een expliciete env-var wint altijd; anders krijgt enkel
+      // de test-fork (StephaneVanRossem02) de gedeployede Worker, en blijft de
+      // hoofdsite (Vincent) zonder Worker draaien (null). Op localhost heeft de
+      // localStorage-override nog voorrang.
+      workerUrl:
+        process.env.OEFENING_ASSISTENT_WORKER_URL ||
+        ((process.env.GITHUB_REPOSITORY_OWNER || '').toLowerCase() === 'stephanevanrossem02'
+          ? 'https://oefening-assistent.stephanevanrossem2.workers.dev'
+          : null),
+    },
   },
 
   presets: [

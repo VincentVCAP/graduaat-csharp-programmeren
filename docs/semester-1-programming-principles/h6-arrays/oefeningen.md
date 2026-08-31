@@ -38,6 +38,8 @@ Zorg ervoor dat er op het einde geen komma staat.
 ![](/img/img-3142.png)
 
 
+<OefeningAssistent oefening="H6-ArrayTrueFalse" hoofdstuk="H6" />
+
 ### **Oefening: H6-ArrayExercise**
 
 #### **Leerdoelen**
@@ -64,6 +66,8 @@ Je kan eventueel onderstaande flowchart gebruiken.
 #### **Voorbeeldinteractie**
 
 ![](/img/img-3144.png)
+
+<OefeningAssistent oefening="H6-ArrayExercise" hoofdstuk="H6" />
 
 ### **Oefening: H6-Shopping**
 
@@ -93,6 +97,8 @@ Je kan eventueel onderstaande flowchart gebruiken.
 
 ![](/img/img-3146.png)
 
+<OefeningAssistent oefening="H6-Shopping" hoofdstuk="H6" />
+
 ### **Oefening: H6-ChristmasShopping**
 
 #### **Leerdoelen**
@@ -112,6 +118,8 @@ Maak een programma dat kan gebruikt worden om kerstinkopen te doen, rekening hou
 #### Voorbeeldinteractie
 
 ![](/img/img-3147.png)
+
+<OefeningAssistent oefening="H6-ChristmasShopping" hoofdstuk="H6" />
 
 ### **Oefening: H6-Lottery**
 
@@ -154,6 +162,8 @@ for (int i = 0; i < lottoTrekking.Length; i++) {
 
 ![](/img/img-3148.png)
 
+<OefeningAssistent oefening="H6-Lottery" hoofdstuk="H6" />
+
 ### **Oefening: H6-IntegerIndexOf**
 
 #### **Leerdoelen**
@@ -179,6 +189,8 @@ Je kan eventueel onderstaande flowchart gebruiken.
 
 ![](/img/img-0135.png)
 
+<OefeningAssistent oefening="H6-IntegerIndexOf" hoofdstuk="H6" />
+
 ### **Oefening: H6-BinarySearch**
 
 **Leerdoelen**
@@ -203,6 +215,8 @@ Om twee strings te ordenen, gebruik je `string1.CompareTo(string2)`. Dit levert 
 ![](/img/img-0136.png)
 
 ![](/img/img-0137.png)
+
+<OefeningAssistent oefening="H6-BinarySearch" hoofdstuk="H6" />
 
 ### **Oefening: H6-ShoppingList**
 
@@ -249,6 +263,8 @@ Volgende items van je lijst ben je vergeten te kopen:
 boter eieren
 ```
 
+<OefeningAssistent oefening="H6-ShoppingList" hoofdstuk="H6" />
+
 ### **Oefening: H6-ChristmasShoppingList**
 
 #### **Leerdoelen**
@@ -283,3 +299,5 @@ Duurste cadeau: 330.0 euro
 Goedkoopste cadeau: 200.0 euro
 Gemiddelde prijs: 265.0 euro
 ```
+
+<OefeningAssistent oefening="H6-ChristmasShoppingList" hoofdstuk="H6" />
