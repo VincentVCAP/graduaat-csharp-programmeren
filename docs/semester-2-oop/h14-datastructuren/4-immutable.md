@@ -2,7 +2,9 @@
 
 De standaard datastructuren van C# zijn [reference types](https://github.com/v-nys/cursusprooo/blob/master/semester-2-oop/h11-datastructuren/broken-reference/README.md). Dit betekent dat iedereen die zo'n datastructuur te pakken krijgt (bijvoorbeeld omdat je hem als argument meegeeft aan een methode), de inhoud van deze datastructuur ook kan wijzigen. Dit kan met opzet of gewoonweg per vergissing gebeuren.
 
-> ℹ️ Hoezo, "met opzet"? Denk eraan dat je typisch niet de enige programmeur bent die met bepaalde code in contact komt.
+:::info
+Hoezo, "met opzet"? Denk eraan dat je typisch niet de enige programmeur bent die met bepaalde code in contact komt.
+:::
 
 Bijvoorbeeld:
 

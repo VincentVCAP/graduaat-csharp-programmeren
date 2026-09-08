@@ -1,6 +1,8 @@
 # Abstract
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/zQB4lDh-4Io)
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/zQB4lDh-4Io)
+:::
 
 ## Abstract
 

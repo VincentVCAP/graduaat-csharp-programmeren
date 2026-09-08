@@ -1,6 +1,8 @@
 # NullReference exception
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/Q5bdntXXQe4)
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/Q5bdntXXQe4)
+:::
 
 ## Null en NullReferenceException
 
@@ -54,4 +56,6 @@ static void Main() {
 
 Deze code zal niet crashen. Als je de `WriteLine` uitvoert zonder if, zal het programma wel crashen met een `NullReferenceException`.
 
-> ⚠️ Waarom `is null` en niet `== null`? Die vraag leidt ons te ver. Meestal zal `== null` ook werken, maar `==` kan aangepast worden om anders te werken dan gewoonlijk. `is` is dus betrouwbaarder.
+:::warning
+Waarom `is null` en niet `== null`? Die vraag leidt ons te ver. Meestal zal `== null` ook werken, maar `==` kan aangepast worden om anders te werken dan gewoonlijk. `is` is dus betrouwbaarder.
+:::

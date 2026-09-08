@@ -1,12 +1,18 @@
 # List
 
-> ❗ In onderstaande kennisclip wordt er een andere syntax gebruikt om objecten aan te maken dan wat wij gewoon zijn (namelijk constructors met parameters). Dat maakt geen verschil voor de werking van de datastructuur. Je zou net zo goed een constructor kunnen definiëren die hetzelfde doet.
+:::danger
+In onderstaande kennisclip wordt er een andere syntax gebruikt om objecten aan te maken dan wat wij gewoon zijn (namelijk constructors met parameters). Dat maakt geen verschil voor de werking van de datastructuur. Je zou net zo goed een constructor kunnen definiëren die hetzelfde doet.
+:::
 
-> ✅ [Kennisclip voor deze inhoud](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ac1bfe58-b55b-4e7e-98f3-ab7a009085bc)
+:::tip
+[Kennisclip voor deze inhoud](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ac1bfe58-b55b-4e7e-98f3-ab7a009085bc)
+:::
 
 Een `List<>` collectie is de meest standaard collectie die je kan beschouwen als een flexibelere variant op een een doodnormale array.
 
-> ℹ️ De Generieke `List<>` klasse bevindt zich in de `System.Collections.Generic` namespace. Je dient deze namespace dus als `using` bovenaan toe te voegen wil je deze klasse kunnen gebruiken.
+:::info
+De Generieke `List<>` klasse bevindt zich in de `System.Collections.Generic` namespace. Je dient deze namespace dus als `using` bovenaan toe te voegen wil je deze klasse kunnen gebruiken.
+:::
 
 ### List aanmaken
 
@@ -66,7 +72,9 @@ Interessante methoden en properties voorts zijn:
 * `RemoveAt()`: verwijder een element op de index die je als parameter meegeeft.
 * `Remove():` verwijder het gegeven element
 
-> ❗ `Contains, Remove` en `IndexOf` zullen zich met jouw eigen klassen niet noodzakelijk gedragen zoals je verwacht. De verklaring hierachter komt later aan bod, wanneer we [Equals en GetHashCode](../h16-geavanceerde-overerving/3-system-object.md) bekijken. Ze zullen wel werken zoals verwacht voor voorgedefinieerde types, inclusief `DateTime`.
+:::danger
+`Contains, Remove` en `IndexOf` zullen zich met jouw eigen klassen niet noodzakelijk gedragen zoals je verwacht. De verklaring hierachter komt later aan bod, wanneer we [Equals en GetHashCode](../h16-geavanceerde-overerving/3-system-object.md) bekijken. Ze zullen wel werken zoals verwacht voor voorgedefinieerde types, inclusief `DateTime`.
+:::
 
 ### Foreach loops
 

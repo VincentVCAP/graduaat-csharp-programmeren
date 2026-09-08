@@ -27,7 +27,9 @@ We willen dat we alle oefeningen die we in dit vak maken op een ordelijke manier
 
 #### Voorbeeldinteractie
 
-> ⚠️ Dit is maar een voorbeeld! De getoonde topics en oefeningen gaan afhangen van wat je al gedaan hebt.
+:::warning
+Dit is maar een voorbeeld! De getoonde topics en oefeningen gaan afhangen van wat je al gedaan hebt.
+:::
 
 ```
 Welkom bij de oefeningen van Objectgeoriënteerd Programmeren!
@@ -295,11 +297,15 @@ Dit programma maakt enkele rechthoeken en driehoeken met gegeven afmetingen (in 
 
 Er is een klasse `Rectangle`met **full properties** `Width` en `Height`en een klasse `Triangle`met `Base` en `Height`. Je programma maakt de figuren die hierboven beschreven worden aan met beginwaarde `1.0` voor elke afmeting en stelt daarna hun afmetingen in via de setters voor deze properties. De oppervlakte wordt bepaald in een read-only property (dus met alleen een getter en geen setter). Deze heet `Area`en is van het type `double`.
 
-> ℹ️ `base` is een keyword in C#; je kan als achterliggend privaat veld  @base  gebruiken.
+:::info
+`base` is een keyword in C#; je kan als achterliggend privaat veld  @base  gebruiken.
+:::
 
 Indien om het even welk van deze properties wordt ingesteld op `0` of minder, signaleer je dit via de code `Console.WriteLine($"Het is verboden een (afmeting) van (waarde) in te stellen!")` (zie voorbeeldcode).
 
-> ℹ️ De wiskundige formule voor de oppervlakte van een driehoek is basis \* hoogte / 2.
+:::info
+De wiskundige formule voor de oppervlakte van een driehoek is basis \* hoogte / 2.
+:::
 
 Schrijf de voorbeelden uit in een `static` methode `DemoFigures` van de klasse `ClassesAndObjects`.
 

@@ -32,7 +32,9 @@ De eerste optie is zoals stopcontacten voor elk type apparaat ontwerpen. De twee
 
 #### Optie 1
 
-> ⚠️ Dit gaat over studenten en klasgroepen enz. maar hoort niet bij SchoolAdmin!
+:::warning
+Dit gaat over studenten en klasgroepen enz. maar hoort niet bij SchoolAdmin!
+:::
 
 ```csharp
 public class KlasGroep {

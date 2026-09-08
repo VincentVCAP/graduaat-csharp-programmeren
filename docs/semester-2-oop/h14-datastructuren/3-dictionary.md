@@ -1,6 +1,8 @@
 # Dictionary
 
-> ✅ [Kennisclip voor deze inhoud](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=43e5eb65-6b40-4539-892e-ab9f0093b774)
+:::tip
+[Kennisclip voor deze inhoud](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=43e5eb65-6b40-4539-892e-ab9f0093b774)
+:::
 
 Naast de generieke `List` collectie, zijn er nog enkele andere nuttige generieke 'collectie-klassen' die je geregeld in je projecten kan gebruiken.
 
@@ -41,7 +43,9 @@ Dictionary<int,Pokemon> pokedex;
 Dictionary<Student,PuntenLijst> puntenTabel;
 ```
 
-> ⚠️ Bij dit laatste horen wel enkele nuances. Deze worden pas behandeld [in een later hoofdstuk](../h16-geavanceerde-overerving/3-system-object.md). Voorlopig zullen we alleen voorgedefinieerde types opnemen in dictionaries.
+:::warning
+Bij dit laatste horen wel enkele nuances. Deze worden pas behandeld [in een later hoofdstuk](../h16-geavanceerde-overerving/3-system-object.md). Voorlopig zullen we alleen voorgedefinieerde types opnemen in dictionaries.
+:::
 
 We kunnen nu met behulp van bijvoorbeeld een `foreach`-loop alle elementen tonen. Hier kunnen we de key met de `.Key`-property uitlezen en het achterliggende object of waarde met `.Value`. `Value` en `Key` hebben daarbij ieder het type dat we hebben gedefinieerd toen we het `Dictionary`-object aanmaakten, in het volgende geval is de `Key` dus van het type `int` en `Value` van het type `string`:
 

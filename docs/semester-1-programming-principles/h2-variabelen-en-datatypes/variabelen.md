@@ -1,6 +1,8 @@
 # Variabelen
 
-> ✅ [Kennisclip voor deze inhoud](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9ee07d38-af69-45e3-a45f-adb1008ebbf2)
+:::tip
+[Kennisclip voor deze inhoud](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9ee07d38-af69-45e3-a45f-adb1008ebbf2)
+:::
 
 ## Variabelen
 

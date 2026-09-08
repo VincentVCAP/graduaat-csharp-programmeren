@@ -16,10 +16,12 @@ De eerste keer dat we in de loop gaan zal het element `boodschappen[0]` aan `boo
 
 Het voordeel is dat je dus geen teller/index nodig hebt en dat foreach zelf de lengte van de array zal bepalen.
 
-> ⚠️ #### Opgelet bij het gebruik van foreach loops
-> 
-> * De foreach iteration variable is *read-only*: je kan dus geen waarden in de array aanpassen, enkel uitlezen.
-> * De foreach gebruik je enkel als je alle elementen van een array wenst te benaderen. In alle andere gevallen zal je een ander soort loop (for, while, etc.) moeten gebruiken.
+:::warning
+#### Opgelet bij het gebruik van foreach loops
+
+* De foreach iteration variable is *read-only*: je kan dus geen waarden in de array aanpassen, enkel uitlezen.
+* De foreach gebruik je enkel als je alle elementen van een array wenst te benaderen. In alle andere gevallen zal je een ander soort loop (for, while, etc.) moeten gebruiken.
+:::
 
 ## var keyword
 
@@ -31,7 +33,9 @@ var myArray = new double[20]; // var zal double[] zijn
 var tekst = "Hi there handsome"; // var zal string zijn
 ```
 
-> ⚠️ **Opgelet**: het `var` keyword is in deze cursus nooit **nodig**. Het vergemakkelijkt het schrijfwerk, want het wordt door de compiler vertaald in een specifiek type. Er zijn scenario's waarin het wel nodig is, maar die zijn meer geavanceerd ("anonieme types").
+:::warning
+**Opgelet**: het `var` keyword is in deze cursus nooit **nodig**. Het vergemakkelijkt het schrijfwerk, want het wordt door de compiler vertaald in een specifiek type. Er zijn scenario's waarin het wel nodig is, maar die zijn meer geavanceerd ("anonieme types").
+:::
 
 Het betekent **niet** hetzelfde als de `var` van JavaScript. In JavaScript hoef je namelijk geen type vast te leggen voor variabelen en kan je dit doen:
 

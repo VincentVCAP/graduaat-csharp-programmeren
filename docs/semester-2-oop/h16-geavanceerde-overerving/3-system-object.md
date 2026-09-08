@@ -4,7 +4,9 @@
 
 **Alle** types in C# zijn afstammelingen van de `System.Object` klasse. Indien je een klasse schrijft zonder een expliciete parent dan zal deze steeds `System.Object` als rechtstreekse parent hebben. Ook afgeleide klassen stammen dus af van `System.Object`. Concreet wil dit zeggen dat alle klassen `System.Object`-klassen zijn en dus ook de bijhorende functionaliteit ervan hebben.
 
-> ⚠️ Merk op dat we hier niet alleen onze eigen klassen bedoelen, maar alle types, dus zelfs `int`, `bool`, `string`,... **Alle** types stammen (al dan niet rechtstreeks) af van `System.Object`.
+:::warning
+Merk op dat we hier niet alleen onze eigen klassen bedoelen, maar alle types, dus zelfs `int`, `bool`, `string`,... **Alle** types stammen (al dan niet rechtstreeks) af van `System.Object`.
+:::
 
 Indien je de System namespace in je project gebruikt door bovenaan `using System;` te schrijven dan hoef je dus niet altijd `System.Object` te schrijven maar mag je ook **`Object`** schrijven.
 
@@ -19,7 +21,9 @@ Wanneer je een lege klasse maakt dan zal je zien dat instanties van deze klasse 
 | `GetType()`        | Geeft het type (of klasse) van het object terug. Dit is een object van het type `Type`!                                      |
 | `ToString()`       | Geeft een string terug die het object voorstelt.                                                                             |
 
-> ℹ️ Er zijn er nog een paar, maar de rest ga je minder vaak tegenkomen.
+:::info
+Er zijn er nog een paar, maar de rest ga je minder vaak tegenkomen.
+:::
 
 ### GetType()
 
@@ -39,7 +43,9 @@ Student stud1 = new Student("Wolfgang Amadeus Mozart");
 Console.WriteLine(stud1.GetType().Name);
 ```
 
-> ⚠️ Deze methode is vooral nuttig in code voor frameworks en dergelijke. Dat wil zeggen: code waaraan je jouw eigen code kan toevoegen. In een meer typische eigen applicatie zou je hier niet te veel gebruik van hoeven te maken, anders schort er waarschijnlijk iets aan je ontwerp.
+:::warning
+Deze methode is vooral nuttig in code voor frameworks en dergelijke. Dat wil zeggen: code waaraan je jouw eigen code kan toevoegen. In een meer typische eigen applicatie zou je hier niet te veel gebruik van hoeven te maken, anders schort er waarschijnlijk iets aan je ontwerp.
+:::
 
 ### ToString()
 
@@ -114,7 +120,9 @@ De `Equals` methode heeft dus als signatuur: `public virtual bool Equals(Object 
   ```
 * Indien `stud1.Equals(stud2)` true teruggeeft en `stud1.Equals(stud3)` ook true is, dan moet `stud2.Equals(stud3)` ook true zijn.
 
-> ⚠️ Volgt je eigen code deze afspraken niet, dan krijg je geen compilatiefouten, maar dan kan je wel onverwacht gedrag krijgen van code die gebruik maakt van `Equals` zoals bijvoorbeeld de `IndexOf`-methode van `List<T>`.
+:::warning
+Volgt je eigen code deze afspraken niet, dan krijg je geen compilatiefouten, maar dan kan je wel onverwacht gedrag krijgen van code die gebruik maakt van `Equals` zoals bijvoorbeeld de `IndexOf`-methode van `List<T>`.
+:::
 
 #### Equals overriden
 

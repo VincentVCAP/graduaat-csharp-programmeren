@@ -2,12 +2,14 @@
 
 **Polymorfisme** oftewel "meerdere vormen" is een programmeertechniek waarbij je code met één algemene noemer op meerdere manieren implementeert. Hierdoor kan je algemene code schrijven die verschillende specifieke effecten kan vertonen naargelang de configuratie. Samen met encapsulatie, abstractie en overerving is polymorfisme een vierde belangrijke eigenschap van object georiënteerd programmeren.
 
-> ℹ️ Nog eens samengevat:
-> 
-> * encapsulatie betekent dat je de gebruiker niet laat sleutelen aan de interne werking van data (bv. door access modifiers te gebruiken)
-> * overerving betekent dat je code uitspaart door code van een andere klasse te "recycleren"
-> * abstractie betekent dat je data zo algemeen mogelijk behandelt en irrelevante verschillen tussen data verbergt (bv. door variabelen met het type van een ouderklasse te declareren)
-> * polymorfisme betekent dat je werkt met een algemene voorstelling van data, maar dat de eigenlijke data bij uitvoering van het programma specifieker kan zijn en specifieker kan werken; het is eigenlijk de keerzijde van abstractie
+:::info
+Nog eens samengevat:
+
+* encapsulatie betekent dat je de gebruiker niet laat sleutelen aan de interne werking van data (bv. door access modifiers te gebruiken)
+* overerving betekent dat je code uitspaart door code van een andere klasse te "recycleren"
+* abstractie betekent dat je data zo algemeen mogelijk behandelt en irrelevante verschillen tussen data verbergt (bv. door variabelen met het type van een ouderklasse te declareren)
+* polymorfisme betekent dat je werkt met een algemene voorstelling van data, maar dat de eigenlijke data bij uitvoering van het programma specifieker kan zijn en specifieker kan werken; het is eigenlijk de keerzijde van abstractie
+:::
 
 We tonen de werking van polymorfisme aan de hand van een voorbeeld:
 

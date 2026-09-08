@@ -1,6 +1,8 @@
 # Constructors bij overerving
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/ZRIEiekI0tM)
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/ZRIEiekI0tM)
+:::
 
 ## Constructors bij overerving
 

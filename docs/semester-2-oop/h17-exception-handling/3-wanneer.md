@@ -1,6 +1,8 @@
 # Wanneer exceptions en handling gebruiken
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/wim_3RRnx7U)
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/wim_3RRnx7U)
+:::
 
 In het begin kan het onduidelijk zijn wanneer je problemen best afhandelt met klassieke conditionele code (met andere woorden, `if` en verwanten) en wanneer met exceptions. Je vertrekt best van uit twee vragen:
 
@@ -37,4 +39,6 @@ public static void WensGelukkigeVerjaardag() {
 
 De nulde verjaardag en de verjaardagen vanaf 126 kan onze code tijdig zelf detecteren. Dat is gewoon een vergelijking met een getal. Een probleem met het formaat doet zich pas voor wanneer de conversie plaatsvindt. Dan is het al te laat. Dan kunnen we alleen het probleem nog oplossen.
 
-> ℹ️ Kan je een fout goed oplossen met `if`? Doe dat dan. Maar gebruik een exception als de code die het probleem tijdig kan vaststellen niet dezelfde is die het probleem kan oplossen.
+:::info
+Kan je een fout goed oplossen met `if`? Doe dat dan. Maar gebruik een exception als de code die het probleem tijdig kan vaststellen niet dezelfde is die het probleem kan oplossen.
+:::

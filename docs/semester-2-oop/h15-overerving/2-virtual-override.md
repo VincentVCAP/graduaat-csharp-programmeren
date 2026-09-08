@@ -1,6 +1,8 @@
 # Virtual en override
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/n41OZaWEaus)
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/n41OZaWEaus)
+:::
 
 ## Virtual en Override
 

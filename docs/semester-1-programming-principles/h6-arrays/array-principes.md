@@ -2,7 +2,9 @@
 
 ## Array principes <a href="#array-principes" id="array-principes"></a>
 
-> ✅ [Kennisclip](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d12579a6-80ea-477c-8d9b-adcd00769e1c)
+:::tip
+[Kennisclip](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d12579a6-80ea-477c-8d9b-adcd00769e1c)
+:::
 
 ### Arrays <a href="#arrays" id="arrays"></a>
 

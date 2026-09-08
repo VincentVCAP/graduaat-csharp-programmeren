@@ -60,7 +60,9 @@ public static void Bakker()
 }
 ```
 
-> ℹ️ Op lijn 18 wordt de volgende klant uit de rij gehaald. Deze klant gebruiken we nog snel om zijn naam te tonen aan de gebruiker, maar na lijn 29 zal deze klant verdwijnen. Wil je deze klant in meer dan één statement gebruiken, zal je hem dus moeten opslaan in een lokale variabele:
+:::info
+Op lijn 18 wordt de volgende klant uit de rij gehaald. Deze klant gebruiken we nog snel om zijn naam te tonen aan de gebruiker, maar na lijn 29 zal deze klant verdwijnen. Wil je deze klant in meer dan één statement gebruiken, zal je hem dus moeten opslaan in een lokale variabele:
+:::
 
 ```csharp
 //...
@@ -70,7 +72,9 @@ this.StuurFactuur(volgendeKlant); //klant "Roos" wordt nu ook in deze methodeopr
 //...
 ```
 
-> ℹ️ Op lijn 20 wordt er eerst 'gespiekt' wie de volgende klant is: Piet. Met `Peek()` wordt hij echter nog niet uit de rij gehaald, zoals je in onderstaande output kan zien.
+:::info
+Op lijn 20 wordt er eerst 'gespiekt' wie de volgende klant is: Piet. Met `Peek()` wordt hij echter nog niet uit de rij gehaald, zoals je in onderstaande output kan zien.
+:::
 
 ```
 De huidige wachtrij is: Roos Piet Ellen Frank Oswald

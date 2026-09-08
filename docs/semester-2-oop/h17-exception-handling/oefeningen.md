@@ -93,7 +93,9 @@ Schrijf een programma dat een array maakt met drie willekeurige gehele getallen 
 
 Eerst maak je de array aan. Daarna start je een bepaald soort lus op. Kijk hiervoor in de voorbeeldinteractie welke stappen zich steeds herhalen. Als je programma werkt wanneer de gebruiker zich netjes aan de regels houdt, voeg je exception handling toe om rekening te houden met verkeerde indexwaarden. Op andere soorten exceptions wordt niet voorzien. Noem de methode hiervoor `DemonstrateElementChoice`.
 
-> ⚠️ Omdat dit een oefening op het basisgebruik is, wijken we hier af van [onze richtlijnen over wanneer je exceptions moet gebruiken](./3-wanneer.md).
+:::warning
+Omdat dit een oefening op het basisgebruik is, wijken we hier af van [onze richtlijnen over wanneer je exceptions moet gebruiken](./3-wanneer.md).
+:::
 
 ### Voorbeeldinteractie
 
@@ -141,7 +143,9 @@ Deze kat is te oud!
 
 Schrijf code die op willekeurige wijze een lijst met katten aanmaakt. Dit kan mis lopen. Hoe dan ook moet je code netjes achter zich opkuisen door in alle gevallen deze lijst terug leeg te maken wanneer het werk gedaan is.
 
-> ℹ️ Dit is een nogal vreemd voorbeeld, maar we hebben in deze cursus niet gezien hoe je met databaseconnecties, streams, e.d. werkt en dat zijn het soort zaken die je typisch opkuist in alle mogelijke scenario's.
+:::info
+Dit is een nogal vreemd voorbeeld, maar we hebben in deze cursus niet gezien hoe je met databaseconnecties, streams, e.d. werkt en dat zijn het soort zaken die je typisch opkuist in alle mogelijke scenario's.
+:::
 
 ### Technische analyse
 
@@ -309,7 +313,9 @@ Om te testen kan je i.p.v. 20, slechts 1 inschrijving toelaten.
 
 We schrijven flexibele formuliercode, die we ook zullen gebruiken om de duidelijkheid van onze formulieren te verbeteren. Een formulier logt ongeldige antwoorden op vragen vooraleer het de fout signaleert aan een hoger niveau.
 
-> ⚠️ Dit is een uitdagende, maar leerrijke en realistische oefening.
+:::warning
+Dit is een uitdagende, maar leerrijke en realistische oefening.
+:::
 
 ### Technische analyse
 

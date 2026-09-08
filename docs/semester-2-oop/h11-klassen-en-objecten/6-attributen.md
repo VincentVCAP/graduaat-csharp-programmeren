@@ -1,10 +1,14 @@
 # Attributen
 
-> ✅ [Kennisclip](https://youtu.be/eT5uhSw9nFo) (let op: de demonstratie SchoolAdmin is verouderd en wordt nu anders aangepakt. De tekst heeft voorrang!)
+:::tip
+[Kennisclip](https://youtu.be/eT5uhSw9nFo) (let op: de demonstratie SchoolAdmin is verouderd en wordt nu anders aangepakt. De tekst heeft voorrang!)
+:::
 
 **Attributen**, ook **velden** of **instantievariabelen** genoemd, zijn stukjes data die je bijhoudt in objecten. Ze stellen informatie voor die deel uitmaakt van een (object van een) klasse. Ze werken zoals de variabelen die je al kent, maar hun scope is een klasse of een object van een klasse, afhankelijk van de vraag of ze `static` zijn of niet. Door gebruik te maken van attributen, kunnen we stukjes data die samen horen ook samen houden op het niveau van de code. Alle data die samen hoort netjes groeperen en op een gestructureerd toegankelijk maken valt onder het begrip **encapsulatie** dat reeds eerder aan bod kwam.
 
-> ℹ️ Attributen behoren tot een algemenere categorie onderdelen van objecten genaamd **members**.
+:::info
+Attributen behoren tot een algemenere categorie onderdelen van objecten genaamd **members**.
+:::
 
 ## Basisvoorbeelden
 
@@ -115,7 +119,9 @@ class Auto {
 }
 ```
 
-> ⚠️ Herhaal: `static` **betekent niet "onveranderlijk" of "vast"**. Het betekent dat iets op niveau van de klasse werkt en niet op niveau van de objecten van die klasse.
+:::warning
+Herhaal: `static` **betekent niet "onveranderlijk" of "vast"**. Het betekent dat iets op niveau van de klasse werkt en niet op niveau van de objecten van die klasse.
+:::
 
 ## Opdracht: SchoolAdmin
 

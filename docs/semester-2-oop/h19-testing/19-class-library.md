@@ -65,4 +65,6 @@ namespace PopularClassesApplication //in het Console App-project
 }
 ```
 
-> ℹ️ Je wil meestal geen Console.WriteLine()'s etc gebruiken in Class Libraries omdat je niet zeker bent dat je je Library gaat koppelen aan een ConsoleApplicatie. Je kan dit ook rechtstreeks koppelen aan een TestProject of aan WPF Project(grafische UI applicatie). In beide zit geen Console dus zou je een foutmelding krijgen als je Console wil aanroepen.
+:::info
+Je wil meestal geen Console.WriteLine()'s etc gebruiken in Class Libraries omdat je niet zeker bent dat je je Library gaat koppelen aan een ConsoleApplicatie. Je kan dit ook rechtstreeks koppelen aan een TestProject of aan WPF Project(grafische UI applicatie). In beide zit geen Console dus zou je een foutmelding krijgen als je Console wil aanroepen.
+:::

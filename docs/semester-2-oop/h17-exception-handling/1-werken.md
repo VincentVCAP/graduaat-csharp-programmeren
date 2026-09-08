@@ -1,6 +1,8 @@
 # Werken met exceptions
 
-> ✅ [Kennisclip inleiding](https://youtu.be/v_A8EOOeGj4)
+:::tip
+[Kennisclip inleiding](https://youtu.be/v_A8EOOeGj4)
+:::
 
 Een methode is, in essentie, een stappenplan. Een stappenplan kan niet altijd rekening houden met elke mogelijke situatie. Soms treden er uitzonderlijke situaties op waarin het plan niet meer gevolgd kan worden. Het programmeerconcept dat overeenstemt met zo'n "uitzonderlijke situatie" is de *exception* (Engels voor "uitzondering").
 
@@ -27,7 +29,9 @@ Misschien is optie 1 beter voor jouw programma, misschien is optie 2 beter voor 
 
 ## Code zonder exception handling
 
-> ✅ [Kennisclip onafgehandelde exceptions](https://youtu.be/AHjPBv-Mqhg)
+:::tip
+[Kennisclip onafgehandelde exceptions](https://youtu.be/AHjPBv-Mqhg)
+:::
 
 Je zal zelf waarschijnlijk al exceptions zijn tegengekomen in je console programma's. Wanneer je je programma gewoon uitvoert en er plots een hele hoop tekst verschijnt (met ondere andere het woord *Exception* in), gevolgd door het prompt afsluiten ervan, dan heb je een exception gegenereerd die je niet hebt afgehandeld.
 
@@ -41,7 +45,9 @@ Indien je aan het debuggen bent en je krijgt een exception dan zal deze anders g
 
 ## Try en Catch
 
-> ✅ [Kennisclip try en catch](https://youtu.be/giXT_Ru061Y)
+:::tip
+[Kennisclip try en catch](https://youtu.be/giXT_Ru061Y)
+:::
 
 Het mechanisme om exceptions af te handelen in C# bestaat uit 2 delen:
 
@@ -79,7 +85,9 @@ Vervang de directeur door methode C (bijvoorbeeld `Main`), de departementsmanage
 
 ## try catch voorbeeld
 
-> ✅ [Voorbeeld try catch](https://youtu.be/KwCYAbqyyZs)
+:::tip
+[Voorbeeld try catch](https://youtu.be/KwCYAbqyyZs)
+:::
 
 In volgend stukje code kunnen uitzonderingen optreden:
 
@@ -108,7 +116,9 @@ Indien er nu een uitzondering optreedt dan zal de tekst “Verkeerde invoer” g
 
 ## Meerdere `catch`-blokken
 
-> ✅ [Kennisclip soorten exceptions](https://youtu.be/L-O8kFSK_UI)
+:::tip
+[Kennisclip soorten exceptions](https://youtu.be/L-O8kFSK_UI)
+:::
 
 `Exception` is een klasse van het .NET framework. Er zijn van deze ouderklasse meerdere exception-klassen afgeleid die een specifieke probleemsituatie beschrijven. Enkele veelvoorkomende zijn:
 
@@ -157,7 +167,9 @@ De MSDN bibliotheek is de manier om te weten te komen welke exceptions een metho
 
 ## De stack (trace)
 
-> ✅ [Kennisclip stack (trace)](https://youtu.be/E2RdKJ1BFXg)
+:::tip
+[Kennisclip stack (trace)](https://youtu.be/E2RdKJ1BFXg)
+:::
 
 Herinner je uit [het hoofdstuk rond geheugenbeheer](https://github.com/v-nys/cursusprooo/blob/master/semester-2-oop/exception-handling/broken-reference/README.md) dat elke methode-oproep data op de stack plaatst, het "snelle programmageheugen". Dus als methode A methode B oproept en methode B roept methode C op, krijg je een stack die er als volgt uitziet:
 
@@ -171,7 +183,9 @@ Hier is een belangrijke link met exceptions: de methodes die op een gegeven mome
 
 ## Werken met de exception parameter
 
-> ✅ [Kennisclip exception parameter](https://youtu.be/pzxW98J53KA)
+:::tip
+[Kennisclip exception parameter](https://youtu.be/pzxW98J53KA)
+:::
 
 De Exceptions die worden ‘gegooid’ door het programma zijn objecten van de Exception-klasse. Deze klasse bevat standaard een aantal interessante properties en methoden, die je kan oproepen in je code.
 
@@ -225,6 +239,10 @@ finally {
 
 Een `finally` block voert bijna altijd uit. **De enige situatie waarin het niet uitvoert, is als je programma stopt terwijl de try of bijbehorende catch nog niet volledig is afgewerkt.** Dit kan bijvoorbeeld zijn omwille van een oproep van de methode `Environment.Exit` of omdat je catch block zelf een exception oplevert die niet wordt afgehandeld **en** die zo ernstig is dat het controlemechanisme van C# in de war raakt.
 
-> ℹ️ Het is moeilijk op voorhand duidelijk te maken welke exceptions ernstig genoeg zijn om het controlemechanisme van C# in de war te brengen. Volgens [de officiële documentatie](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-finally) is het in de meeste situaties ook niet erg belangrijk wat je programma doet nadat het gecrasht is.
+:::info
+Het is moeilijk op voorhand duidelijk te maken welke exceptions ernstig genoeg zijn om het controlemechanisme van C# in de war te brengen. Volgens [de officiële documentatie](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-finally) is het in de meeste situaties ook niet erg belangrijk wat je programma doet nadat het gecrasht is.
+:::
 
-> ⚠️ "Maar de code hierboven werkt ook zonder `finally`!" In dit geval wel. Maar `finally` is "krachtiger" dan code die gewoon achter alle `catch` blokken staat. `finally` voert altijd uit, tenzij het programma volledig afsluit. Zelfs na een `return` of na een handler op hoger niveau.
+:::warning
+"Maar de code hierboven werkt ook zonder `finally`!" In dit geval wel. Maar `finally` is "krachtiger" dan code die gewoon achter alle `catch` blokken staat. `finally` voert altijd uit, tenzij het programma volledig afsluit. Zelfs na een `return` of na een handler op hoger niveau.
+:::

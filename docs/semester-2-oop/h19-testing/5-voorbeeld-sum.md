@@ -82,9 +82,11 @@ Merk op dat er een `using` is bijgevoegd en vergeet ook niet om de klasse Calcul
 
 #### Internal
 
-> ℹ️ `Internal` wil zeggen: de klasse/methode gedraagt zich als public zolang we in hetzelfde project aan het werken zijn. Alles daar buiten ziet de klasse/methode als private.
-> 
-> Voorheen was dit geen probleem omdat we steeds aan het werken waren binnen hetzelfde project. Maar om unit tests te gebruiken moeten we over 2 (of meer) projecten werken.
+:::info
+`Internal` wil zeggen: de klasse/methode gedraagt zich als public zolang we in hetzelfde project aan het werken zijn. Alles daar buiten ziet de klasse/methode als private.
+
+Voorheen was dit geen probleem omdat we steeds aan het werken waren binnen hetzelfde project. Maar om unit tests te gebruiken moeten we over 2 (of meer) projecten werken.
+:::
 
 ```csharp
 using TestingCalculator;

@@ -53,4 +53,6 @@ Daarom is er een tussenoplossing: de `protected` access modifier. Deze zorgt erv
 
 Met andere woorden: als je in bovenstaande code het veld `geboorteDatum` `protected` maakt in plaats van `private`, wordt je code wel uitvoerbaar.
 
-> ℹ️ Ten slotte hernoem je best `geboorteDatum` naar `GeboorteDatum`. De algemene conventie is dat ook `protected` members Pascal case gebruiken.
+:::info
+Ten slotte hernoem je best `geboorteDatum` naar `GeboorteDatum`. De algemene conventie is dat ook `protected` members Pascal case gebruiken.
+:::

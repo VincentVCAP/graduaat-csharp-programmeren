@@ -2,7 +2,9 @@
 
 ## Constructors
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/f4HwuIax5IM)
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/f4HwuIax5IM)
+:::
 
 ### Werking new operator
 
@@ -29,11 +31,13 @@ Als programmeur van eigen klassen zijn er 3 opties voor je:
 * Je hebt enkel een **parameterloze** constructor nodig. Je kan nog steeds objecten met `new Auto()` aanmaken, maar je gaat zelf beschrijven wat er moet gebeuren bij de parameterloze constructor.
 * Je wenst gebruik te maken van een of meerdere constructoren met parameters. Hierbij zal je dan extra argumenten kunnen meegeven bij de creatie van een object, bijvoorbeeld: `new Auto(25,25000)`. Dit kan bijvoorbeeld een auto maken met 25l benzine in de tank en 25000km op de teller. De betekenis van de getallen hangt af van hoe je de constructor schrijft.
 
-> ⚠️ #### Constructors zijn soms gratis, soms niet
-> 
-> Een lege default constructor voor je klasse krijg je standaard wanneer je een nieuwe klasse aanmaakt. Je ziet deze niet en kan deze niet aanpassen. Je kan echter daarom altijd objecten met `new myClass()` aanmaken.
-> 
-> Van zodra je echter beslist om zelf een of meerdere constructors te schrijven zal C# zeggen "Oké, jij je zin, nu doe je alles zelf". De default constructor die je gratis kreeg zal ook niet meer bestaan en heb je die dus nodig dan zal je die dus zelf moeten schrijven!
+:::warning
+#### Constructors zijn soms gratis, soms niet
+
+Een lege default constructor voor je klasse krijg je standaard wanneer je een nieuwe klasse aanmaakt. Je ziet deze niet en kan deze niet aanpassen. Je kan echter daarom altijd objecten met `new myClass()` aanmaken.
+
+Van zodra je echter beslist om zelf een of meerdere constructors te schrijven zal C# zeggen "Oké, jij je zin, nu doe je alles zelf". De default constructor die je gratis kreeg zal ook niet meer bestaan en heb je die dus nodig dan zal je die dus zelf moeten schrijven!
+:::
 
 ### Default constructor
 
@@ -95,7 +99,9 @@ class Auto
 
 Telkens we nu een object zouden aanmaken met `new Auto()` zal deze een willekeurige kilometerstand hebben. Je kan trouwens ook in de constructor een initiële waarde aan `benzine` geven.
 
-> ℹ️ Zelfs als er een letterlijke initiële waarde wordt toegekend, gebeurt dit meestal in de constructor. Het is een kwestie van smaak, maar een constructor dient toch om te initialiseren.
+:::info
+Zelfs als er een letterlijke initiële waarde wordt toegekend, gebeurt dit meestal in de constructor. Het is een kwestie van smaak, maar een constructor dient toch om te initialiseren.
+:::
 
 #### Constructor met parameter(s)
 
@@ -142,7 +148,9 @@ class Auto
 }
 ```
 
-> ℹ️ Er is geen grens op het aantal constructoren dat je kan schrijven, als ze maar verschillende parameters hebben.
+:::info
+Er is geen grens op het aantal constructoren dat je kan schrijven, als ze maar verschillende parameters hebben.
+:::
 
 #### Wanneer heb ik constructoren nodig?
 

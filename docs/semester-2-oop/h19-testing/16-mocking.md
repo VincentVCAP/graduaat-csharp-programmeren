@@ -223,9 +223,13 @@ public void Roll_Method_Rolls_The_Die_Exactly_Once()
 ![](/img/img-3243.png)
 
 
-> ⚠️ We gaan niet te diep in op lambda expressions. Je moet ze wel begrijpen en kunnen toepassen in de context van Moq, maar we verwachten niet dat je nu alle code met lambda expressies gaat schrijven. Wil je meer info? Kijk gerust even [hier](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions), maar let erop; dit is wel wat complexer en geen verplichte leerstof!
+:::warning
+We gaan niet te diep in op lambda expressions. Je moet ze wel begrijpen en kunnen toepassen in de context van Moq, maar we verwachten niet dat je nu alle code met lambda expressies gaat schrijven. Wil je meer info? Kijk gerust even [hier](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions), maar let erop; dit is wel wat complexer en geen verplichte leerstof!
+:::
 
-> ℹ️ Je kan nog zoveel meer doen met Moq dan wat we hier laten zien (bvb in je Setup vastleggen dat je een Exception werpt wanneer je een methode aanroept om te kijken of je exceptionhandling goed is). Probeer zelf wat uit en zoek online op.
+:::info
+Je kan nog zoveel meer doen met Moq dan wat we hier laten zien (bvb in je Setup vastleggen dat je een Exception werpt wanneer je een methode aanroept om te kijken of je exceptionhandling goed is). Probeer zelf wat uit en zoek online op.
+:::
 
 ```csharp
 //Exception voorbeeld

@@ -36,7 +36,9 @@ Je kan "eender waar" een klasse aanmaken, maar het is een goede gewoonte om per 
 * Kies *Class...*
 * Geef een goede naam voor je klasse
 
-> ⚠️ **De naam van je klasse moet voldoen aan de identifier regels die ook gelden voor het aanmaken van variabelen!**
+:::warning
+**De naam van je klasse moet voldoen aan de identifier regels die ook gelden voor het aanmaken van variabelen!**
+:::
 
 ![Klasse toevoegen in VS](/img/img-3253.png)
 
@@ -58,4 +60,6 @@ Let goed op dat je dus op de juiste plekken dit alles doet (bekijk de onderstaan
 
 ![basics oop same in vv](/img/img-3254.png)
 
-> ℹ️ Je hebt dus in het verleden ook al objecten aangemaakt met `new`. Telkens je met Random werkt deed je dit al. Dit wil zeggen dat er dus in .NET ergens reeds een voorgeprogrammeerde klasse `Random` bestaat met de interne werking.
+:::info
+Je hebt dus in het verleden ook al objecten aangemaakt met `new`. Telkens je met Random werkt deed je dit al. Dit wil zeggen dat er dus in .NET ergens reeds een voorgeprogrammeerde klasse `Random` bestaat met de interne werking.
+:::

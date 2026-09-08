@@ -104,7 +104,9 @@ We willen een digitale menukaart tonen in een online restaurant. Op deze kaart v
 ![](/img/img-3189.png)
 
 
-> ℹ️ Tabs zijn eigenlijk niet ideaal. Zoek, als je sneller klaar bent, uit hoe je stringformattering kan gebruiken om de naam van elk gerecht met exact 35 tekens weer te geven.
+:::info
+Tabs zijn eigenlijk niet ideaal. Zoek, als je sneller klaar bent, uit hoe je stringformattering kan gebruiken om de naam van elk gerecht met exact 35 tekens weer te geven.
+:::
 
 ## Uitbreidingen SchoolAdmin
 

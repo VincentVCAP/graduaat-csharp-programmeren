@@ -1,6 +1,8 @@
 # Overerving intro
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/jEipgofmIHQ)
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/jEipgofmIHQ)
+:::
 
 ## Overerving
 

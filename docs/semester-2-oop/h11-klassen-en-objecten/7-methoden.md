@@ -1,10 +1,14 @@
 # Methoden
 
-> ✅ [Kennisclip](https://youtu.be/Wuk9G1_JMWc)
+:::tip
+[Kennisclip](https://youtu.be/Wuk9G1_JMWc)
+:::
 
 **Instantiemethoden**, ook **objectmethoden** genoemd, weerspiegelen staan toe om functionaliteit toe te voegen aan objecten van een bepaalde klasse. Soms wordt ook gezegd dat ze "**gedrag**" van de objecten voorzien. Ze verschillen van statische methoden omdat ze niet alleen gebruik kunnen maken van statische onderdelen van klassen, maar ook van het object waar ze zelf bij horen.
 
-> ℹ️ Methoden behoren tot een algemenere categorie onderdelen van objecten genaamd **members**.
+:::info
+Methoden behoren tot een algemenere categorie onderdelen van objecten genaamd **members**.
+:::
 
 ## Basisvoorbeelden
 
@@ -15,7 +19,9 @@ We gaan verder met de klasse `Auto`. We willen bijvoorbeeld een applicatie voor 
 * op onderhoud gaan
 * verkoopsprijs bepalen
 
-> ℹ️ Is het de auto die deze zaken doet, of is het een persoon? In werkelijkheid is het natuurlijk dat laatste. Maar de functionaliteit is wel veel sterker gelinkt aan auto's dan aan personen en misschien interesseert de persoon die de handeling uitvoert ons niet eens.
+:::info
+Is het de auto die deze zaken doet, of is het een persoon? In werkelijkheid is het natuurlijk dat laatste. Maar de functionaliteit is wel veel sterker gelinkt aan auto's dan aan personen en misschien interesseert de persoon die de handeling uitvoert ons niet eens.
+:::
 
 Je doet dit met objectmethoden. Deze lijken erg op `static` methoden, maar ze hebben toegang tot het object waarop ze zijn toegepast.
 
@@ -49,9 +55,13 @@ class Auto {
 }
 ```
 
-> ⚠️ Bovenstaande code is kort om didactische redenen. Er wordt niet gecontroleerd dat je benzinepeil altijd minstens 0l is, er wordt verondersteld dat de capaciteit van je tank 50l is,...
+:::warning
+Bovenstaande code is kort om didactische redenen. Er wordt niet gecontroleerd dat je benzinepeil altijd minstens 0l is, er wordt verondersteld dat de capaciteit van je tank 50l is,...
+:::
 
-> ℹ️ Voor de duidelijkheid kan je het woordje `this` toevoegen om het huidige object expliciet voor te stellen. Het wordt sterk aangeraden dat je dit doet. Je code wordt er beter leesbaar door.
+:::info
+Voor de duidelijkheid kan je het woordje `this` toevoegen om het huidige object expliciet voor te stellen. Het wordt sterk aangeraden dat je dit doet. Je code wordt er beter leesbaar door.
+:::
 
 ## Gebruik
 

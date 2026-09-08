@@ -38,4 +38,6 @@ class Frituur:Restaurant
 }
 ```
 
-> ℹ️ Dit lijkt sterk op de `base` waarmee je een ouderconstructor kan oproepen, maar deze `base` voor gewone methodes staat in de body, niet na een speciale dubbele punt. Deze base hoeft niet de eerste regel van de body te zijn.
+:::info
+Dit lijkt sterk op de `base` waarmee je een ouderconstructor kan oproepen, maar deze `base` voor gewone methodes staat in de body, niet na een speciale dubbele punt. Deze base hoeft niet de eerste regel van de body te zijn.
+:::

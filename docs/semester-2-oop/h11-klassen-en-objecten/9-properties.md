@@ -2,9 +2,13 @@
 
 Properties zijn een feature van C♯ om de leesbaarheid van code te verhogen. Ze zien er uit zoals attributen, maar werken zoals methoden.
 
-> ℹ️ Properties behoren tot een algemenere categorie onderdelen van objecten genaamd **members**.
+:::info
+Properties behoren tot een algemenere categorie onderdelen van objecten genaamd **members**.
+:::
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/jdvTOYza-xw). De camerabeelden zijn wat wazig, maar de schermopname is in orde.
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/jdvTOYza-xw). De camerabeelden zijn wat wazig, maar de schermopname is in orde.
+:::
 
 ## Properties
 
@@ -110,9 +114,13 @@ We zullen de property nu stuk per stuk analyseren:
   * We kunnen nu van buitenaf toch de waarde van `benzine` onrechtstreeks uitlezen via de property en het `get`-gedeelte: `Console.WriteLine(auto.Benzine);`
 * `set {}`: in het `set`-gedeelte schrijven we de code die we moeten hanteren indien men van buitenuit een waarde aan de property wenst te geven om zo een instantievariabele aan te passen. De waarde die we van buitenuit krijgen (eigenlijk is dit een parameter van een methode) zal **altijd** in een lokale variabele `value` worden bewaard. Deze zal van het type van de property zijn. In dit geval dus `double`, want het type bij `Benzine` is `double`. Vervolgens kunnen we `value` toewijzen aan de interne variabele indien gewenst: `benzine=value` .
 
-> ❗ Let goed op dat je in je setter schrijft `benzine = value` en niet `Benzine = value`. Dat eerste past de verborgen instantievariabele aan. Dat tweede roept de setter opnieuw op. En opnieuw. En opnieuw. Probeer gerust eens een breakpoint te plaatsen voor de toekenning en dan de debugger te starten als je niet ziet waarom dit een probleem is.
+:::danger
+Let goed op dat je in je setter schrijft `benzine = value` en niet `Benzine = value`. Dat eerste past de verborgen instantievariabele aan. Dat tweede roept de setter opnieuw op. En opnieuw. En opnieuw. Probeer gerust eens een breakpoint te plaatsen voor de toekenning en dan de debugger te starten als je niet ziet waarom dit een probleem is.
+:::
 
-> ℹ️ Visual Studio heeft een ingebouwde shortcut om snel een full property, inclusief een bijhorende private dataveld, te schrijven. **Typ `propfull` gevolgd door twee tabs!**
+:::info
+Visual Studio heeft een ingebouwde shortcut om snel een full property, inclusief een bijhorende private dataveld, te schrijven. **Typ `propfull` gevolgd door twee tabs!**
+:::
 
 #### Full property met toegangscontrole
 
@@ -138,7 +146,9 @@ We kunnen in de `set` code extra controles inbouwen. Als volgt:
 
 Deze code zal het benzinepeil enkel aanpassen als het geldig is en anders stilletjes niets doen. Wat je vaak tegenkomt is `throw new ArgumentException($"{value} is geen geldig benzinepeil")`. Dit doet je programma crashen, maar legt ook uit waarom. We kunnen de code binnen `set` (en `get`) zo complex maken als we zelf willen.
 
-> ⚠️ Je kan dus extra controles toevoegen, maar deze hebben alleen zin als je de variabele **via de property** aanpast. Als je in een methode van de klasse auto `benzine` met kleine "b" aanpast en niet voorzichtig bent, kan je nog steeds een negatief peil instellen. Daarom wordt aangeraden **ook binnen de klasse** gebruik te maken van de property, dus zo veel mogelijk `Benzine` in plaats van `benzine` te gebruiken.
+:::warning
+Je kan dus extra controles toevoegen, maar deze hebben alleen zin als je de variabele **via de property** aanpast. Als je in een methode van de klasse auto `benzine` met kleine "b" aanpast en niet voorzichtig bent, kan je nog steeds een negatief peil instellen. Daarom wordt aangeraden **ook binnen de klasse** gebruik te maken van de property, dus zo veel mogelijk `Benzine` in plaats van `benzine` te gebruiken.
+:::
 
 #### Property variaties
 
@@ -236,4 +246,6 @@ public class Auto
 
 Dit maakt achter de schermen een privé-attribuut aan zoals `benzine` met kleine "b", maar met een een verborgen naam. We kunnen dus niet rechtstreeks aan dat attribuut.
 
-> ❗ Wij zullen geen gebruik maken van autoproperties, omdat het verschil met publieke attributen pas in meer geavanceerde scenario's zichtbaar wordt. We geven ze hier mee zodat je ze kan herkennen als je ze tegenkomt.
+:::danger
+Wij zullen geen gebruik maken van autoproperties, omdat het verschil met publieke attributen pas in meer geavanceerde scenario's zichtbaar wordt. We geven ze hier mee zodat je ze kan herkennen als je ze tegenkomt.
+:::

@@ -1,14 +1,20 @@
 # DateTime: leren werken met objecten
 
-> ✅ [Kennisclip. Klein verschil met de pagina tot de twee oranje checkboxes, dus lees die goed.](https://youtu.be/vWtra7AF-g4)
+:::tip
+[Kennisclip. Klein verschil met de pagina tot de twee oranje checkboxes, dus lees die goed.](https://youtu.be/vWtra7AF-g4)
+:::
 
 ## DateTime
 
 Het .NET gegevenstype `DateTime` is de ideale manier om te leren werken met objecten. Het is een nuttig en toegankelijk gegevenstype. Je kan er je iets bij voorstellen, maar het is ook een beetje abstract.
 
-> ⚠️ Waarom spreken we hier over "gegevenstype" en niet over "klasse"? Omdat klassen in .NET reference types zijn. `DateTime` is echter een value type, dus technisch gezien is het een "struct" en geen "klasse". Wij zullen zelf geen structs schrijven, maar het verschil met klassen is uiterst klein in C#. Instanties van zowel klassen als structs zijn objecten.
+:::warning
+Waarom spreken we hier over "gegevenstype" en niet over "klasse"? Omdat klassen in .NET reference types zijn. `DateTime` is echter een value type, dus technisch gezien is het een "struct" en geen "klasse". Wij zullen zelf geen structs schrijven, maar het verschil met klassen is uiterst klein in C#. Instanties van zowel klassen als structs zijn objecten.
+:::
 
-> ⚠️ Zegt het verschil tussen value types en reference types je niets meer? Kijk dan terug naar [deze pagina](https://github.com/v-nys/cursusprooo/blob/master/semester-2-oop/h8-klassen-en-objecten/broken-reference/README.md).
+:::warning
+Zegt het verschil tussen value types en reference types je niets meer? Kijk dan terug naar [deze pagina](https://github.com/v-nys/cursusprooo/blob/master/semester-2-oop/h8-klassen-en-objecten/broken-reference/README.md).
+:::
 
 ## DateTime objecten aanmaken
 
@@ -39,7 +45,9 @@ DateTime birthday = new DateTime(1982, 3, 18); //year, month, day
 DateTime someMomentInTime = new DateTime(2017, 1, 18, 10, 16,34 ); //year, month, day, hour, min, sec
 ```
 
-> ℹ️ Je hebt eerder al met constructoren gewerkt: herinner je `new Random()`. Hiermee maakte je eigenlijk een object aan dat willekeurige getallen kon genereren.
+:::info
+Je hebt eerder al met constructoren gewerkt: herinner je `new Random()`. Hiermee maakte je eigenlijk een object aan dat willekeurige getallen kon genereren.
+:::
 
 ## DateTime methoden
 
@@ -147,11 +155,13 @@ WriteLine(now.ToString("T")); // long time
 WriteLine(now.ToString("Y")); // year and month
 ```
 
-> ℹ️ #### Custom format
-> 
-> Wil je nog meer controle over de output dan kan je ook zelf je formaat specifieren.
-> 
-> [Dit wordt hier volledig uit de doeken gedaan.](https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1)
+:::info
+#### Custom format
+
+Wil je nog meer controle over de output dan kan je ook zelf je formaat specifieren.
+
+[Dit wordt hier volledig uit de doeken gedaan.](https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1)
+:::
 
 ### Localized time
 
@@ -165,11 +175,13 @@ CultureInfo russianCI = new CultureInfo("ru-RU");
 Console.WriteLine($"Current time in Russian style is: {now.ToString("F", russianCI)}");
 ```
 
-> ℹ️ **Culture names**
-> 
-> Een lijst van alle cultures in .NET kan je [hier terugvinden](http://www.csharp-examples.net/culture-names/).
-> 
-> **Opgelet, enkel indien een specifieke culture op je computer staat geïnstalleerd zal je deze kunnen gebruiken.**
+:::info
+**Culture names**
+
+Een lijst van alle cultures in .NET kan je [hier terugvinden](http://www.csharp-examples.net/culture-names/).
+
+**Opgelet, enkel indien een specifieke culture op je computer staat geïnstalleerd zal je deze kunnen gebruiken.**
+:::
 
 `CultureInfo` is een klasse waar je je misschien al iets minder bij kan voorstellen dan `DateTime`. Een `CultureInfo` stelt een aantal afspraken voor een bepaalde cultuur voor. De data is de combinatie van taal en regio. De functionaliteit bestaat er dan in om zaken zoals de munt, het gebruikte formaat voor datums,... in die taal en die regio te produceren. Ook hier geldt dus het black box principe: je kan code schrijven die bijvoorbeeld het juiste datumformaat voor Rusland gebruikt wanneer je zelf niet weet wat dat formaat is.
 
@@ -203,7 +215,9 @@ if(isLeap == true) {
 
 Dit is logisch omdat je geen volledige bestaande datum nodig hebt. Je wil gewoon iets zeggen over een jaartal, terwijl een `DateTime` ook een dag, maand, uur,... heeft. Dus dit heeft niet veel te maken met een specifieke `DateTime`, maar heeft duidelijk wel met de klasse te maken.
 
-> ℹ️ Af en toe is het een kwestie van smaak van de auteurs of een methode statisch is of niet. Maar meestal is er een duidelijke "beste" keuze.
+:::info
+Af en toe is het een kwestie van smaak van de auteurs of een methode statisch is of niet. Maar meestal is er een duidelijke "beste" keuze.
+:::
 
 ## TimeSpan
 

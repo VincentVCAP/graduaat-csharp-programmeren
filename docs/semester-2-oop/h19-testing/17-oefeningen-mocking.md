@@ -51,4 +51,6 @@ Bekijk de code en analyseer wat deze doet. Wat zou er voor problemen kunnen zorg
 
 Schrijf een unit test om de GetMessage klasse te testen. Je moet dus testen of je steeds de juiste boodschap zal terug krijgen afhankelijk of het een week dag is of niet. Let op, je test moet je op eender welke dag van de week kunnen uitvoeren! 
 
-> ℹ️ Je zal dus gebruik moeten maken van moq om je IDateGetter te mocken.
+:::info
+Je zal dus gebruik moeten maken van moq om je IDateGetter te mocken.
+:::

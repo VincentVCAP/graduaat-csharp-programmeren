@@ -1,6 +1,8 @@
 # OOP Intro
 
-> ✅ [Kennisclip](https://youtu.be/Wp8EQuQV9UU)
+:::tip
+[Kennisclip](https://youtu.be/Wp8EQuQV9UU)
+:::
 
 ## OOP
 
@@ -33,7 +35,9 @@ Een belangrijk concept bij OOP is het **black-box** principe waarbij we de afzon
 
 Binnen OOP wordt dit blackbox-concept **encapsulatie** genoemd. Het doel van OOP is andere programmeurs (en jezelf) zoveel mogelijk af te schermen van de interne werking van je code. Net als bij een auto, moet je alleen weten wat elk stukje van de interface klaarspeelt, maar hoef je niet te weten hoe dit allemaal is geprogrammeerd.
 
-> ℹ️ Encapsulatie wordt vaak een van de vier pijlers van objectgeoriënteerd programmeren genoemd. De andere zijn abstractie, overerving en polymorfisme. Deze komen allemaal later in de cursus aan bod.
+:::info
+Encapsulatie wordt vaak een van de vier pijlers van objectgeoriënteerd programmeren genoemd. De andere zijn abstractie, overerving en polymorfisme. Deze komen allemaal later in de cursus aan bod.
+:::
 
 ## Klassen en objecten
 
@@ -41,7 +45,9 @@ Een elementair aspect binnen OOP is het verschil beheersen tussen een **klasse**
 
 Wanneer we meerdere objecten gebruiken van dezelfde soort dan kunnen we zeggen dat deze objecten allemaal deel uitmaken van een zelfde klasse. Zo hebben we bijvoorbeeld de klasse van de leningen. Er zijn leningen van €50.000, er zijn leningen van €10.000.000. Er zijn er met een intrestvoet van 0.2% en er zijn er met een intrestvoet van 2%. Er zijn er met een looptijd van 5 jaar en er zijn er met een looptijd van 20 jaar. Het zijn allemaal leningen, maar ze hebben allemaal andere eigenschappen.
 
-> ℹ️ Als je vertrouwd bent met relationele databanken: een klasse is vergelijkbaar met een tabel of entiteittype, terwijl een object vergelijkbaar is met een record of een entiteit.
+:::info
+Als je vertrouwd bent met relationele databanken: een klasse is vergelijkbaar met een tabel of entiteittype, terwijl een object vergelijkbaar is met een record of een entiteit.
+:::
 
 Objecten van dezelfde soort volgen wel dezelfde regels en hebben in dat opzicht dezelfde functionaliteit. Maar de eigenschappen van object bepalen ook het resultaat van de instantiemethodes. Eerder zagen we dat de uiteindelijk af te betalen som berekend kan worden door een lening. Deze som zal per definitie hoger zijn van een lening met een hoge rentevoet dan voor een lening met een lage rentevoet (als de andere eigenschappen gelijk zijn).
 

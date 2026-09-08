@@ -1,6 +1,8 @@
 # Zelf uitzonderingen maken
 
-> ✅ [Kennisclip voor deze inhoud](https://youtu.be/EdiLIhxrgWM)
+:::tip
+[Kennisclip voor deze inhoud](https://youtu.be/EdiLIhxrgWM)
+:::
 
 ## Zelf exceptions opwerpen
 
@@ -74,6 +76,10 @@ static public void TimsMethod()
 }
 ```
 
-> ⚠️ Overdrijf niet met eigen Exceptions. Op [de pagina van SystemException](https://docs.microsoft.com/en-us/dotnet/api/system.systemexception?view=netcore-3.1) vind je, onder "Derived", een heleboel kant-en-klare exceptions voor allerlei situaties.
+:::warning
+Overdrijf niet met eigen Exceptions. Op [de pagina van SystemException](https://docs.microsoft.com/en-us/dotnet/api/system.systemexception?view=netcore-3.1) vind je, onder "Derived", een heleboel kant-en-klare exceptions voor allerlei situaties.
+:::
 
-> ⚠️ Technisch gezien kan je ook rechtstreeks erven van `Exception` en `SystemException`, maar in de documentatie staat uitdrukkelijk dat je eigen klassen best afleidt van `ApplicationException`.
+:::warning
+Technisch gezien kan je ook rechtstreeks erven van `Exception` en `SystemException`, maar in de documentatie staat uitdrukkelijk dat je eigen klassen best afleidt van `ApplicationException`.
+:::

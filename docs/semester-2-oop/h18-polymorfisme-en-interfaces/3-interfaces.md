@@ -1,6 +1,8 @@
 # Interfaces
 
-> ✅ [Kennisclip](https://www.youtube.com/watch?v=W0U06nzXh58)
+:::tip
+[Kennisclip](https://www.youtube.com/watch?v=W0U06nzXh58)
+:::
 
 ## Betekenissen
 
@@ -12,7 +14,9 @@ Het woord "interface" heeft meerdere betekenissen:
 
 Je moet beide betekenissen begrijpen. De eerste is meer een abstract concept, de tweede kan je programmeren in C# en staat toe nog meer polymorfisme toe te passen.
 
-> ⚠️ Deze pagina heeft niet echt iets te maken met "grafische user interface". Ook daar wil "interface" zeggen "wat je kan gebruiken", maar verder is er geen verband.
+:::warning
+Deze pagina heeft niet echt iets te maken met "grafische user interface". Ook daar wil "interface" zeggen "wat je kan gebruiken", maar verder is er geen verband.
+:::
 
 Een interface als *language construct* is een garantie dat bepaalde methodes en properties geïmplementeerd zijn door een bepaalde klasse. Dit vertelt ons niets over hoe deze methodes en properties geïmplementeerd zijn.
 
@@ -42,9 +46,13 @@ Enkele opmerkingen:
 
 Als we deze interface nu koppelen aan een klasse, **moeten** we deze methodes implementeren.
 
-> ℹ️ Een interface is een beschrijving hoe een component een andere component kan gebruiken, zonder te zeggen hoe dit moet gebeuren. De interface is met andere woorden 100% scheiding tussen de methode/Property-signatuur en de eigenlijke implementatie ervan.
+:::info
+Een interface is een beschrijving hoe een component een andere component kan gebruiken, zonder te zeggen hoe dit moet gebeuren. De interface is met andere woorden 100% scheiding tussen de methode/Property-signatuur en de eigenlijke implementatie ervan.
+:::
 
-> ℹ️ Dit lijkt wel heel erg op een afgewaterde abstracte klasse? Ja, maar er zijn goede redenen om interfaces te gebruiken. De simpelste: je mag maar van één klasse erven, maar je mag zo veel interfaces implementeren als je wil. Als je wil weten waarom, zie [hier](https://www.journaldev.com/1775/multiple-inheritance-in-java). De uitleg gaat over Java maar kan rechtstreeks toegepast worden op C#.
+:::info
+Dit lijkt wel heel erg op een afgewaterde abstracte klasse? Ja, maar er zijn goede redenen om interfaces te gebruiken. De simpelste: je mag maar van één klasse erven, maar je mag zo veel interfaces implementeren als je wil. Als je wil weten waarom, zie [hier](https://www.journaldev.com/1775/multiple-inheritance-in-java). De uitleg gaat over Java maar kan rechtstreeks toegepast worden op C#.
+:::
 
 ### Regels voor interfaces
 

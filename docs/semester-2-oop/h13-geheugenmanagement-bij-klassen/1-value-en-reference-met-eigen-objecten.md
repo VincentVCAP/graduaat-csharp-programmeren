@@ -71,7 +71,9 @@ We verklaren de 19 als volgt:
 
 Het feit dat klassen reference types zijn, heeft praktische gevolgen. We zullen dit demonstreren door dezelfde functionaliteit te implementeren met een `class` en een `struct`. Je kan `struct` zien als bijna hetzelfde als `class`, in die zin dat je er ook objecten van kan maken, maar `struct`-objecten zijn value types.
 
-> ⚠️ We gaan je nergens in deze cursus vragen zelf een `struct` te maken. We gebruiken ze alleen omdat ze het verschil tussen value en reference duidelijker kunnen maken.
+:::warning
+We gaan je nergens in deze cursus vragen zelf een `struct` te maken. We gebruiken ze alleen omdat ze het verschil tussen value en reference duidelijker kunnen maken.
+:::
 
 Vergelijk volgende twee vereenvoudigde varianten op `DateTime`:
 

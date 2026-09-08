@@ -1,6 +1,8 @@
 # Klassen en objecten weergeven
 
-> ✅ [Kennisclip](https://youtu.be/IS8jpkYF-X0)
+:::tip
+[Kennisclip](https://youtu.be/IS8jpkYF-X0)
+:::
 
 ## Klassen voorstellen
 
@@ -10,7 +12,9 @@ De data en functionaliteit van een klasse, en ook haar relatie tot andere klasse
 * in een tweede vakje worden dan de eigenschappen gegeven, gewoonlijk met hun datatype
 * in een derde vakje worden dan de methoden gegeven, met hun parameters en hun returntype
 
-> ℹ️ Het (return) type kan voor de naam van een attribuut of methode staan (zoals in C#), of het kan helemaal achteraan staan, voorafgegaan door een dubbele punt (zoals in TypeScript).
+:::info
+Het (return) type kan voor de naam van een attribuut of methode staan (zoals in C#), of het kan helemaal achteraan staan, voorafgegaan door een dubbele punt (zoals in TypeScript).
+:::
 
 ### Voorbeeld 1: Lening
 

@@ -1,6 +1,8 @@
 # Polymorfisme in de praktijk
 
-> ✅ [Kennisclip](https://www.youtube.com/watch?v=CeApHLGuYUg)
+:::tip
+[Kennisclip](https://www.youtube.com/watch?v=CeApHLGuYUg)
+:::
 
 Beeld je in dat je een klasse `President` hebt met een methode `RunTheCountry` (voorbeeld van [StackOverflow](https://stackoverflow.com/questions/1031273/what-is-polymorphism-what-is-it-for-and-how-is-it-used) ). De president heeft toegang tot tal van adviseurs die hem kunnen helpen (inzake miltair, binnenlands beleid, economie). Zonder de voordelen van polymorfisme zou de klasse `President` er zo kunnen uitzien, **slechte manier**:
 
