@@ -4,7 +4,7 @@
 Onderstaande oefeningen maak je oproepbaar via een klasse `Polymorfisme` met een methode `ToonSubmenu`.
 :::
 
-## h17-autoconstructeur
+## h18-autoconstructeur
 
 ### Functionele analyse
 
@@ -50,7 +50,7 @@ Instantieer een auto met benzine aandrijving. Doe dat door de aandrijving als pa
 
 ![](/img/img-3221.png)
 
-## h17-grootkeuken
+## h18-grootkeuken
 
 ### Functionele analyse
 
@@ -96,7 +96,7 @@ Verwarm ketel 1 tot 100 graden Celcius… zie interactie:
 
 ![](/img/img-3222.png)
 
-## h17-Rooster-stap1
+## h18-Rooster-stap1
 
 ### Functionele analyse
 
@@ -139,7 +139,7 @@ System.Console.WriteLine($"Totale kalendertijd: {(blok1.Tijdsduur + blok2.Tijdsd
 Totale kalendertijd: 3u40m
 ```
 
-## h17-Rooster-stap2
+## h18-Rooster-stap2
 
 ### Functionele analyse
 
@@ -156,7 +156,7 @@ Schrijf zelf een methode `DemonstreerKalender1`. Deze vraagt maakt een kalender 
 
 ![](/img/img-3223.png)
 
-## h17-Rooster-stap3
+## h18-Rooster-stap3
 
 ### Functionele analyse
 
@@ -197,7 +197,7 @@ public void VoegToeLosgekoppeld() {
 
 Merk op dat je maar een heel kleine aanpassing zou moeten doen om `Kalender` uit te breiden met bijvoorbeeld `QualityTime`. Die klasse zou door iemand anders geschreven mogen worden.
 
-## H17\_1 SchoolAdmin: sorteren volgens criteria
+## H18\_1 SchoolAdmin: sorteren volgens criteria
 
 #### Functionele analyse
 
@@ -226,7 +226,7 @@ We willen graag de data in ons systeem gesorteerd weergeven. We willen de gebrui
 ![](/img/img-3224.png)
 
 
-## H17\_2 SchoolAdmin: data export naar CSV
+## H18\_2 SchoolAdmin: data export naar CSV
 
 #### Functionele analyse
 

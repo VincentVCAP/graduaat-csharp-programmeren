@@ -6,7 +6,7 @@
 
 Vanaf hier veronderstellen we dat je in één groot project (`OOExercises`) werkt dat één klasse `Program` heeft. Deze klasse heeft een `Main` methode die een keuzemenu opstart. Oefeningen rond eenzelfde topic worden (statische) methodes van één klasse met een methode `ShowSubmenu`, die je een menu toont van alle oefeningen over dat topic en die je toestaat een oefening naar keuze te testen. Dit wordt uitgelegd in de eerste oefening.
 
-## Oefening: H10-voorbereiding
+## Oefening: H11-voorbereiding
 
 ### Leerdoelen
 
@@ -38,23 +38,23 @@ Topic van de uit te voeren oefening?
 2. Properties en access modifiers
 > 1
 Uit te voeren oefening?
-1. H10-Clock
-2. H10-Birthday
+1. H11-Clock
+2. H11-Birthday
 > 2
 (...)
 ```
 
-## Oefening: H10-Clock
+## Oefening: H11-Clock
 
 Maak een applicatie die bestaat uit een oneindige loop. De loop zal iedere seconde pauzeren: `System.Threading.Thread.Sleep(1000);`
 
  Vervolgens wordt het scherm leeg gemaakt en wordt de huidige tijd getoond. Merk op dat ENKEL de tijd wordt getoond, niet de datum.
 
-## Oefening: H10-Birthday
+## Oefening: H11-Birthday
 
 Maak een applicatie die aan de gebruiker vraagt op welke dag hij/zij jarig is. Toon vervolgens over hoeveel dagen de verjaardag van de gebruiker zal zijn.
 
-## Oefening: H10-DayOfTheWeek
+## Oefening: H11-DayOfTheWeek
 
 ### Leerdoelen
 
@@ -85,7 +85,7 @@ Welk jaar?
 14 februari 2020 is een vrijdag.
 ```
 
-## Oefening: H10-TicksSince2000
+## Oefening: H11-TicksSince2000
 
 ### Leerdoelen
 
@@ -107,7 +107,7 @@ We willen weten hoe veel fracties van een seconde al verlopen zijn sinds het beg
 Sinds 1 januari 2000 zijn er (hier wordt het aantal getoond) ticks voorbijgegaan.
 ```
 
-## Oefening: H10-LeapYearCount
+## Oefening: H11-LeapYearCount
 
 ### Leerdoelen
 
@@ -129,7 +129,7 @@ We willen bepalen hoe veel schrikkeljaren er zijn tussen 1799 en 2021.
 Er zijn (hier wordt het aantal getoond) schrikkeljaren tussen 1799 en 2021.
 ```
 
-## Oefening: H10-CodeTiming
+## Oefening: H11-CodeTiming
 
 ### Leerdoelen
 
@@ -155,7 +155,7 @@ Het duurt (hier wordt het aantal getoond) milliseconden om een array van een mil
 
 ### Oefeningen na *Access modifiers*:
 
-## Oefening: H10-CombinationOf2Numbers
+## Oefening: H11-CombinationOf2Numbers
 
 ### Leerdoelen
 
@@ -203,7 +203,7 @@ Product = 408
 Quotient = 0,352941176470588
 ```
 
-## H10\_4 SchoolAdmin klasse Course
+## H11\_4 SchoolAdmin klasse Course
 
 We willen per cursus bijhouden welke studenten ingeschreven zijn en maken daarvoor een klasse `Course`.
 
@@ -222,7 +222,7 @@ De methode `DemoCourses` wordt ook opgeroepen via het keuzemenu in `Main`. Plaat
 ![](/img/img-3258.png)
 
 
-## H10\_5 SchoolAdmin klasse CourseResult 
+## H11\_5 SchoolAdmin klasse CourseResult 
 
 We willen voor de student goed kunnen bijhouden voor welke cursus er welk resultaat behaald werd. Daarvoor maken we een nieuwe klasse `CourseResult`. Daarna passen we ook de klasse `Student` aan.
 
@@ -260,7 +260,7 @@ Doe de nodige aanpassing aan de methode `DetermineWorkload`.
 
 De uitvoer van deze 2 methodes is niet gewijzigd.
 
-## H10\_6 SchoolAdmin Student Average
+## H11\_6 SchoolAdmin Student Average
 
 Voor een student gaan we een gemiddelde berekenen van de behaalde resultaten en we tonen dit in een overzicht.
 
@@ -282,7 +282,7 @@ Resultaat van `DemoStudents`:
 
 ### Oefeningen na *Properties*:
 
-## Oefening: H10-Figures
+## Oefening: H11-Figures
 
 ### Leerdoelen
 
@@ -322,7 +322,7 @@ Een driehoek met een basis van 3m en een hoogte van 1m heeft een oppervlakte van
 Een driehoek met een basis van 2m en een hoogte van 2m heeft een oppervlakte van 2m².
 ```
 
-## H10\_7 SchoolAdmin properties Course
+## H11\_7 SchoolAdmin properties Course
 
 We willen elke cursus automatisch een id toewijzen en ook willen we studiepunten per cursus bijhouden. \
 Daarnaast willen we een lijst bijhouden met alle objecten van de klasse Cursus.
@@ -338,7 +338,7 @@ Voeg de read-only property `Id` toe. Om telkens een volgend nummer toe te wijzen
 
 Maak het attribuut `AllCourses`(static); dit is een list van Course-objecten.
 
-## H10\_8 SchoolAdmin properties CourseResult
+## H11\_8 SchoolAdmin properties CourseResult
 
 We herschrijven de bestaande attributen naar properties
 
@@ -351,7 +351,7 @@ Van Name maak je een property `Name`.
 
 Van Result maak je een property `Result`. Zorg ervoor dat er enkel een resultaat kan ingesteld worden dat niet meer is dan 20.
 
-## H10\_9 SchoolAdmin Student Age
+## H11\_9 SchoolAdmin Student Age
 
 Op basis van de geboortedatum berekenen we de exacte leeftijd van de student en nemen we die mee op in het overzicht.
 

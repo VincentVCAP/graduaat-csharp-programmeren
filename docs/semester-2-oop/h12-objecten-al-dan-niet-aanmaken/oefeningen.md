@@ -2,7 +2,7 @@
 
 Werk verder in de klasse `ClassesAndObjects`:
 
-## Oefening: H11-FiguresWithConstructor
+## Oefening: H12-FiguresWithConstructor
 
 ### Leerdoelen
 
@@ -12,7 +12,7 @@ Werk verder in de klasse `ClassesAndObjects`:
 
 ### Functionele analyse
 
-Functioneel is dit programma hetzelfde als H10-figures.
+Functioneel is dit programma hetzelfde als H11-Figures.
 
 ### Technische analyse
 
@@ -33,7 +33,7 @@ Een driehoek met een basis van 3m en een hoogte van 1m heeft een oppervlakte van
 Een driehoek met een basis van 2m en een hoogte van 2m heeft een oppervlakte van 2,0m².
 ```
 
-## H11\_1 SchoolAdmin Student Constructor
+## H12\_1 SchoolAdmin Student Constructor
 
 We willen een constructor gebruiken in `Student` om zeker te zijn dat we de nodige attributen en properties initialiseren.
 
@@ -46,7 +46,7 @@ Maak de constructor met 2 parameters. Zorg er ook voor dat je `StudentNumber`de 
 
 De default constructor kan nu niet meer gebruikt worden. Pas de code aan van `DemoStudents` met gebruik van de nieuwe constructor. Neem diezelfde code over in `DemoCourses`(zonder `ShowOverview`).
 
-## H11\_2 SchoolAdmin Cursus Constructor
+## H12\_2 SchoolAdmin Cursus Constructor
 
 We wensen op verschillende manieren `Course`-objecten te kunnen aanmaken. 
 
@@ -78,7 +78,7 @@ Herschrijf de code:\
 \- voeg said toe aan de list `Students`van webtechnologie en mieke aan die van databanken;\
 \- toon de overzichten van de cursussen.
 
-## H11\_3 SchoolAdmin CursusResultaat Constructor
+## H12\_3 SchoolAdmin CursusResultaat Constructor
 
 We willen gemakkelijker `CourseResult`-objecten kunnen aanmaken met behulp van een constructor.
 
@@ -93,7 +93,7 @@ Voeg een constructor toe met de parameters `name` en `result`.
 
 De default constructor kan nu niet meer gebruikt worden en dat heeft gevolgen in de klasse Student. Pas de methode `RegisterCourseResult` aan.
 
-## H11\_4 SchoolAdmin Student uit tekst lezen
+## H12\_4 SchoolAdmin Student uit tekst lezen
 
 na spelen met strings
 
@@ -124,7 +124,7 @@ Frans, deel 2:  18
 Gemiddelde      13,3
 ```
 
-## Oefening: H11-FoodPurchase
+## Oefening: H12-FoodPurchase
 
 ### Leerdoelen
 

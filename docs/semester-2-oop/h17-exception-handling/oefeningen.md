@@ -1,6 +1,6 @@
 # Oefeningen
 
-## h16-weekdagen-zonder-exception-handling
+## h17-weekdagen-zonder-exception-handling
 
 ### Functionele analyse
 
@@ -39,11 +39,11 @@ Woensdag
 Donderdag
 ```
 
-## h16-weekdagen-met-exception-handling
+## h17-weekdagen-met-exception-handling
 
 Start terug vanaf de code van eerder. Noem ze ditmaal `DemonstrateWeekdayErrorHandlingWithException`. Los nu het probleem op, enkel en alleen door exception handling toe te voegen op de juiste plaats. De voorbeeldinteractie blijft identiek dezelfde.
 
-## h16-overflow-zonder-exception-handling
+## h17-overflow-zonder-exception-handling
 
 ### Functionele analyse
 
@@ -73,7 +73,7 @@ Spoor zelf de fout op en pas de code aan zodat ze hetzelfde doet, zonder gebruik
 3 x 60 = 1800
 ```
 
-## h16-overflow-met-exception-handling
+## h17-overflow-met-exception-handling
 
 Start terug vanaf de code van eerder. Los nu het probleem op door te vermelden wat er is misgelopen met behulp van exception handling. Noem je methode nu `DemonstrateOverflowErrorHandlingWithException`.
 
@@ -83,7 +83,7 @@ Start terug vanaf de code van eerder. Los nu het probleem op door te vermelden w
 Het getal is te groot om te converteren naar het gewenste formaat.
 ```
 
-## h16-juiste-index
+## h17-juiste-index
 
 ### Functionele analyse
 
@@ -101,7 +101,7 @@ Omdat dit een oefening op het basisgebruik is, wijken we hier af van [onze richt
 
 ![](/img/img-3178.png)
 
-## h16-juiste-index-extra-voorzichtig
+## h17-juiste-index-extra-voorzichtig
 
 ### Functionele analyse
 
@@ -115,7 +115,7 @@ Voorzie vervolgens exception handling om uit te leggen wat er is misgelopen zond
 
 Voorzie ook code om om het even welk type exception af te handelen.
 
-## h16-leeftijd-kat
+## h17-leeftijd-kat
 
 ### Functionele analyse
 
@@ -137,7 +137,7 @@ Cat cat = new Cat(27);
 Deze kat is te oud!
 ```
 
-## h16-leeftijd-katten
+## h17-leeftijd-katten
 
 ### Functionele analyse
 
@@ -169,7 +169,7 @@ De volledige lijst met katten is aangemaakt!
 Het is niet gelukt :-(
 ```
 
-## h16-filehelper
+## h17-filehelper
 
 ### Functionele analyse
 
@@ -203,11 +203,11 @@ Welke file wil je lezen?
 File bestaat, maar kon niet gelezen worden. Mogelijk heb je geen toegangsrechten.
 ```
 
-## h16-leeftijd-kat-custom
+## h17-leeftijd-kat-custom
 
 ### Functionele analyse
 
-We doen een uitbreiding op h16-leeftijd-kat. We zouden graag makkelijk in detail kunnen uitleggen aan de gebruiker waarom het is misgelopen. We doen dit hier in de eerste plaats door een custom exception type te voorzien.
+We doen een uitbreiding op h17-leeftijd-kat. We zouden graag makkelijk in detail kunnen uitleggen aan de gebruiker waarom het is misgelopen. We doen dit hier in de eerste plaats door een custom exception type te voorzien.
 
 ### Technische analyse
 
@@ -235,7 +235,7 @@ CatWithCustomException cat = new CatWithCustomException(37);
 
 Dit bericht mag niet "hardgecodeerd zijn". Elk getal moet uit de exception gehaald worden.
 
-## H16\_1 SchoolAdmin: geen dubbele cursusnamen
+## H17\_1 SchoolAdmin: geen dubbele cursusnamen
 
 #### Functionele analyse
 
@@ -254,7 +254,7 @@ We werken in 2 stappen:
 ![](/img/img-3179.png)
 
 
-## H16\_2 SchoolAdmin: geen lege waarden voor CourseRegistration
+## H17\_2 SchoolAdmin: geen lege waarden voor CourseRegistration
 
 #### Functionele analyse
 
@@ -271,7 +271,7 @@ Om dit te kunnen testen, breiden we `AddCourseRegistration` uit met een optie 0 
 ![](/img/img-3180.png)
 
 
-## H16\_3 SchoolAdmin: geen tweede inschrijving voor dezelfde cursus
+## H17\_3 SchoolAdmin: geen tweede inschrijving voor dezelfde cursus
 
 #### Functionele analyse
 
@@ -286,7 +286,7 @@ Zorg dat een tweede inschrijving van dezelfde student voor dezelfde cursus ook e
 ![](/img/img-3181.png)
 
 
-## H16\_4 SchoolAdmin: beperkt aantal inschrijvingen per cursus
+## H17\_4 SchoolAdmin: beperkt aantal inschrijvingen per cursus
 
 #### Functionele analyse
 
@@ -307,7 +307,7 @@ Om te testen kan je i.p.v. 20, slechts 1 inschrijving toelaten.
 ![](/img/img-3182.png)
 
 
-## h16-gedeeltelijke-afhandeling
+## h17-gedeeltelijke-afhandeling
 
 ### Functionele analyse
 

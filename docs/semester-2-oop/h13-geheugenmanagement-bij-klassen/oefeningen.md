@@ -1,6 +1,6 @@
 # Oefeningen
 
-## H12\_2 SchoolAdmin: cursus opzoeken op Id
+## H13\_2 SchoolAdmin: cursus opzoeken op Id
 
 #### Functionele analyse
 
@@ -17,7 +17,7 @@ De methode werkt door `AllCourses`element per element te doorlopen en de waarde 
 ![](/img/img-3272.png)
 
 
-## H12\_3 SchoolAdmin: gelinkte objecten
+## H13\_3 SchoolAdmin: gelinkte objecten
 
 ### Functionele analyse
 
@@ -51,7 +51,7 @@ Na het uitvoeren van optie 2 (`DemoCourses`) en optie 3 (`ReadTextFormatStudent`
 ![](/img/img-3274.png)
 
 
-## H12\_4 SchoolAdmin: Studieprogramma
+## H13\_4 SchoolAdmin: Studieprogramma
 
 #### Functionele analyse
 
@@ -83,7 +83,7 @@ Gebruik volgende code voor de demonstratiemethode:
 ![](/img/img-3275.png)
 
 
-## H12\_5 SchoolAdmin: Studieprogramma aanpassen
+## H13\_5 SchoolAdmin: Studieprogramma aanpassen
 
 #### Functionele analyse
 

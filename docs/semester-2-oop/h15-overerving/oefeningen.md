@@ -4,7 +4,7 @@
 
 Deze oefeningen maak je allebei in een klasse genaamd `Inheritance`, met haar eigen `ShowSubmenu` methode.
 
-### H14-PostOffice
+### H15-PostOffice
 
 #### Functionele analyse
 
@@ -61,7 +61,7 @@ Brief 2: 1000km, reistijd 20 dagen, kostprijs 200 euro
 Brief 3: 800km, reistijd 4 dagen, kostprijs 240 euro
 ```
 
-### H14-Veterinarian
+### H15-Veterinarian
 
 #### Functionele analyse
 
@@ -106,7 +106,7 @@ public static void DemoVet()
 }
 ```
 
-## H14\_1 SchoolAdmin: Persoon
+## H15\_1 SchoolAdmin: Persoon
 
 #### Functionele analyse
 
@@ -128,7 +128,7 @@ Elke nieuwe persoon die gemaakt wordt, wordt bewaard in een lijst met alle perso
 ![](/img/img-3213.png)
 
 
-## H14\_2 SchoolAdmin: Student erft over van Persoon
+## H15\_2 SchoolAdmin: Student erft over van Persoon
 
 #### Functionele analyse
 
@@ -147,7 +147,7 @@ Voeg op Student ook een attribuut `StudentFile` toe.  Dit dossier is een collect
 
 Test nu de eerdere methodes `DemoStudents`en `ReadTextFormatStudent` opnieuw uit. Alles zou nog moeten werken.
 
-## H14\_3 SchoolAdmin: Personeel erft over van Persoon
+## H15\_3 SchoolAdmin: Personeel erft over van Persoon
 
 #### Functionele analyse
 
@@ -166,7 +166,7 @@ De klasse `Employee` voorziet ook een lijst van taken (`Tasks`) die het personee
 ![](/img/img-3215.png)
 
 
-## H14\_4 SchoolAdmin: Administratief Personeel
+## H15\_4 SchoolAdmin: Administratief Personeel
 
 #### Functionele analyse
 
@@ -202,7 +202,7 @@ Doorloop vervolgens met een `foreach` de lijst met alle administratief personeel
 ![](/img/img-3217.png)
 
 
-## H14\_5 SchoolAdmin: Lector
+## H15\_5 SchoolAdmin: Lector
 
 #### Functionele analyse
 

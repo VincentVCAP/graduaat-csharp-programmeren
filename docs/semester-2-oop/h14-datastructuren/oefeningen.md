@@ -1,6 +1,6 @@
 # Oefeningen
 
-## H13-PhoneBookNameNumber
+## H14-PhoneBookNameNumber
 
 ### Functionele analyse
 
@@ -20,7 +20,7 @@ We wensen een simpel telefoonboek bij te houden, waarin je namen en nummers plaa
 ![](/img/img-3199.png)
 
 
-## H13-PhoneBookCityNameNumber
+## H14-PhoneBookCityNameNumber
 
 ### Functionele analyse
 
@@ -39,7 +39,7 @@ Zie boven, maar we willen nu telefoonnummers ook groeperen per gemeente
 ![](/img/img-3200.png)
 
 
-## H13-PhoneBookWithBuilder
+## H14-PhoneBookWithBuilder
 
 ### Functionele analyse
 
@@ -54,11 +54,11 @@ We willen graag dat ons Dictionary (zonder gemeente) veilig doorgegeven kan word
 
 ### Voorbeeldinteractie
 
-In de interactie zie je geen verschil [met de eerdere oefening](#h-13-telefoonboek-naam-en-nummer).
+In de interactie zie je geen verschil [met de eerdere oefening](#h14-phonebooknamenumber).
 
 ## SchoolAdmin project
 
-## H13\_1 SchoolAdmin: AlleStudenten
+## H14\_1 SchoolAdmin: AlleStudenten
 
 #### Functionele analyse
 
@@ -73,7 +73,7 @@ Voorzie de klasse `Student` van een statische read-only property `AllStudents`. 
 ![](/img/img-3201.png)
 
 
-## H13\_2 SchoolAdmin: Cursuslijsten immutable
+## H14\_2 SchoolAdmin: Cursuslijsten immutable
 
 #### Functionele analyse
 
