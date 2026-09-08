@@ -2,7 +2,7 @@
 
 Je kan objecten aanmaken door een omschrijving ervan in tekst om te zetten naar een constructoroproep. We noemen dit proces "deserialisatie". Een object omzetten naar een omschrijving noemen we "serialisatie". Deze omschrijving kan verschillende conventies volgen: XML, JSON, YAML, CSV,...
 
-> ℹ️ We hebben [eerder in de cursus ](/programmeren/semester-1-programming-principles/h10-gevorderde-tekstverwerking/input-en-output-van-tekstbestanden.md)geleerd hoe we CSV-bestanden moesten uitlezen. Fris dit zo nodig op, want we gaan nu een stap verder.
+> ℹ️ We hebben [eerder in de cursus ](../../semester-1-programming-principles/h10-gevorderde-tekstverwerking/input-en-output-van-tekstbestanden.md)geleerd hoe we CSV-bestanden moesten uitlezen. Fris dit zo nodig op, want we gaan nu een stap verder.
 
 ### Objecten deserializeren met CSV
 

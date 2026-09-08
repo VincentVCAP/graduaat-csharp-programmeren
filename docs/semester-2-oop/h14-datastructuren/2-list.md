@@ -66,7 +66,7 @@ Interessante methoden en properties voorts zijn:
 * `RemoveAt()`: verwijder een element op de index die je als parameter meegeeft.
 * `Remove():` verwijder het gegeven element
 
-> ❗ `Contains, Remove` en `IndexOf` zullen zich met jouw eigen klassen niet noodzakelijk gedragen zoals je verwacht. De verklaring hierachter komt later aan bod, wanneer we [Equals en GetHashCode](/programmeren/semester-2-oop/geavanceerde-overerving/4_system_object.md) bekijken. Ze zullen wel werken zoals verwacht voor voorgedefinieerde types, inclusief `DateTime`.
+> ❗ `Contains, Remove` en `IndexOf` zullen zich met jouw eigen klassen niet noodzakelijk gedragen zoals je verwacht. De verklaring hierachter komt later aan bod, wanneer we [Equals en GetHashCode](../h16-geavanceerde-overerving/3-system-object.md) bekijken. Ze zullen wel werken zoals verwacht voor voorgedefinieerde types, inclusief `DateTime`.
 
 ### Foreach loops
 

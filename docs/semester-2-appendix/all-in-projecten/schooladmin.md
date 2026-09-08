@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # SchoolAdmin
 
 Onderstaande kennisclips moet je bekijken voor wat de onderdelen betreft die handelen over het SchoolAdmin project en je dient deze mee maken met de filmpjes.

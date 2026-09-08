@@ -70,7 +70,7 @@ Zoals je ziet moet je bij kommagetallen een afweging maken tussen 3 even belangr
 
 Het `bool` (**boolean**) is het eenvoudigste datatype van C#. Het kan maar 2 mogelijke waarden bevatten: `true` of `false`. 1 of 0 met andere woorden. In het Nederlands meestal uitgedrukt als "waar" en "niet waar".
 
-We zullen het `bool` datatype erg veel nodig hebben wanneer we met [beslissingen](/programmeren/semester-1-programming-principles/h4-beslissingen/0_beslissingen_intro.md) zullen werken, specifiek de [if statements](/programmeren/semester-1-programming-principles/h4-beslissingen/0_if.md) die afhankelijk van de uitslag van een `bool` bepaalde code wel of niet zullen doen uitvoeren.
+We zullen het `bool` datatype erg veel nodig hebben wanneer we met [beslissingen](../h4-beslissingen/beslissingen-intro.md) zullen werken, specifiek de [if statements](../h4-beslissingen/if.md) die afhankelijk van de uitslag van een `bool` bepaalde code wel of niet zullen doen uitvoeren.
 
 ## Tekst/String datatype
 
@@ -81,4 +81,4 @@ We besteden verderop een heel apart hoofdstuk aan tonen hoe je tekst en enkele k
 * Een enkel karakter wordt bewaard in het `char` datatype, dat we ook hierboven al even hebben zien passeren.
   * Letterlijke karakter schrijf je tussen enkele quotes, bijvoorbeeld `'à'`
 
-Meer info vind je later in [dit hoofdstuk](/programmeren/semester-1-programming-principles/h2-tekst-in-code/5_chars_strings.md).
+Meer info vind je later in [dit hoofdstuk](../h3-tekst-in-code/chars-strings.md).

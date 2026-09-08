@@ -1,3 +1,8 @@
+---
+title: "List<T>"
+sidebar_label: "List<T>"
+---
+
 # List\<T>
 
 Een `List<>` collectie is de meest standaard collectie die je kan beschouwen als een flexibelere variant op een een doodnormale array.

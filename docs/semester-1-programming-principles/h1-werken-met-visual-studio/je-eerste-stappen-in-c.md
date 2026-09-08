@@ -1,3 +1,8 @@
+---
+title: "Je eerste stappen in C#"
+sidebar_label: "Je eerste stappen in C#"
+---
+
 # Je eerste stappen in C#
 
 > ✅ [Kennisclip voor deze inhoud](https://youtu.be/Qzd8K96mRj4)

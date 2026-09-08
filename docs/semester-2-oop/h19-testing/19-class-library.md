@@ -48,7 +48,7 @@ namespace PopularClasses //in het Class Library-project
 }
 ```
 
-Let erop dat de klasse Person public moet zijn. [Weet je nog waarom](/programmeren/semester-2-oop/h18-testing/eerste-voorbeeld-sum.md)? 
+Let erop dat de klasse Person public moet zijn. [Weet je nog waarom](./5-voorbeeld-sum.md)? 
 
 ```csharp
 using PopularClasses; //<-- belangrijk!

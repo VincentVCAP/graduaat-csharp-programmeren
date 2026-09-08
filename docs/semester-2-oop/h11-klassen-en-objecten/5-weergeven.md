@@ -1,4 +1,4 @@
-# Klassen en objecten weergeven deel 1
+# Klassen en objecten weergeven
 
 > ✅ [Kennisclip](https://youtu.be/IS8jpkYF-X0)
 

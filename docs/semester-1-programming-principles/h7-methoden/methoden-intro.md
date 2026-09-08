@@ -69,7 +69,7 @@ class Program {
 
 In Flowgorithm herken je de oproep als volgt:
 
-![](/img/img-0140.png)
+![](/img/img-3131.png)
 
 Een oproep van een methode betekent dus dat je een andere flowchart uitvoert alsof het één stap is van de flowchart waarin je bezig bent.
 

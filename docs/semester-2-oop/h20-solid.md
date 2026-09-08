@@ -1,4 +1,4 @@
-# H19: SOLID
+# H20: SOLID
 
 De SOLID-principes zijn een set van vijf ontwerpprincipes in de softwareontwikkeling om code flexibeler, begrijpelijker en onderhoudbaarder te maken. Deze principes werden geïntroduceerd door Robert C. Martin en zijn een leidraad voor het schrijven van goed gestructureerde code.
 

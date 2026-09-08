@@ -66,7 +66,7 @@ De rechte haken betekenen dus "een reeks van" en een declaratie van een reeks ka
 
 Als we naar de Flowgorithm code van het boodschappenlijstje kijken, zien we dit ook:
 
-![](/img/img-0122.png)
+![](/img/img-3139.png)
 
 Merk wel op: hier vindt ook meteen een **initialisatie** plaats.
 

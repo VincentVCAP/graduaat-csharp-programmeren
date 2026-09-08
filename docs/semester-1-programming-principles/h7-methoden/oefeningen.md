@@ -86,7 +86,7 @@ Je kan eventueel volgende flowchart gebruiken:
 
 Voorbeeldinteractie
 
-![](/img/img-0148.png)
+![](/img/img-3134.png)
 
 ### H7-Triangle
 

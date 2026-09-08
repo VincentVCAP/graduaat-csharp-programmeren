@@ -119,7 +119,7 @@ Volgende twee voorbeelden tonen dit:
 
 ### Scope van variabelen in loops
 
-Let er op dat de [scope](../h4-beslissingen/3_scope.md) van variabelen bij loops zeer belangrijk is. Indien je een variabele binnen de loop definieert dan zal deze steeds terug "verdwijnen" wanneer de cyclus van de loop is afgewerkt. Latere declaraties voor variabelen met dezelfde naam hebben niets meer te maken met de oorspronkelijke variabele.
+Let er op dat de [scope](../h4-beslissingen/scope.md) van variabelen bij loops zeer belangrijk is. Indien je een variabele binnen de loop definieert dan zal deze steeds terug "verdwijnen" wanneer de cyclus van de loop is afgewerkt. Latere declaraties voor variabelen met dezelfde naam hebben niets meer te maken met de oorspronkelijke variabele.
 
 Volgende code toont bijvoorbeeld **foutief** hoe je de som van de eerste 10 getallen (1+2+3+...+10) zou maken:
 
@@ -147,4 +147,4 @@ while(teller <= 10)
 Console.WriteLine(som);
 ```
 
-Scope is [eerder](../h4-beslissingen/3_scope.md) al in het algemeen behandeld, maar zeker in loops worden er veel fouten tegen gemaakt. Daarom beklemtonen we het hier nog eens.
+Scope is [eerder](../h4-beslissingen/scope.md) al in het algemeen behandeld, maar zeker in loops worden er veel fouten tegen gemaakt. Daarom beklemtonen we het hier nog eens.

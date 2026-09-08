@@ -41,7 +41,7 @@ Dictionary<int,Pokemon> pokedex;
 Dictionary<Student,PuntenLijst> puntenTabel;
 ```
 
-> ⚠️ Bij dit laatste horen wel enkele nuances. Deze worden pas behandeld [in een later hoofdstuk](../geavanceerde-overerving/4_system_object.md). Voorlopig zullen we alleen voorgedefinieerde types opnemen in dictionaries.
+> ⚠️ Bij dit laatste horen wel enkele nuances. Deze worden pas behandeld [in een later hoofdstuk](../h16-geavanceerde-overerving/3-system-object.md). Voorlopig zullen we alleen voorgedefinieerde types opnemen in dictionaries.
 
 We kunnen nu met behulp van bijvoorbeeld een `foreach`-loop alle elementen tonen. Hier kunnen we de key met de `.Key`-property uitlezen en het achterliggende object of waarde met `.Value`. `Value` en `Key` hebben daarbij ieder het type dat we hebben gedefinieerd toen we het `Dictionary`-object aanmaakten, in het volgende geval is de `Key` dus van het type `int` en `Value` van het type `string`:
 

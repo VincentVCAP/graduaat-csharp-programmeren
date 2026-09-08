@@ -93,7 +93,7 @@ Schrijf een programma dat een array maakt met drie willekeurige gehele getallen 
 
 Eerst maak je de array aan. Daarna start je een bepaald soort lus op. Kijk hiervoor in de voorbeeldinteractie welke stappen zich steeds herhalen. Als je programma werkt wanneer de gebruiker zich netjes aan de regels houdt, voeg je exception handling toe om rekening te houden met verkeerde indexwaarden. Op andere soorten exceptions wordt niet voorzien. Noem de methode hiervoor `DemonstrateElementChoice`.
 
-> ⚠️ Omdat dit een oefening op het basisgebruik is, wijken we hier af van [onze richtlijnen over wanneer je exceptions moet gebruiken](/programmeren/semester-2-oop/exception-handling/waar-exceptions-plaatsen.md).
+> ⚠️ Omdat dit een oefening op het basisgebruik is, wijken we hier af van [onze richtlijnen over wanneer je exceptions moet gebruiken](./3-wanneer.md).
 
 ### Voorbeeldinteractie
 

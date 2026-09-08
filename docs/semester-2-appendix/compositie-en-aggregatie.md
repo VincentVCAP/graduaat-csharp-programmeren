@@ -86,7 +86,7 @@ class PC
 > 
 > Dan zien we volgende "beeld":
 > 
-> ![](/img/img-0008.png)
+> <!-- TODO: afbeelding ontbreekt in static/img (heette img-0008.png in de GitBook-export) -->
 > 
 > Compositie wil dus niet zeggen dat je in het geheugen grote *monolithische* stukken gaat hebben die het samengestelde object voorstellen. Neen, we blijven, dankzij de kracht van referenties, de boel apart houden. Zoals je ziet is het belangrijk te beseffen dat bij compositie én aggregatie het *inner* object op zichzelf in de heap ergens zal gezet worden en dus niet *in* het parent-object komt. Alles dat we dus al wisten in verband met het doorgeven van referenties blijft dus nog steeds gelden. Of zoals het hoofdstuk al begon: eigenlijk niets nieuws onder de zon!
 

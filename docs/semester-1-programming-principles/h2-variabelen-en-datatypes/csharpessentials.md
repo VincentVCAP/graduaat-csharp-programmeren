@@ -1,3 +1,8 @@
+---
+title: "De syntaxis van C#"
+sidebar_label: "De syntaxis van C#"
+---
+
 # De syntaxis van C#
 
 > ✅ [Kennisclip voor deze inhoud](https://ap.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=36e743a8-09c2-421a-98ed-adb1008099fa)
@@ -60,7 +65,7 @@ Wanneer we een variabele aanmaken, zal deze moeten voldoen aan enkele afspraken.
 * Het type van de variabele: het **datatype** dat aangeeft wat voor data we wensen op te slaan (tekst, getal, afbeelding, etc.).
 * De naam van de variabele: de **identifier** waarmee we snel aan de variabele-waarde kunnen.
 
-De verschillende datatypes bespreken we in een volgend [hoofdstuk](./1_datatypes.md).
+De verschillende datatypes bespreken we in een volgend [hoofdstuk](./datatypes.md).
 
 ### Regels voor identifiers
 
