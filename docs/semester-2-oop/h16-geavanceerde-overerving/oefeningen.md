@@ -8,7 +8,7 @@ We schrijven een bestelsysteem. We kunnen gewone bestellingen en internationale 
 
 ### Technische analyse
 
-Schrijf een klasse `0rder` met een `uint` property `Number`en een `double` **privé**-attribuut `unitPrice`. Voorzie ook een overschrijfbare computed property `TotalPrice`, namelijk het aantal maal de basisprijs. Voeg een constructor toe met het aantal en de basisprijs als parameters.  
+Schrijf een klasse `Order` met een `uint` property `Number`en een `double` **privé**-attribuut `unitPrice`. Voorzie ook een overschrijfbare computed property `TotalPrice`, namelijk het aantal maal de basisprijs. Voeg een constructor toe met het aantal en de basisprijs als parameters.  
 
 Schrijf **daarna** een subklasse `InternationalOrder` die de totaalprijs bepaalt door de basisprijs met 10% te verhogen, maar vanaf 100 stuks een vlakke korting van 1000 euro toepast. **Dit zal niet meteen werken!** Doe een zo klein mogelijke aanpassing om het toch te doen werken.
 
@@ -36,7 +36,7 @@ We schrijven software om bestellingen van pizza's op te volgen. Deze software sp
 
 Je krijgt volgende klasse `Pizza`:
 
-````csharp
+```csharp
 internal abstract class Pizza
     {
         private List<string> Ingredients;
@@ -73,7 +73,6 @@ internal abstract class Pizza
 
     }
 ```
-````
 
 Schrijf nu twee klassen `Margherita` en `Veggie` die overerven van `Pizza`, met basisprijs (UnitPrice) 5 en 6. Bij constructie krijgt een `Margherita` sowieso "mozzarella" toegevoegd aan de lijst met ingrediënten en krijgt een Veggie sowieso "tofu" en "spinazie", maar geen "kaas". Je moet hierbij een aanpassing doen aan `Pizza`, maar hou ze zo klein mogelijk. Het blijft de bedoeling dat een pizza standaard ook kaas bevat, dus schrijf je code zodat de veggie pizza dit ingrediënt verwijdert. Schrijf een demonstratiemethode `DemoPizzas` in de klasse `Inheritance`.
 

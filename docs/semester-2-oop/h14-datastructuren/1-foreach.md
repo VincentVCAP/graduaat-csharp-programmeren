@@ -39,7 +39,7 @@ var tekst = "Hi there handsome"; // var zal string zijn
 
 Het betekent **niet** hetzelfde als de `var` van JavaScript. In JavaScript hoef je namelijk geen type vast te leggen voor variabelen en kan je dit doen:
 
-```csharp
+```js
 var something = "hello";
 something = 3;
 ```

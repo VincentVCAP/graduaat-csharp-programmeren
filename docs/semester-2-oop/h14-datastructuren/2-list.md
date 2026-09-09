@@ -32,7 +32,7 @@ Via de `Add()` methode kan je elementen toevoegen aan de lijst. Je dient als par
 In volgende voorbeeld maken we een List aan die objecten van het type string mag bevatten en vervolgens plaatsen we er twee elementen in.
 
 ```csharp
-List<String> myStringList = new List<String>();
+List<string> myStringList = new List<string>();
 myStringList.Add("This is the first item in my list!");
 myStringList.Add("And another one!");
 ```
@@ -43,7 +43,7 @@ myStringList.Add("And another one!");
 
 ```csharp
 Console.WriteLine(myStringList[3]);
-myStringList[2] = "andere zin";`
+myStringList[2] = "andere zin";
 ```
 
 Ook de klassieke werking met `for` blijft gelden. De enige aanpassing is dat `List<T>` niet met `Length` werkt maar met **`Count`**.
@@ -51,7 +51,7 @@ Ook de klassieke werking met `for` blijft gelden. De enige aanpassing is dat `Li
 ```csharp
 for(int i = 0 ; i < myStringList.Count; i++)
 {
-    Console.WriteLine(myStringList[i])
+    Console.WriteLine(myStringList[i]);
 }
 ```
 

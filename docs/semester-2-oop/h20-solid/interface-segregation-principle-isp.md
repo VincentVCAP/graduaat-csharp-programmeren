@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Interface Segregation Principle (ISP)
 
 Het Interface Segregation Principle (ISP) benadrukt dat afgeleide klassen niet gedwongen moeten worden afhankelijk te zijn van interfaces die ze niet gebruiken. Met andere woorden, het stelt dat interfaces specifiek en gespecialiseerd moeten zijn voor de behoeften van de klassen die ze implementeren, om overbodige en ongebruikte methoden te vermijden.
@@ -11,9 +14,9 @@ Stel dat je een interface hebt genaamd IWorker die enkele methoden definieert di
 ```csharp
 public interface IWorker
 {
-	void Work();
-	void Eat();
-	void Sleep();
+    void Work();
+    void Eat();
+    void Sleep();
 }
 ```
 
@@ -22,38 +25,38 @@ Nu heb je twee klassen, OfficeWorker en FactoryWorker, die werknemers vertegenwo
 ```csharp
 public class OfficeWorker : IWorker
 {
-	public void Work()
-	{
-    		// Implementatie van werken in een kantooromgeving
-	}
+    public void Work()
+    {
+        // Implementatie van werken in een kantooromgeving
+    }
 
-	public void Eat()
-	{
-    		// Implementatie van eten in een kantooromgeving
-	}
+    public void Eat()
+    {
+        // Implementatie van eten in een kantooromgeving
+    }
 
-	public void Sleep()
-	{
-    		// Implementatie van slapen in een kantooromgeving
-	}
+    public void Sleep()
+    {
+        // Implementatie van slapen in een kantooromgeving
+    }
 }
 
 public class FactoryWorker : IWorker
 {
-	public void Work()
-	{
-    		// Implementatie van werken in een fabrieksomgeving
-	}
+    public void Work()
+    {
+        // Implementatie van werken in een fabrieksomgeving
+    }
 
-	public void Eat()
-	{
-    		// Implementatie van eten in een fabrieksomgeving
-	}
+    public void Eat()
+    {
+        // Implementatie van eten in een fabrieksomgeving
+    }
 
-	public void Sleep()
-	{
-    		// Implementatie van slapen in een fabrieksomgeving
-	}
+    public void Sleep()
+    {
+        // Implementatie van slapen in een fabrieksomgeving
+    }
 }
 ```
 
@@ -64,17 +67,17 @@ Om het Interface Segregation Principle toe te passen, kunnen we de interface ops
 ```csharp
 public interface IWorkable
 {
-	void Work();
+    void Work();
 }
 
 public interface IEatable
 {
-	void Eat();
+    void Eat();
 }
 
 public interface ISleepable
 {
-	void Sleep();
+    void Sleep();
 }
 ```
 
@@ -83,17 +86,17 @@ Nu kunnen we de interfaces afzonderlijk implementeren in de respectievelijke kla
 ```csharp
 public class OfficeWorker : IWorkable, IEatable, ISleepable
 {
-	// Implementaties van de specifieke methoden
+    // Implementaties van de specifieke methoden
 }
 
 public class FactoryWorker : IWorkable, IEatable, ISleepable
 {
-	// Implementaties van de specifieke methoden
+    // Implementaties van de specifieke methoden
 }
 
 public class Driver : IWorkable
 {
-	// Implementatie van de enige vereiste methode
+    // Implementatie van de enige vereiste methode
 }
 ```
 

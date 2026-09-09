@@ -19,7 +19,7 @@ Een voorbeeld:
 ```csharp
 abstract class Dier
 {
-  public int Name {get;set;}
+  public string Name { get; set; }
 }
 ```
 

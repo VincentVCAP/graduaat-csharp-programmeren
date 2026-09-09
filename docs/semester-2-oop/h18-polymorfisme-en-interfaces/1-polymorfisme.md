@@ -35,7 +35,7 @@ class Paard : Dier {
     Console.WriteLine("klipklop");
   }
 }
-​class Varken : Dier {
+class Varken : Dier {
   public override string MaakGeluid() {
     return "Oinkoink";
   }

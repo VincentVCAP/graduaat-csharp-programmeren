@@ -30,6 +30,8 @@ namespace UnitTesting
             //ASSERT
             Assert.AreEqual(expected, result);  
         }
+    }
+}
 ```
 
 #### DataRows

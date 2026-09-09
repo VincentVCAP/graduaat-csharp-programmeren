@@ -15,7 +15,7 @@ Maak volgende testmethode:
   [TestMethod]
   public void TestDivide()
   {
-      double expectedResult = 20 / 4;
+      double expectedResult = 20.0 / 4;
       double result = calculator.Divide(20, 4);
       Assert.AreEqual(expectedResult, result);
   }
@@ -60,7 +60,7 @@ Voeg code toe aan de methode `Divide` om een exception te werpen als de deler 0 
 
 Of een exception correct geworpen wordt, kan je testen op verschillende manieren. Hieronder tonen we er 2:
 
-#### Gebruik van ThrowsException
+#### Gebruik van Assert.Throws
 
 Bij onze testmethode gebruiken we`Throws`  .\
 We gebruiken `() => calculator.Divide(20, 0)` om aan te geven dat we bij deze methode aanroep een Exception verwachten.

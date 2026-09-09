@@ -75,7 +75,7 @@ public class KlasGroep {
       return this.studenten;
     }
   }
-  // not methoden
+  // nog methoden
 }
 ```
 

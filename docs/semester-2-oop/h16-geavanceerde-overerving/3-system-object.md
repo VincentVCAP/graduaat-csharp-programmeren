@@ -17,7 +17,7 @@ Wanneer je een lege klasse maakt dan zal je zien dat instanties van deze klasse 
 | Methode            | Beschrijving                                                                                                                 |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
 | `Equals(Object o)` | Gebruikt om te ontdekken of twee instanties "gelijk" zijn. Wat dit betekent kan bepaald worden door de auteur van de klasse. |
-| `GetHashCode()`    | Geeft een unieke code (hash) terug van het object; nuttig om o.a. snel te sorteren.                                          |
+| `GetHashCode()`    | Geeft een getalcode (hash) terug die bij het object hoort. Gelijke objecten horen dezelfde code te geven. Wordt gebruikt om snel op te zoeken in `Dictionary` en `HashSet`.                                          |
 | `GetType()`        | Geeft het type (of klasse) van het object terug. Dit is een object van het type `Type`!                                      |
 | `ToString()`       | Geeft een string terug die het object voorstelt.                                                                             |
 
@@ -84,7 +84,7 @@ class Student
 {
    public int Leeftijd {get;set;}
    private string naam;
-   public string Naam {get;}
+   public string Naam { get { return this.naam; } }
 
    public Student(string naam) {
        this.naam = naam;
@@ -97,7 +97,7 @@ class Student
 }
 ```
 
-Wanneer je nu `Console.WriteLine(stud1);` zou schrijven, dan wordt je output bijvoorbeeld: `Student Wolfgang Amadeus Mozart (Leeftijd:35)`.
+Wanneer je nu `Console.WriteLine(stud1);` zou schrijven, dan wordt je output bijvoorbeeld: `Student genaamd Wolfgang Amadeus Mozart (Leeftijd:35)`.
 
 ### Equals()
 

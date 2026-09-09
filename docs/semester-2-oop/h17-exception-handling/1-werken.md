@@ -20,7 +20,7 @@ public void StartProgrammaOp() {
   // -1 betekent "iets is misgelopen"
   Environment.Exit(-1);
   // OPTIE 2, misschien is dit wat je wil
-  config = ["debug mode","colorblind mode"];
+  config = new string[] { "debug mode", "colorblind mode" };
   File.WriteAllLines(@"C:\configuratiebestand.txt",config);
 }
 ```
@@ -93,7 +93,7 @@ In volgend stukje code kunnen uitzonderingen optreden:
 
 ```csharp
 string input = Console.ReadLine();
-int converted = Convert.ToInt32(input)
+int converted = Convert.ToInt32(input);
 ```
 
 Een `FormatException` zal optreden wanneer de gebruiker tekst invoert of wanneer een komma-getal wordt ingevoegd. De conversie verwacht dit niet. `Convert.ToInt32()` kan enkel werken met gehele getallen.

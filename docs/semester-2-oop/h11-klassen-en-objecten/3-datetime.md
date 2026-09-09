@@ -144,15 +144,15 @@ Je kan bepalen hoe de omzetting naar `string` moet gebeuren door extra *formatte
 
 ```csharp
 DateTime now = DateTime.Now;
-WriteLine(now.ToString("d")); // short date 
-WriteLine(now.ToString("D")); // long date
-WriteLine(now.ToString("F")); // full date and time
-WriteLine(now.ToString("M")); // month and day
-WriteLine(now.ToString("o")); // date en time separated by T and time zone at the end
-WriteLine(now.ToString("R")); // RFC1123 date and time
-WriteLine(now.ToString("t")); // short time
-WriteLine(now.ToString("T")); // long time
-WriteLine(now.ToString("Y")); // year and month
+Console.WriteLine(now.ToString("d")); // short date 
+Console.WriteLine(now.ToString("D")); // long date
+Console.WriteLine(now.ToString("F")); // full date and time
+Console.WriteLine(now.ToString("M")); // month and day
+Console.WriteLine(now.ToString("o")); // date en time separated by T and time zone at the end
+Console.WriteLine(now.ToString("R")); // RFC1123 date and time
+Console.WriteLine(now.ToString("t")); // short time
+Console.WriteLine(now.ToString("T")); // long time
+Console.WriteLine(now.ToString("Y")); // year and month
 ```
 
 :::info
@@ -194,8 +194,8 @@ Sommige methoden zijn `static` dat wil zeggen dat je ze enkel rechtstreeks op de
 Parsen laat toe dat je strings omzet naar `DateTime`. Dit is handig als je bijvoorbeeld de gebruiker via `ReadLine` tijd en datum wilt laten invoeren:
 
 ```csharp
-string date_string = "8/11/2016"; //dit zou dus ook door gebruiker kunnen ingetypt zijn
-DateTime dt = DateTime.Parse(date_string);
+string dateString = "8/11/2016"; //dit zou dus ook door gebruiker kunnen ingetypt zijn
+DateTime dt = DateTime.Parse(dateString);
 Console.WriteLine(dt);
 ```
 
@@ -208,7 +208,7 @@ Deze nuttige methode geeft een `bool` terug om aan te geven het meegegeven objec
 ```csharp
 DateTime today = DateTime.Now;
 bool isLeap = DateTime.IsLeapYear(today.Year);
-if(isLeap == true) {
+if (isLeap) {
     Console.WriteLine("This year is a leap year");
 }
 ```
@@ -225,7 +225,7 @@ Je kan DateTime objecten ook bij mekaar optellen en aftrekken. Deze bewerking ge
 
 ```csharp
 DateTime today = DateTime.Today;
-DateTime borodino_battle = new DateTime(1812, 9, 7);
-TimeSpan diff = today - borodino_battle;
-WriteLine("{0} days have passed since the Battle of Borodino.", diff.TotalDays);
+DateTime borodinoBattle = new DateTime(1812, 9, 7);
+TimeSpan diff = today - borodinoBattle;
+Console.WriteLine($"{diff.TotalDays} days have passed since the Battle of Borodino.");
 ```

@@ -14,7 +14,7 @@ Als de code die het probleem kan vaststellen het probleem ook kan oplossen, heb 
 ```csharp
 public static void WensGelukkigeVerjaardag() {
     bool gewenst = false;
-    byte leeftijd;
+    byte leeftijd = 0;
     while(!gewenst) {
         try {
             leeftijd = Convert.ToByte(Console.ReadLine());

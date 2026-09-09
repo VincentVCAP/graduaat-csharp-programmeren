@@ -31,7 +31,7 @@ Verbeter zelf de fout.
 
 ### Voorbeeldinteractie (na fix)
 
-```aspnet
+```
 Vrijdag
 Maandag
 Dinsdag
@@ -70,7 +70,7 @@ Spoor zelf de fout op en pas de code aan zodat ze hetzelfde doet, zonder gebruik
 ### Voorbeeldinteractie
 
 ```
-3 x 60 = 1800
+30 x 60 = 1800
 ```
 
 ## h17-overflow-met-exception-handling

@@ -36,8 +36,8 @@ namespace PopularClasses //in het Class Library-project
 
         public string FirstName
         {
-	    get { return firstName; }
-	    set { firstName = value; }
+            get { return firstName; }
+            set { firstName = value; }
         }
 
         public Person(string firstName)

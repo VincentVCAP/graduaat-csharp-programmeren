@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Liskov Substitution Principle (LSP)
 
 Het Liskov Substitution Principle (LSP) heeft betrekking op de relatie tussen klassen en hun subklassen (afgeleide klassen). Het stelt dat objecten van afgeleide klassen zich moeten kunnen gedragen als objecten van hun basisklassen zonder ongewenst gedrag te introduceren. Met andere woorden, je moet een object van een subklasse kunnen gebruiken als een object van de basisklasse, zonder dat dit leidt tot fouten of inconsistent gedrag.
@@ -11,32 +14,32 @@ Stel je hebt een hiërarchie van vormen met een basisklasse Shape en twee afgele
 ```csharp
 public class Shape
 {
-	public virtual double CalculateArea()
-	{
-    	  // Basisklasse heeft een standaardgedrag voor het berekenen van het gebied
-    	  return 0;
-	}
+    public virtual double CalculateArea()
+    {
+        // Basisklasse heeft een standaardgedrag voor het berekenen van het gebied
+        return 0;
+    }
 }
 
 public class Rectangle : Shape
 {
-        public double Width { get; set; }
-	public double Height { get; set; }
+    public double Width { get; set; }
+    public double Height { get; set; }
 
-	public override double CalculateArea()
-	{
-    		return Width * Height;
-	}
+    public override double CalculateArea()
+    {
+        return Width * Height;
+    }
 }
 
 public class Circle : Shape
 {
-	public double Radius { get; set; }
+    public double Radius { get; set; }
 
-	public override double CalculateArea()
-	{
-    		return Math.PI * Radius * Radius;
-	}
+    public override double CalculateArea()
+    {
+        return Math.PI * Radius * Radius;
+    }
 }
 ```
 
@@ -51,26 +54,26 @@ Zonder Liskov Substitution Principle:
 ```csharp
 public class Animal
 {
-	public virtual void MakeSound()
-	{
-    		Console.WriteLine("Geluid van een dier");
-	}
+    public virtual void MakeSound()
+    {
+        Console.WriteLine("Geluid van een dier");
+    }
 }
 
 public class Dog : Animal
 {
-	public override void MakeSound()
-	{
-    		Console.WriteLine("Woef woef!");
-	}
+    public override void MakeSound()
+    {
+        Console.WriteLine("Woef woef!");
+    }
 }
 
 public class Cat : Animal
 {
-	public override void MakeSound()
-	{
-    		Console.WriteLine("Miauw miauw!");
-	}
+    public override void MakeSound()
+    {
+        Console.WriteLine("Miauw miauw!");
+    }
 }
 ```
 
@@ -79,10 +82,10 @@ Op het eerste gezicht lijkt dit correct, maar laten we een verkeerde implementat
 ```csharp
 public class WrongDog : Animal
 {
-	public override void MakeSound()
-	{
-    		Console.WriteLine("Miauw miauw!"); // Fout geluid voor een hond
-	}
+    public override void MakeSound()
+    {
+        Console.WriteLine("Miauw miauw!"); // Fout geluid voor een hond
+    }
 }
 ```
 
@@ -97,6 +100,6 @@ Een ander bekend voorbeeld is de "wekkerklasse".
 ![](/img/img-3252.png)
 
 
-In de Wekkerklasse staan de functie maakGeluid en het veld geluid. Op het moment dat de Wekker hoort af te gaan wordt de functie maakGeluid aangeroepen en gaat het alarm af. Een analoge wekker is een wekker en zou dus Wekker moeten overerven. Ook een digitale wekker is een wekker en erft dus van de wekkerklasse. De dovenwekker is ook een wekker en zou dus moeten overerven van Wekker. Maar nu is er een probleem, deze wekker trilt in plaats van dat hij geluid maakt. De functie maakGeluid heeft dus geen duidelijke implementatie. In .net resulteert dit vaak in het throwen van een NotImplemented exception.
+In de Wekkerklasse staan de functie maakGeluid en het veld geluid. Op het moment dat de Wekker hoort af te gaan wordt de functie maakGeluid aangeroepen en gaat het alarm af. Een analoge wekker is een wekker en zou dus Wekker moeten overerven. Ook een digitale wekker is een wekker en erft dus van de wekkerklasse. De dovenwekker is ook een wekker en zou dus moeten overerven van Wekker. Maar nu is er een probleem, deze wekker trilt in plaats van dat hij geluid maakt. De functie maakGeluid heeft dus geen duidelijke implementatie. In .net resulteert dit vaak in het throwen van een NotImplementedException.
 
 Dit gaat dus in tegen het substitutieprincipe van Liskov: de methode maakGeluid is een methode van Wekker, maar maakGeluid hoort niet bij DovenWekker, terwijl DovenWekker een Wekker is.

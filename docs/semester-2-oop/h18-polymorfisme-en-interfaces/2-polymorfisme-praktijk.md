@@ -44,7 +44,7 @@ class MilitaryMinister
   {
     //..
   }
-  etc
+  // enzovoort
 }
 ```
 
@@ -74,7 +74,6 @@ class MilitaryMinister:Advisor
   private void increaseTroopNumbers(){ ... }
   private void improveSecurity(){ ... }
   private void payContractors(){ ... }
-  }
 }
 
 class ForeignSecretary:Advisor
@@ -94,7 +93,7 @@ public class President
 {
     public void RunTheCountry()
     {
-        Advisor general = new MilitaryAdvisor();
+        Advisor general = new MilitaryMinister();
         Advisor secretary = new ForeignSecretary();
         Advisor doctor = new HealthOfficial();
         general.Advise(); // # Petraeus says send 100,000 troops to Fallujah
@@ -112,7 +111,7 @@ public class President
     public void RunTheCountry()
     {   
         List<Advisor> allMinisters= new List<Advisor>();
-        allMinisters.Add(new MilitaryAdvisor());
+        allMinisters.Add(new MilitaryMinister());
         allMinisters.Add(new ForeignSecretary());
         allMinisters.Add(new HealthOfficial());
 

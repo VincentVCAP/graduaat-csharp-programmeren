@@ -22,7 +22,7 @@ We vragen niet aan iedereen om dezelfde toets in te vullen en we voorzien geen g
 
 ### Klassen zijn reference types
 
-Onze eigen klassen zijn **reference types**. Dat wil zeggen dat, in de ruimte die voorzien wordt wanneer we een variabele van een bepaalde klasse declareren, er een **verwijzing** wordt bijgehouden. Zo'n verwijzing is een adres voor de bytes die ons object vormen. Dit is in tegenstelling tot **value** types. Daarvoor wordt de waarde zelf bijgehouden op de plaats die voorzien is voor de variabele. De meeste types die je in het begin gezien hebt, zijn value types: `int` (en varianten), `boolean`, `float` (en varianten), `enum` types.
+Onze eigen klassen zijn **reference types**. Dat wil zeggen dat, in de ruimte die voorzien wordt wanneer we een variabele van een bepaalde klasse declareren, er een **verwijzing** wordt bijgehouden. Zo'n verwijzing is een adres voor de bytes die ons object vormen. Dit is in tegenstelling tot **value** types. Daarvoor wordt de waarde zelf bijgehouden op de plaats die voorzien is voor de variabele. De meeste types die je in het begin gezien hebt, zijn value types: `int` (en varianten), `bool`, `float` (en varianten), `enum` types.
 
 ### Demonstratie: leeftijd als onderdeel van een klasse en als losse variabele
 
@@ -101,7 +101,7 @@ static void Main(string[] args) {
     d1.Dag = 6;
     d1.Maand = 3;
     d1.Jaar = 2016;
-    MiniDatumValue d2 = new MiniDatumReference();
+    MiniDatumReference d2 = new MiniDatumReference();
     d2.Dag = 6;
     d2.Maand = 3;
     d2.Jaar = 2016;

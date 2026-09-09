@@ -122,6 +122,7 @@ class Student : ICSVSerializable, IXMLSerializable
     public Student(string naam, byte leeftijd) {
         this.naam = naam;
         this.leeftijd = leeftijd;
+        this.Separator = ";";
     }
     
     public string ToCsv() {

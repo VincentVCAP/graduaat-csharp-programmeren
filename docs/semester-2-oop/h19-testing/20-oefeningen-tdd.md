@@ -30,11 +30,11 @@ Zorg ervoor dat deze test slaagt. Let op: vermijd het schrijven van extra code. 
 
 ## Stap 2: De tweede test
 
-Een volgende stap is dat we de score van een complete off-day game testen. De in bowlingmiddens bekende GlutterGame, Je gooit je bowlingbal steeds in de goot. 
+Een volgende stap is dat we de score van een complete off-day game testen. De in bowlingmiddens bekende GutterGame, Je gooit je bowlingbal steeds in de goot. 
 
 ###  Stap 2.1:
 
-Schrijf de test When\_Roll\_GlutterGame\_Returns\_0(). Je creëert eerst een BowlingGame object. Roep 20 keer de (nog onbestaande) methode Roll aan met argument 0 (aantal kegels omvergeworpen) en vergelijk de score (property Score van class BowlingGame) met het verwachte resultaat. Deze test faalt (implementatie is nog niet verwezenlijkt).
+Schrijf de test When\_Roll\_GutterGame\_Returns\_0(). Je creëert eerst een BowlingGame object. Roep 20 keer de (nog onbestaande) methode Roll aan met argument 0 (aantal kegels omvergeworpen) en vergelijk de score (property Score van class BowlingGame) met het verwachte resultaat. Deze test faalt (implementatie is nog niet verwezenlijkt).
 
 ### Stap 2.2:
 

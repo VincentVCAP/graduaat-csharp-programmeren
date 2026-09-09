@@ -48,7 +48,10 @@ Indien je klasse Soldier geen parameterloze constructor heeft, dan moeten we uit
 ```csharp
 class Soldier
 {
-   public Soldier(bool canShoot) {//...Do stuff  }
+   public Soldier(bool canShoot)
+   {
+       //...Do stuff
+   }
 }
 
 class Medic : Soldier
@@ -76,7 +79,10 @@ We zien hier dus hoe we ervoor moeten zorgen dat we terug Medics via `new Medic(
 ```csharp
 class Soldier
 {
-   public Soldier(bool canShoot) {//...Do stuff  }
+   public Soldier(bool canShoot)
+   {
+       //...Do stuff
+   }
 }
 
 class Medic:Soldier
@@ -92,7 +98,10 @@ De medics zullen de canShoot dus steeds op true zetten. Uiteraard wil je misschi
 ```csharp
 class Soldier
 {
-   public Soldier(bool canShoot) {//...Do stuff  }
+   public Soldier(bool canShoot)
+   {
+       //...Do stuff
+   }
 }
 
 class Medic:Soldier

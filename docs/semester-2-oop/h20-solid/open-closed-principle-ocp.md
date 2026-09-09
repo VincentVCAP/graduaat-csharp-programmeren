@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Open/Closed Principle (OCP)
 
 Het Open/Closed Principle (OCP) stelt dat klassen open moeten staan voor uitbreiding, maar gesloten moeten blijven voor wijzigingen. Met andere woorden, je zou nieuwe functionaliteit moeten kunnen toevoegen aan een systeem zonder de bestaande code van dat systeem te wijzigen. Dit bevordert het behoud van de stabiliteit van bestaande code terwijl je nieuwe functies introduceert.
@@ -11,55 +14,55 @@ Laten we dit principe illustreren aan de hand van een eenvoudig voorbeeld. Stel 
 ```csharp
 public class Circle
 {
-	public double Radius { get; set; }
-		
-	public void DrawCircle()
-	{
-    		// Code om een cirkel te tekenen
-	}
+    public double Radius { get; set; }
+
+    public void DrawCircle()
+    {
+        // Code om een cirkel te tekenen
+    }
 }
 
 public class Rectangle
 {
-	public double Width { get; set; }
-	public double Height { get; set; }
+    public double Width { get; set; }
+    public double Height { get; set; }
 
-	public void DrawRectangle()
-	{
-    		// Code om een rechthoek te tekenen
-	}
+    public void DrawRectangle()
+    {
+        // Code om een rechthoek te tekenen
+    }
 }
 ```
 
-Als je een nieuwe vorm wilt toevoegen, moet je de bestaande code aanpassen en nieuwe methoden toevoegen om de nieuwe vorm te tekenen. Het grootste probleem is dat je niet kan itereren over aan collectie van deze objecten en tegen elk object kan zeggen dat het zichzelf moet tekenen.
+Als je een nieuwe vorm wilt toevoegen, moet je de bestaande code aanpassen en nieuwe methoden toevoegen om de nieuwe vorm te tekenen. Het grootste probleem is dat je niet kan itereren over een collectie van deze objecten en tegen elk object kan zeggen dat het zichzelf moet tekenen.
 
 **OCP-compatibele implementatie:**
 
 ```csharp
 public interface IShape
 {
-	void Draw();
+    void Draw();
 }
 
 public class Circle : IShape
 {
-	public double Radius { get; set; }
+    public double Radius { get; set; }
 
-	public void Draw()
-	{
-    		// Code om een cirkel te tekenen
-	}
+    public void Draw()
+    {
+        // Code om een cirkel te tekenen
+    }
 }
 
 public class Rectangle : IShape
 {
-	public double Width { get; set; }
-	public double Height { get; set; }
+    public double Width { get; set; }
+    public double Height { get; set; }
 
-	public void Draw()
-	{
-   		// Code om een rechthoek te tekenen
-	}
+    public void Draw()
+    {
+        // Code om een rechthoek te tekenen
+    }
 }
 ```
 

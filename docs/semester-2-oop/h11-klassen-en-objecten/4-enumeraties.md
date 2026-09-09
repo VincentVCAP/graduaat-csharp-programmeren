@@ -27,7 +27,7 @@ if(dagKeuze==1)
 else 
 if (dagKeuze==2)
 {
-    Console.WritLine("We doen de dinsdag dingen");
+    Console.WriteLine("We doen de dinsdag dingen");
 }
 else 
 if //enz..
@@ -50,7 +50,7 @@ if(dagKeuze=="maandag")
 else 
 if (dagKeuze=="dinsdag")
 {
-    Console.WritLine("We doen de dinsdag dingen");
+    Console.WriteLine("We doen de dinsdag dingen");
 }
 else 
 if //enz..

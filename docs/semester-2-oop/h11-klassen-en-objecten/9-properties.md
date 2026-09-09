@@ -36,7 +36,7 @@ Auto auto = new Auto();
 auto.benzine += 10; //DIT ZAL DUS NIET WERKEN, daar benzine private is.
 ```
 
-Misschien is de eerdere methode `TankVol()` te beperkt en willen we wel een willekeurige hoeveelheid benzine kunnen toevoegen of verwijderen, zo lang we niet minder dan 0l of meer dan 50l in de tank doen.
+Misschien is de eerdere methode `Voltanken()` te beperkt en willen we wel een willekeurige hoeveelheid benzine kunnen toevoegen of verwijderen, zo lang we niet minder dan 0l of meer dan 50l in de tank doen.
 
 Een eerste mogelijkheid is om hier methodes voor te schrijven:
 
@@ -137,7 +137,7 @@ We kunnen in de `set` code extra controles inbouwen. Als volgt:
         }
         set
         {
-            if(value >= 0 and value <= 50) {
+            if (value >= 0 && value <= 50) {
                 benzine = value;
             }
         }
@@ -222,7 +222,7 @@ public class Auto
     // bij minder dan 10l heb je 0 blokjes
     public int Blokjes {
         get {
-            return Math.Floor(this.benzine / 10);
+            return (int)Math.Floor(this.benzine / 10);
         }
     }
 }

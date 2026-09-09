@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Single Responsibility Principle (SRP)
 
 Het Single Responsibility Principle (SRP) stelt dat een klasse slechts één enkele verantwoordelijkheid zou moeten hebben. Met andere woorden, een klasse zou slechts één specifieke taak of verantwoordelijkheid moeten hebben, en als er meerdere verantwoordelijkheden zijn, zouden die verantwoordelijkheden in afzonderlijke klassen moeten worden ondergebracht. Dit helpt om de code overzichtelijker, onderhoudbaarder en flexibeler te maken.
@@ -9,15 +12,15 @@ Hier is een voorbeeld van een klasse die het SRP schendt:
 ```csharp
 public class EmployeeManager
 {
-	public void SaveEmployeeData(Employee employee)
-	{
-    	    // Code om werknemersgegevens op te slaan in de database
-	}
+    public void SaveEmployeeData(Employee employee)
+    {
+        // Code om werknemersgegevens op te slaan in de database
+    }
 
-	public void GenerateReport(Employee employee)
-	{
-    	    // Code om een rapport te genereren op basis van werknemersgegevens
-	}
+    public void GenerateReport(Employee employee)
+    {
+        // Code om een rapport te genereren op basis van werknemersgegevens
+    }
 }
 ```
 
@@ -26,23 +29,23 @@ Om het SRP toe te passen, zouden we de verantwoordelijkheden moeten opsplitsen i
 ```csharp
 public class Employee
 {
-  // Properties en methoden voor werknemersgegevens
+    // Properties en methoden voor werknemersgegevens
 }
 
 public class EmployeeDataAccess
 {
-  public void SaveEmployeeData(Employee employee)
-  {
-    // Code om werknemersgegevens op te slaan in de database
-  }
+    public void SaveEmployeeData(Employee employee)
+    {
+        // Code om werknemersgegevens op te slaan in de database
+    }
 }
 
 public class ReportGenerator
 {
-  public void GenerateReport(Employee employee)
-  {
-    // Code om een rapport te genereren op basis van werknemersgegevens
-  }
+    public void GenerateReport(Employee employee)
+    {
+        // Code om een rapport te genereren op basis van werknemersgegevens
+    }
 }
 ```
 

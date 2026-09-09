@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Dependency Inversion Principle (DIP)
 
 Het Dependency Inversion Principle (DIP) heeft betrekking op het omkeren van de traditionele afhankelijkheden tussen hoger niveau modules en lagere niveau modules in een softwarearchitectuur. Dit principe benadrukt dat hogere niveau modules niet rechtstreeks afhankelijk mogen zijn van lagere niveau modules, maar beide zouden afhankelijk moeten zijn van abstracte concepten, zoals interfaces of abstracte klassen.

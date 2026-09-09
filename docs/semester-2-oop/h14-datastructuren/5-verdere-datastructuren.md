@@ -68,7 +68,7 @@ Op lijn 18 wordt de volgende klant uit de rij gehaald. Deze klant gebruiken we n
 //...
 string volgendeKlant = klanten.Dequeue(); //sla de klant op in een lokale variabele
 Console.WriteLine($"We bedienen nu klant {volgendeKlant}");
-this.StuurFactuur(volgendeKlant); //klant "Roos" wordt nu ook in deze methodeoproep gebruikt.
+StuurFactuur(volgendeKlant); //klant "Roos" wordt nu ook in deze methodeoproep gebruikt.
 //...
 ```
 
