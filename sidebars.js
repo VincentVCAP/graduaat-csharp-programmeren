@@ -338,6 +338,7 @@ const sidebars = {
       type: 'category',
       label: 'Semester 2 Appendix',
       items: [
+        'semester-2-appendix/schooladmin-overzicht',
         'semester-2-appendix/operatoroverloading',
         'semester-2-appendix/object-initializer-syntax',
         'semester-2-appendix/compositie-en-aggregatie',
