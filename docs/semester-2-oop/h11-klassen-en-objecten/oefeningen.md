@@ -31,7 +31,7 @@ We willen dat we alle oefeningen die we in dit vak maken op een ordelijke manier
 Dit is maar een voorbeeld! De getoonde topics en oefeningen gaan afhangen van wat je al gedaan hebt.
 :::
 
-```
+```text
 Welkom bij de oefeningen van Objectgeoriënteerd Programmeren!
 Topic van de uit te voeren oefening?
 1. DateTime
@@ -75,7 +75,7 @@ We willen voor een willekeurige datum kunnen bepalen welke dag van de week het i
 
 ### Voorbeeldinteractie
 
-```
+```text
 Welke dag?
 > 14
 Welke maand?
@@ -103,7 +103,7 @@ We willen weten hoe veel fracties van een seconde al verlopen zijn sinds het beg
 
 ### Voorbeeldinteractie
 
-```
+```text
 Sinds 1 januari 2000 zijn er (hier wordt het aantal getoond) ticks voorbijgegaan.
 ```
 
@@ -125,7 +125,7 @@ We willen bepalen hoe veel schrikkeljaren er zijn tussen 1799 en 2021.
 
 ### Voorbeeldinteractie
 
-```
+```text
 Er zijn (hier wordt het aantal getoond) schrikkeljaren tussen 1799 en 2021.
 ```
 
@@ -149,7 +149,7 @@ We zijn benieuwd hoe lang het duurt een array van 1 miljoen `int`s te maken en o
 
 ### Voorbeeldinteractie
 
-```
+```text
 Het duurt (hier wordt het aantal getoond) milliseconden om een array van een miljoen elementen aan te maken en op te vullen met opeenvolgende waarden.
 ```
 
@@ -195,7 +195,7 @@ Zorg dat je `DemoCombinationOf2Numbers`kan oproepen via het submenu van `Classes
 
 #### Voorbeeldinteractie(s)
 
-```
+```text
 Paar: 12, 34
 Som = 46
 Verschil = -22
@@ -219,7 +219,25 @@ De methode `DemoCourses` wordt ook opgeroepen via het keuzemenu in `Main`. Plaat
 
 #### Voorbeeldinteractie
 
-![](/img/img-3258.png)
+```text
+Wat wil je doen?
+1. DemonstreerStudenten uitvoeren
+2. DemonstreerCursussen uitvoeren
+>2
+Communicatie
+Said Aziz
+Mieke Vermeulen
+
+Programmeren
+Said Aziz
+Mieke Vermeulen
+
+Webtechnologie
+Said Aziz
+
+Databanken
+Mieke Vermeulen
+```
 
 
 ## H11\_5 SchoolAdmin klasse CourseResult 
@@ -313,7 +331,7 @@ Schrijf de voorbeelden uit in een `static` methode `DemoFigures` van de klasse `
 
 (Er worden twee rechthoeken en twee driehoeken aangemaakt. De afmetingen van de eerste rechthoek worden eerst op `-1` en `0` ingesteld. Daarna krijgen ze de waarden die je ziet in het bericht hieronder. Formatteer ook met 1 cijfer na de komma.)
 
-```
+```text
 Het is verboden een breedte van -1 in te stellen!
 Het is verboden een breedte van 0 in te stellen!
 Een rechthoek met een breedte van 2,2m en een hoogte van 1,5m heeft een oppervlakte van 3,3m².

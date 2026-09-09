@@ -23,7 +23,7 @@ We werken een systeem uit voor de post, waarin (aangetekende) brieven geregistre
 
 #### Voorbeeldinteractie
 
-```
+```text
 Wil je nog een brief toevoegen? (ja/nee)
 > ja
 Wat voor brief wil je toevoegen?
@@ -184,7 +184,7 @@ De werkbelasting van een administratief personeelslid wordt bepaald aan de hand 
 
 Het naamkaartje van een administratief personeelslid bevat de naam van het personeelslid, met daarachter de vermelding `(ADMINISTRATIE)`. Bv.
 
-```
+```text
 Ahmed Azzaoui (ADMINISTRATIE)
 ```
 
@@ -199,7 +199,11 @@ Doorloop vervolgens met een `foreach` de lijst met alle administratief personeel
 
 #### Voorbeeldinteractie
 
-![](/img/img-3217.png)
+```text
+Ahmed Azzaoui (ADMINISTRATIE)
+1556
+30
+```
 
 
 ## H15\_5 SchoolAdmin: Lector
@@ -222,7 +226,7 @@ De werkbelasting van een lector wordt bepaald aan de hand van de cursussen die h
 
 Het naamkaartje van een lector bevat de naam van de lector, met op een nieuwe lijn `Lector voor:` . Vervolgens worden de titels van alle cursussen die deze lector geeft op telkens een nieuwe lijn toegevoegd. Bv.
 
-```
+```text
 Anna Bolzano
 Lector voor:
 Economie
@@ -241,7 +245,23 @@ Doorloop vervolgens met een `foreach` de lijst met alle lectoren en toon zo alle
 
 #### Voorbeeldinteractie
 
-![](/img/img-3219.png)
+```text
+Wat wil je doen?
+1. Demonstreer studenten uitvoeren
+2. Demonstreer cursussen uitvoeren
+3. Student uit tekstformaat inlezen
+4. Demonstreer studieProgramma uitvoeren
+5. Demonstreer administratiefPersoneel uitvoeren
+6. Demonstreer lectoren uitvoeren
+>6
+Anna Bolzano
+Lector voor:
+Economie
+Statistiek
+Analytische meetkunde
+610
+10
+```
 
 
 ### Klassediagram

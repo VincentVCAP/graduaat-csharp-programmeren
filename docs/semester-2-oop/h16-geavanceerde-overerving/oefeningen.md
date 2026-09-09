@@ -16,7 +16,7 @@ Schrijf een methode `DemoOrders`in de klasse `Inheritance`. Hierin vraag je of d
 
 ### Voorbeeldinteractie
 
-```
+```text
 Aantal stuks?
 > 150
 Basisprijs?
@@ -78,7 +78,20 @@ Schrijf nu twee klassen `Margherita` en `Veggie` die overerven van `Pizza`, met 
 
 ### Voorbeeldinteractie
 
-![](/img/img-3188.png)
+```text
+Een margarita zonder extra's kost: 7
+De ingrediënten zijn:
+deeg
+tomatensaus
+kaas
+mozzarella
+Een veggie zonder extra's kost: 8
+De ingrediënten zijn:
+deeg
+tomatensaus
+tofu
+spinazie
+```
 
 
 ## h16-Menu
@@ -100,7 +113,14 @@ We willen een digitale menukaart tonen in een online restaurant. Op deze kaart v
 
 ### Voorbeeldinteractie
 
-![](/img/img-3189.png)
+```text
+Paling in 't groen                      22
+Kinder Vol-au-vent                      11
+Waterzooi                               22
+Kabouterschnitzel                       12
+```
+
+![Menukaart in de console: de kindergerechten Kinder Vol-au-vent en Kabouterschnitzel verschijnen elk in een andere willekeurige kleur, de gewone gerechten in de standaardkleur.](/img/img-3189.png)
 
 
 :::info
@@ -140,12 +160,23 @@ We willen van alle personen een tekstje met info over de persoon kunnen tonen.
 
 Voorzie `Person` van een `ToString` methode die een resultaat van volgende vorm toont:
 
-![](/img/img-3191.png)
+```text
+Persoon
+-------
+Naam: Ahmed Azzaoui
+Leeftijd: 35
+```
 
 
 Zorg dat de concrete klassen hier ook het statuut van de persoon aan koppelen, bijvoorbeeld:
 
-![](/img/img-3192.png)
+```text
+Persoon
+-------
+Naam: Ahmed Azzaoui
+Leeftijd: 35
+Administratief personeel
+```
 
 
 Doe dit niet met `GetType`, want dan is de schrijfwijze anders. Schrijf het statuut letterlijk in de code per klasse.
@@ -215,7 +246,17 @@ Pas de code van `ShowOverview` aan zodat er gebruik gemaakt wordt van de nieuwe 
 
 Voorbeeld:
 
-![](/img/img-3193.png)
+```text
+Programma: Programmeren
+
+Semester 1:
+Communicatie (1) (3stp)
+Programmeren (2) (3stp)
+Databanken (3) (3stp)
+
+Semester 2:
+Er zijn geen cursussen in semester 2
+```
 
 
 Daarna pas je de demonstratiecode aan. Zorg dat communicatie bij de opleiding programmeren in het eerste semester staat, maar bij de opleiding systeem- en netwerkbeheer in het tweede semester. Alle andere vakken staan overal in het eerste semester.
@@ -238,13 +279,51 @@ Let op, er kan maar een vakinschrijving toegevoegd worden als er minstens één 
 
 #### Voorbeeldinteracties:
 
-![](/img/img-3194.png)
+```text
+Wat wil je doen?
+1. Demonstreer studenten uitvoeren
+2. Demonstreer cursussen uitvoeren
+3. Student uit tekstformaat inlezen
+4. Demonstreer studieProgramma uitvoeren
+5. Demonstreer administratiefPersoneel uitvoeren
+6. Demonstreer lectoren uitvoeren
+7. Student toevoegen
+8. Cursus toevoegen
+9. VakInschrijving toevoegen
+10. Inschrijvingsgegevens tonen
+>7
+Naam van de student?
+>Tijl Uilenspiegel
+Geboortedatum van de student?
+>1/1/1900
+```
 
 
-![](/img/img-3195.png)
+```text
+>8
+Titel van de cursus?
+>Nederlandse literatuur
+Aantal studiepunten?
+>6
+```
 
 
-![](/img/img-3196.png)
+```text
+>9
+Welke student?
+1: Tijl Uilenspiegel
+>1
+Welke cursus?
+1: Nederlandse literatuur
+>1
+Wil je een resultaat toekennen?
+>ja
+Wat is het resultaat?
+>12
+```
 
 
-![](/img/img-3197.png)
+```text
+>10
+Tijl Uilenspiegel ingeschreven voor Nederlandse literatuur
+```

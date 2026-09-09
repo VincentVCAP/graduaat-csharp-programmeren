@@ -76,7 +76,7 @@ StuurFactuur(volgendeKlant); //klant "Roos" wordt nu ook in deze methodeoproep g
 Op lijn 20 wordt er eerst 'gespiekt' wie de volgende klant is: Piet. Met `Peek()` wordt hij echter nog niet uit de rij gehaald, zoals je in onderstaande output kan zien.
 :::
 
-```
+```text
 De huidige wachtrij is: Roos Piet Ellen Frank Oswald
 
 We bedienen nu klant Roos
@@ -161,7 +161,7 @@ public static void UndoDemo()
 
 Dit geeft volgende output:
 
-```
+```text
 De actiehistoriek is:
         Haal stuk tekst weg.
         Zet tekst in vet.

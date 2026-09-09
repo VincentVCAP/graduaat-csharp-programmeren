@@ -31,7 +31,7 @@ Verbeter zelf de fout.
 
 ### Voorbeeldinteractie (na fix)
 
-```
+```text
 Vrijdag
 Maandag
 Dinsdag
@@ -69,7 +69,7 @@ Spoor zelf de fout op en pas de code aan zodat ze hetzelfde doet, zonder gebruik
 
 ### Voorbeeldinteractie
 
-```
+```text
 30 x 60 = 1800
 ```
 
@@ -79,7 +79,7 @@ Start terug vanaf de code van eerder. Los nu het probleem op door te vermelden w
 
 ### Voorbeeldinteractie
 
-```
+```text
 Het getal is te groot om te converteren naar het gewenste formaat.
 ```
 
@@ -99,7 +99,37 @@ Omdat dit een oefening op het basisgebruik is, wijken we hier af van [onze richt
 
 ### Voorbeeldinteractie
 
-![](/img/img-3178.png)
+```text
+Geef de index van het getal dat je wil zien
+>2
+Het getal is 9
+Wil je doorgaan?
+>ja
+Geef de index van het getal dat je wil zien
+>17
+Die index hebben we niet!
+Wil je doorgaan?
+>ja
+Geef de index van het getal dat je wil zien
+>-1
+Die index hebben we niet!
+Wil je doorgaan?
+>ja
+Geef de index van het getal dat je wil zien
+>0
+Het getal is 4
+Wil je doorgaan?
+>ja
+Geef de index van het getal dat je wil zien
+>fozejioefzio
+Unhandled exception. System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IndividueleOefeningen.ExceptionHandling.DemonstreerKeuzeElement() in ExceptionHandling.cs:line 123
+   at IndividueleOefeningen.ExceptionHandling.ToonSubmenu() in ExceptionHandling.cs:line 29
+   at IndividueleOefeningen.Program.Main(String[] args) in Program.cs:line 30
+```
 
 ## h17-juiste-index-extra-voorzichtig
 
@@ -133,7 +163,7 @@ Cat cat = new Cat(27);
 
 ### Voorbeeldinteractie
 
-```
+```text
 Deze kat is te oud!
 ```
 
@@ -159,13 +189,13 @@ Dit is een nogal vreemd voorbeeld, maar we hebben in deze cursus niet gezien hoe
 
 ### Voorbeeldinteractie
 
-```
+```text
 De volledige lijst met katten is aangemaakt!
 ```
 
 **OF**
 
-```
+```text
 Het is niet gelukt :-(
 ```
 
@@ -179,9 +209,9 @@ We willen een *utility* methode schrijven om makkelijk files te lezen.
 
 Schrijf een methode `FileHelper`. Deze vraagt eerst om een pad naar een file en probeert deze file te lezen. Als dit lukt, geeft ze heel de inhoud van de file terug als string. Als de file niet bestaat, geeft ze nog altijd een string terug (geen exception!) met de waarde: "File kon niet gevonden worden." In het geval van andere problemen met input/output, geeft ze ook een string terug, met waarde: "File bestaat, maar kon niet gelezen worden. Mogelijk heb je geen toegangsrechten." In nog algemenere problemen geeft ze een string terug met waarde: "Er is iets misgelopen. Neem een screenshot van wat je aan het doen was en contacteer de helpdesk."
 
-```
+```text
 Welke file wil je lezen?
-> C:\Users\vincent\TODO.txt
+>C:\Users\johndoe\TODO.txt
 naar de winkel gaan
 met de hond wandelen
 backups maken
@@ -189,17 +219,17 @@ backups maken
 
 **OF**
 
-```
+```text
 Welke file wil je lezen?
-> C:\Users\vincent\FILEDIENIETBESTAAT.txt
+>C:\Users\johndoe\FILEDIENIETBESTAAT.txt
 File kon niet gevonden worden
 ```
 
 **OF**
 
-```
+```text
 Welke file wil je lezen?
-> C:\Windows\beschermdefile.txt
+>C:\Windows\beschermdefile.txt
 File bestaat, maar kon niet gelezen worden. Mogelijk heb je geen toegangsrechten.
 ```
 
@@ -229,7 +259,7 @@ Als dit in je code staat:
 CatWithCustomException cat = new CatWithCustomException(37);
 ```
 
-```
+```text
 37 is geen geldige leeftijd. De laagst mogelijke leeftijd is 0 jaar, de hoogst mogelijke leeftijd is 25 jaar.
 ```
 
@@ -251,7 +281,15 @@ We werken in 2 stappen:
 
 #### Voorbeeldinteractie:
 
-![](/img/img-3179.png)
+```text
+>8
+Titel van de cursus?
+>Databanken
+Aantal studiepunten?
+>4
+Nieuwe cursus heeft dezelfde titel als een bestaande cursus.
+Id van de reeds bestaande cursus is: 1
+```
 
 
 ## H17\_2 SchoolAdmin: geen lege waarden voor CourseRegistration
@@ -268,7 +306,20 @@ Om dit te kunnen testen, breiden we `AddCourseRegistration` uit met een optie 0 
 
 #### Voorbeeldinteractie
 
-![](/img/img-3180.png)
+```text
+>9
+Welke student?
+0. null
+1: Tijl Uilenspiegel
+>1
+Welke cursus?
+0. null
+1: Nederlandse literatuur
+>0
+Wil je een resultaat toekennen?
+>nee
+Cursus mag niet ontbreken.
+```
 
 
 ## H17\_3 SchoolAdmin: geen tweede inschrijving voor dezelfde cursus
@@ -283,7 +334,24 @@ Zorg dat een tweede inschrijving van dezelfde student voor dezelfde cursus ook e
 
 #### Voorbeeldinteractie
 
-![](/img/img-3181.png)
+```text
+>9
+Welke student?
+0. null
+1: Said Aziz
+2: Mieke Vermeulen
+>1
+Welke cursus?
+0. null
+1: Communicatie
+2: Programmeren
+3: Webtechnologie
+4: Databanken
+>2
+Wil je een resultaat toekennen?
+>nee
+Een student kan niet meermaals inschrijven voor dezelfde cursus.
+```
 
 
 ## H17\_4 SchoolAdmin: beperkt aantal inschrijvingen per cursus
@@ -304,7 +372,21 @@ Pas de code van `AddCourseRegistration` aan zodat de exception wordt opgevangen 
 
 Om te testen kan je i.p.v. 20, slechts 1 inschrijving toelaten.
 
-![](/img/img-3182.png)
+```text
+>9
+Welke student?
+0. null
+1: Tijl
+2: Nele
+>2
+Welke cursus?
+0. null
+1: Nederlandse literatuur
+>1
+Wil je een resultaat toekennen?
+>nee
+Er zijn al teveel studenten ingeschreven voor Nederlandse literatuur
+```
 
 
 ## h17-gedeeltelijke-afhandeling
@@ -379,4 +461,29 @@ De werking van elke klasse is als volgt:
 
 ### Voorbeeldinteractie
 
-![](/img/img-3184.png)
+```text
+Hoe oud ben je?
+Dit is een getal tussen 18 en 130
+>23
+Hoe ziet jouw ideale dag eruit?
+Sluit af met ENTER.
+>Koekjes bakken, thee drinken.
+Vraag: Hoe oud ben je?
+Antwoord: 23
+Vraag: Hoe ziet jouw ideale dag eruit?
+Antwoord: Koekjes bakken, thee drinken.
+Hoe veel personen heb je ten laste?
+Dit is een getal tussen 0 en 10
+>20
+Je antwoord moet tussen 0 en 10 liggen.
+>15
+Je antwoord moet tussen 0 en 10 liggen.
+>1
+Wie is je idool?
+Sluit af met ENTER.
+>Billy Gibbons
+Vraag: Hoe veel personen heb je ten laste?
+Antwoord: 1
+Vraag: Wie is je idool?
+Antwoord: Billy Gibbons
+```

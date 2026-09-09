@@ -24,7 +24,7 @@ Je zal een extra, parameterloze, constructor moeten toevoegen omdat `DemoFigures
 
 Schrijf `DemoFiguresWithConstructor` zodanig dat je exact onderstaande interactie krijgt:
 
-```
+```text
 Het is verboden een breedte van -1 in te stellen!
 Het is verboden een hoogte van 0 in te stellen!
 Een rechthoek met een breedte van 2,2m en een hoogte van 1,5m heeft een oppervlakte van 3,3m².
@@ -110,7 +110,7 @@ Gebruik deze gegevens om een nieuw student-object te maken en de student te regi
 
 ### Voorbeeldinteractie
 
-```
+```text
 Geef de tekstvoorstelling van 1 student in CSV-formaat:
 >Bart Van Steen;04;03;1998;Boekhouden;14;Macro-economie;8;Frans, deel 2;18
 
@@ -170,4 +170,15 @@ In de klasse `ClassesAndObjects` maak je:
 
 ### Voorbeeldinteractie
 
-![](/img/img-3210.png)
+```text
+Uit te voeren oefening?
+1. H11-CombinationOf2Numbers
+2. H11-Figures
+3. H12-FiguresWithConstructor
+4. H12-FoodPurchase
+>4
+De totaalprijs van KAAS is 4,9 euro.
+De vervaldatum van aankoop 1 is 15/04/2024 10:21:11
+Ongeldig aantal.
+Ongeldige eenheidsprijs
+```

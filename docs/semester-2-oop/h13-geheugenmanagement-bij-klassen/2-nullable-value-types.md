@@ -60,4 +60,13 @@ Als je de toepassing nog eens uitvoert, zie je dat het gemiddelde verkeerd berek
 
 #### Voorbeeldinteractie
 
-![](/img/img-3284.png)
+```text
+Said Aziz (23 jaar)
+Werkbelasting: 30 uren
+Cijferrapport
+************
+Communicatie:   12
+Programmeren:
+Webtechnologie: 13
+Gemiddelde:     12,5
+```

@@ -48,7 +48,10 @@ Instantieer een auto met benzine aandrijving. Doe dat door de aandrijving als pa
 
 ### Voorbeeldinteractie
 
-![](/img/img-3221.png)
+```text
+Versnellen - Benzine
+Versnellen - Elektrisch
+```
 
 ## h18-grootkeuken
 
@@ -94,7 +97,12 @@ Verwarm ketel 1 tot 100 graden Celcius… zie interactie:
 
 ### Voorbeeldinteractie
 
-![](/img/img-3222.png)
+```text
+Stoomketel - stoomverwarmen
+Stoomketel - afkoelen
+Stoomketel - waterdoseren
+ketel zonder doseren - verwarmen
+```
 
 ## h18-Rooster-stap1
 
@@ -135,7 +143,7 @@ System.Console.WriteLine($"Totale kalendertijd: {(blok1.Tijdsduur + blok2.Tijdsd
 
 ### Voorbeeldinteractie
 
-```
+```text
 Totale kalendertijd: 3u40m
 ```
 
@@ -154,7 +162,38 @@ We willen onze taken en afspraken nu echt kunnen inplannen op een interactieve k
 
 Schrijf zelf een methode `DemonstreerKalender1`. Deze vraagt maakt een kalender met naam "DemonstratieKalender" en vraagt de gebruiker objecten toe te voegen tot hij niet meer wil doorgaan. Daarna wordt de inhoud van de kalender getoond.
 
-![](/img/img-3223.png)
+```text
+Om wat voor object gaat het?
+1. Afspraak
+2. Taak
+>1
+Omschrijving?
+>Tandarts
+Aantal minuten verplaatsing?
+>20
+Aantal minuten afspraak zelf?
+>40
+Aantal minuten om terug te keren?
+>20
+Wanneer moet dit geroosterd worden?
+>20/05/2021 1:00 PM
+Wil je nog een item toevoegen?
+>ja
+Om wat voor object gaat het?
+1. Afspraak
+2. Taak
+>2
+Omschrijving?
+>Projectwerk
+Aantal minuten werk?
+>120
+Wanneer moet dit geroosterd worden?
+>20/05/2021 5:00 PM
+Wil je nog een item toevoegen?
+>nee
+5/20/2021 12:40:00 PM:Tandarts
+5/20/2021 5:00:00 PM:Projectwerk
+```
 
 ## h18-Rooster-stap3
 
@@ -223,7 +262,30 @@ We willen graag de data in ons systeem gesorteerd weergeven. We willen de gebrui
 
 #### Voorbeeldinteractie
 
-![](/img/img-3224.png)
+```text
+Wat wil je doen?
+1. Demonstreer studenten uitvoeren
+2. Demonstreer cursussen uitvoeren
+3. Student uit tekstformaat inlezen
+4. Demonstreer studieProgramma uitvoeren
+5. Demonstreer administratiefPersoneel uitvoeren
+6. Demonstreer lectoren uitvoeren
+7. Student toevoegen
+8. Cursus toevoegen
+9. VakInschrijving toevoegen
+10. Inschrijvingsgegevens tonen
+11. Studenten tonen
+12. Cursussen tonen
+>12
+In welke volgorde wil je cursussen tonen?
+1. Stijgend alfabetisch
+2. Volgens studiepunten
+>1
+Communicatie (6)
+Databanken (3)
+Programmeren (3)
+Webtechnologie (3)
+```
 
 
 ## H18\_2 SchoolAdmin: data export naar CSV
@@ -247,7 +309,27 @@ Werk verder volgens volgende stappen:
 
 Na het uitvoeren van "Demonstreer cursussen" en "Data exporteren":
 
-![](/img/img-3225.png)
+```text
+Wat wil je doen?
+1. Demonstreer studenten uitvoeren
+2. Demonstreer cursussen uitvoeren
+3. Student uit tekstformaat inlezen
+4. Demonstreer studieProgramma uitvoeren
+5. Demonstreer administratiefPersoneel uitvoeren
+6. Demonstreer lectoren uitvoeren
+7. Student toevoegen
+8. Cursus toevoegen
+9. VakInschrijving toevoegen
+10. Inschrijvingsgegevens tonen
+11. Studenten tonen
+12. Cursussen tonen
+13. Data exporteren
+>13
+Cursus;1;"Communicatie";6
+Cursus;2;"Programmeren";3
+Cursus;3;"Webtechnologie";3
+Cursus;4;"Databanken";3
+```
 
 
 3. Implementeer `ICSVSerializable` in `Person`. Maak `ToCSV() virtual` en geef voor elk `Person`-object:`Id`, `Name` en `BirthDate` (korte datumformaat). Telkens met puntkomma tussen.
@@ -260,7 +342,19 @@ Na het uitvoeren van "Demonstreer cursussen" en "Data exporteren":
 
 #### Voorbeeldinteractie
 
-![](/img/img-3226.png)
+```text
+Cursus;1;Communicatie;3
+Cursus;2;Programmeren;3
+Cursus;3;Webtechnologie;3
+Cursus;4;Databanken;3
+Cursus;5;Economie;3
+Cursus;6;Statistiek;3
+Cursus;7;Analytische meetkunde;3
+Student;1;Said Aziz;1/06/2000
+Student;2;Mieke Vermeulen;1/01/1998
+Administratief personeel;3;Ahmed Azzaoui;4/02/1988;animatie;10;correspondentie;10;roostering;10
+Lector;4;Anna Bolzano;12/06/1975;Economie;3;Statistiek;3;Analytische meetkunde;4
+```
 
 
 7. Zorg ervoor dat na het tonen van de csv-gegevens, deze gegevens ook weggeschreven worden in een bestand `SchoolAdminData.csv`. 

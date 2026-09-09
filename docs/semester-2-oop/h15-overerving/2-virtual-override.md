@@ -33,7 +33,7 @@ spaceX1.Vlieg();
 
 De uitvoer zal dan zijn:
 
-```
+```text
 Het vliegtuig vliegt rustig door de wolken.
 Het vliegtuig vliegt rustig door de wolken.
 ```
@@ -61,7 +61,7 @@ spaceX1.Vlieg();
 
 Uitvoer:
 
-```
+```text
 Het vliegtuig vliegt rustig door de wolken.
 De raket verdwijnt in de ruimte.
 ```

@@ -139,7 +139,15 @@ Maak in de `Main` een keuzemenu zoals hieronder.
 
 #### Voorbeeldinteractie
 
-![](/img/img-3271.png)
+```text
+Wat wil je doen?
+1. DemonstreerStudenten uitvoeren
+>1
+Said Aziz (STUDENT)
+20
+Mieke Vermeulen (STUDENT)
+10
+```
 
 
 Optie 1 roept een methode `DemoStudents` op. Maak deze in Program.cs. Verplaats daarvoor de reeds bestaande code in de Main naar de nieuwe methode en vul ze aan met de oproepen naar de juiste methodes om bovenstaand resultaat te krijgen.

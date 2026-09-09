@@ -29,12 +29,12 @@ class Medic:Soldier
 Indien je vervolgens een object aanmaakt van het type `Medic`:
 
 ```csharp
-Medic RexGregor= new Medic();
+Medic rexGregor= new Medic();
 ```
 
 Dan zal zien we de volgorde van constructor-aanroep op het scherm:
 
-```
+```text
 Soldier reporting in
 Who needs healing?
 ```

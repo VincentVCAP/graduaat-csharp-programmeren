@@ -17,7 +17,41 @@ We wensen een simpel telefoonboek bij te houden, waarin je namen en nummers plaa
 
 ### Voorbeeldinteractie
 
-![](/img/img-3199.png)
+```text
+Welkom bij de oefeningen van Objectgeoriënteerd Programmeren!
+Topic van de uit te voeren oefening?
+1: DateTime
+2: Properties en access modifiers
+3: Datastructuren
+>3
+Uit te voeren oefening?
+1. H14-PhoneBookNameNumber
+2. H14-PhoneBookCityNameNumber
+3. H14-PhoneBookWithBuilder
+>1
+Wil je een naam en nummer inlezen?
+>ja
+Naam?
+>Gebruiker1
+Nummer?
+>12345
+Wil je (nog) een naam en nummer inlezen?
+>ja
+Naam?
+>Gebruiker2
+Nummer?
+>67891
+Wil je (nog) een naam en nummer inlezen?
+>ja
+Naam?
+>Gebruiker2
+Nummer?
+>23456
+Wil je (nog) een naam en nummer inlezen?
+>nee
+Gebruiker1: 12345
+Gebruiker2: 23456
+```
 
 
 ## H14-PhoneBookCityNameNumber
@@ -36,7 +70,40 @@ Zie boven, maar we willen nu telefoonnummers ook groeperen per gemeente
 
 ### Voorbeeldinteractie
 
-![](/img/img-3200.png)
+```text
+>2
+Wil je een gemeente, naam en nummer inlezen?
+>ja
+Gemeente?
+>Antwerpen
+Naam?
+>Gebruiker1
+Nummer?
+>123456
+Wil je nog een gemeente, naam en nummer inlezen?
+>ja
+Gemeente?
+>Antwerpen
+Naam?
+>Gebruiker2
+Nummer?
+>23456
+Wil je nog een gemeente, naam en nummer inlezen?
+>ja
+Gemeente?
+>Mechelen
+Naam?
+>Gebruiker3
+Nummer?
+>34567
+Wil je nog een gemeente, naam en nummer inlezen?
+>nee
+Gemeente: Antwerpen
+Gebruiker1: 123456
+Gebruiker2: 23456
+Gemeente: Mechelen
+Gebruiker3: 34567
+```
 
 
 ## H14-PhoneBookWithBuilder

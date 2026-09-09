@@ -48,7 +48,18 @@ Controleer ook dat al je testmethodes nog dezelfde resultaten leveren als eerder
 
 Na het uitvoeren van optie 2 (`DemoCourses`) en optie 3 (`ReadTextFormatStudent`):
 
-![](/img/img-3274.png)
+```text
+Geef de tekstvoorstelling van 1 student in csv-formaat:
+Stephen Hawking;8;1;1942;1;18;2;16;4;20
+Stephen Hawking (81 jaar)
+Werkbelasting: 30 uren
+Cijferrapport
+************
+Communicatie:   18
+Programmeren:   16
+Databanken:     20
+Gemiddelde:     18,0
+```
 
 
 ## H13\_4 SchoolAdmin: Studieprogramma
@@ -116,7 +127,7 @@ Hier loopt iets mis. Benoem de oorzaak en corrigeer de fout.
 
 Gebruik nu volgende code voor de demonstratiemethode:
 
-```
+```csharp
     Course communicatie = new Course("Communicatie");
     Course programmeren = new Course("Programmeren");
     Course databanken = new Course("Databanken");
