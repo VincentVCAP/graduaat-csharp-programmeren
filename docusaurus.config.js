@@ -1,6 +1,11 @@
 // @ts-check
 const { themes: prismThemes } = require('prism-react-renderer');
 
+// Custom domain van de hoofdsite. Enkel de hoofdrepo publiceert hierheen.
+const CUSTOM_DOMAIN = 'csharp.apload.be';
+const owner = (process.env.GITHUB_REPOSITORY_OWNER || 'VincentVCAP').toLowerCase();
+const isMainSite = owner === 'vincentvcap';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Programmeren & OOP',
@@ -10,8 +15,10 @@ const config = {
   // Wie de site publiceert wordt uit de omgeving gehaald, zodat een fork vanzelf naar
   // zijn eigen GitHub Pages verwijst in plaats van naar die van de hoofdrepo.
   // GITHUB_REPOSITORY_OWNER zet GitHub Actions zelf; lokaal valt alles terug op VincentVCAP.
-  url: `https://${(process.env.GITHUB_REPOSITORY_OWNER || 'VincentVCAP').toLowerCase()}.github.io`,
-  baseUrl: '/graduaat-csharp-programmeren/',
+  // De hoofdsite draait op een custom domain (root, dus baseUrl '/'); forks draaien op
+  // <owner>.github.io/graduaat-csharp-programmeren/ en houden daar de repo-naam als baseUrl.
+  url: isMainSite ? `https://${CUSTOM_DOMAIN}` : `https://${owner}.github.io`,
+  baseUrl: isMainSite ? '/' : '/graduaat-csharp-programmeren/',
 
   organizationName: process.env.GITHUB_REPOSITORY_OWNER || 'VincentVCAP',
   projectName: 'graduaat-csharp-programmeren',
