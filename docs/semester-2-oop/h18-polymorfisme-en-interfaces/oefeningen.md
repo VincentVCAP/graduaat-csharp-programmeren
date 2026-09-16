@@ -358,3 +358,7 @@ Lector;4;Anna Bolzano;12/06/1975;Economie;3;Statistiek;3;Analytische meetkunde;4
 
 
 7. Zorg ervoor dat na het tonen van de csv-gegevens, deze gegevens ook weggeschreven worden in een bestand `SchoolAdminData.csv`. 
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H18" />

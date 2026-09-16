@@ -327,3 +327,7 @@ Wat is het resultaat?
 >10
 Tijl Uilenspiegel ingeschreven voor Nederlandse literatuur
 ```
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H16" />

@@ -146,3 +146,7 @@ Gebruik nu volgende code voor de demonstratiemethode:
 ```
 
 Opnieuw loopt het fout. Benoem zelf de oorzaak en corrigeer de fout.
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H13" />

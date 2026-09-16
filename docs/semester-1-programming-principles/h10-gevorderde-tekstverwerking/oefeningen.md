@@ -158,3 +158,7 @@ Er wordt ook bijgehouden hoeveel pogingen de gebruiker er over gedaan heeft tot 
 ###
 
 <OefeningAssistent oefening="H10-TextCellPersistent" hoofdstuk="H10" />
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H10" />

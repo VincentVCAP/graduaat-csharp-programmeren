@@ -269,3 +269,7 @@ Analytische meetkunde
 Hieronder zie je al de klassediagrammen tot nu in SchoolAdmin:
 
 ![](/img/img-3220.png)
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H15" />

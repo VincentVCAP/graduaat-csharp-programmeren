@@ -306,3 +306,7 @@ Bereken apart de BTW en de verkoopprijs BTW inbegrepen.
 ![](/img/img-3043.png)
 
 <OefeningAssistent oefening="H2-BicycleSeller" hoofdstuk="H2" />
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H2" />

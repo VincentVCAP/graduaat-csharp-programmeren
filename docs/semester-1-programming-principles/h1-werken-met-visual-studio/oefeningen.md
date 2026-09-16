@@ -194,3 +194,7 @@ Schrijf deze oefening als een nieuwe methode met de naam `AddressCard`in de klas
 ####
 
 <OefeningAssistent oefening="H1-AddressCard" hoofdstuk="H1" />
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H1" />

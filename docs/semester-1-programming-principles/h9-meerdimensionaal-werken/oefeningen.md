@@ -339,3 +339,7 @@ Vervolgens ga je generatie per generatie laten zien. Van de éne generatie op de
 Laat elke generatie 2 seconden zien en bereken dan de volgende generatie
 
 <OefeningAssistent oefening="H9-ConwayGameOfLife" hoofdstuk="H9" />
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H9" />

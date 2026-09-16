@@ -182,3 +182,7 @@ De vervaldatum van aankoop 1 is 15/04/2024 10:21:11
 Ongeldig aantal.
 Ongeldige eenheidsprijs
 ```
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H12" />

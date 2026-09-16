@@ -302,3 +302,7 @@ Je toegangscode is nS14
 ###
 
 <OefeningAssistent oefening="H3-AccessCode" hoofdstuk="H3" />
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H3" />

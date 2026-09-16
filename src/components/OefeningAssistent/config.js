@@ -17,6 +17,23 @@ export const DEFAULT_CONFIG = {
    */
   model: 'gemini-3.5-flash-lite',
 
+  /**
+   * Terugvalmodel bij aanhoudende serverfouten. Standaard UIT (null): overschakelen naar
+   * een zwaarder model maakt trage momenten net trager. Zet enkel een modelnaam als je
+   * beschikbaarheid boven snelheid verkiest.
+   */
+  fallbackModel: null,
+
+  /**
+   * Aantal pogingen bij een tijdelijke serverfout (5xx) of netwerkfout voor de student een
+   * fout ziet. Bewust laag (2 = één snelle herpoging): dat vangt een eenmalige 503 op
+   * zonder dat de student bij echte overbelasting seconden staat te wachten.
+   */
+  maxPogingen: 2,
+
+  /** Wachttijd (ms) voor de herpoging. Kort gehouden zodat het amper voelbaar is. */
+  herpogingWachtMs: 350,
+
   apiBasis: 'https://generativelanguage.googleapis.com/v1beta',
 
   /**
@@ -49,7 +66,7 @@ export const DEFAULT_CONFIG = {
    * een 400 op. Als jouw model het wel ondersteunt, zet dit op 'minimal' voor
    * snellere en goedkopere antwoorden.
    */
-  thinkingLevel: null,
+  thinkingLevel: 'medium',
 
   temperature: 0.4,
 
@@ -66,7 +83,7 @@ export const DEFAULT_CONFIG = {
    * Aantal eerdere beurten dat meegestuurd wordt als context.
    * Hoger = beter geheugen, maar meer tokens per vraag.
    */
-  maxBeurtenGeheugen: 6,
+  maxBeurtenGeheugen: 4,
 };
 
 /**

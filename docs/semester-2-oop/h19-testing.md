@@ -20,3 +20,7 @@
 - [Test Driven Development](./h19-testing/18-test-driven-development.md)
 - [Class Library](./h19-testing/19-class-library.md)
 - [Oefeningen TDD](./h19-testing/20-oefeningen-tdd.md)
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H19" />

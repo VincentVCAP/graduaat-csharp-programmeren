@@ -128,3 +128,7 @@ Welk karakter gebruiken we als patroon?
 ```
 
 <OefeningAssistent oefening="H7-Triangle" hoofdstuk="H7" />
+
+## Modeloplossingen
+
+<DownloadSlot hoofdstuk="H7" />
