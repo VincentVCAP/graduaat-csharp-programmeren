@@ -48,7 +48,7 @@ const config = {
       // localStorage-override nog voorrang.
       workerUrl:
         process.env.OEFENING_ASSISTENT_WORKER_URL ||
-        ((process.env.GITHUB_REPOSITORY_OWNER || '').toLowerCase() === 'stephanevanrossem02'
+        (isMainSite || owner === 'stephanevanrossem02'
           ? 'https://oefening-assistent.stephanevanrossem2.workers.dev'
           : null),
     },
