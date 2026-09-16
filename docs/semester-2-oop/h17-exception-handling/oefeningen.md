@@ -461,6 +461,25 @@ De werking van elke klasse is als volgt:
 
 ### Voorbeeldinteractie
 
+```text
+Hoe oud ben je?
+Dit is een getal tussen 18 en 130
+>23
+Hoe ziet jouw ideale dag eruit?
+Sluit af met ENTER.
+>Koekjes bakken, thee drinken.
+Vraag: Hoe oud ben je?
+Antwoord: 23
+Vraag: Hoe ziet jouw ideale dag eruit?
+Antwoord: Koekjes bakken, thee drinken.
+Hoe veel personen heb je ten laste?
+Dit is een getal tussen 0 en 10
+>20
+Je antwoord moet tussen 0 en 10 liggen.
+>15
+Je antwoord moet tussen 0 en 10 liggen.
+>1
+Wie is je idool?
 ool?
 Sluit af met ENTER.
 >Billy Gibbons
