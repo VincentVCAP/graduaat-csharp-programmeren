@@ -26,7 +26,20 @@ Zet volgende flowchart om in code:
 
 #### **Voorbeeldinteractie(s)**
 
-![](/img/img-3107.png)
+```text
+Geef een getal in: 10
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Start!
+```
 
 #### **Testscenario's**
 
@@ -56,7 +69,13 @@ Zet volgende flowchart om in code:
 
 #### **Voorbeeldinteractie(s)**
 
-![](/img/img-3109.png)
+```text
+Geef het wachtwoord in: IT
+Geef het wachtwoord in: ap
+Geef het wachtwoord in: AP
+Wachtwoord in orde!
+aantal pogingen: 3
+```
 
 #### **Testscenario's**
 
@@ -82,7 +101,13 @@ Werk een oplossing uit met gebruik van een while lus of een do while lus. Zorg e
 
 **Voorbeeldinteractie(s**
 
-![](/img/img-3110.png)
+```text
+Geef het volgende getal in (stoppen met 0) 15
+Geef het volgende getal in (stoppen met 0) 8
+Geef het volgende getal in (stoppen met 0) 11
+Geef het volgende getal in (stoppen met 0) 0
+Het gemiddelde: 11,333333333333334
+```
 
 #### **Testscenario's**
 
@@ -109,7 +134,19 @@ Werk een oplossing uit met gebruik van een while lus.
 
 #### **Voorbeeldinteractie(s)**
 
-![](/img/img-3111.png)
+```text
+Wil je een volgende persoon inschrijven? (ja of nee) ja
+Geef de naam: John
+Wil je een volgende persoon inschrijven? (ja of nee) ja
+Geef de naam: Paul
+Wil je een volgende persoon inschrijven? (ja of nee) ja
+Geef de naam: George
+Wil je een volgende persoon inschrijven? (ja of nee) ja
+Geef de naam: Ringo
+Wil je een volgende persoon inschrijven? (ja of nee) nee
+Lijst van aanwezigen:  John Paul George Ringo
+Er zijn 4 personen aanwezig.
+```
 
 #### **Testscenario's**
 
@@ -136,7 +173,10 @@ Het is de bedoeling dat je het aantal digits telt met een do while loop, dus nie
 
 #### **Voorbeeldinteractie(s)**
 
-![](/img/img-3112.png)
+```text
+Geef een geheel getal in: 987654321
+Het ingegeven getal bestaat uit 9 cijfers
+```
 
 <OefeningAssistent oefening="H5-NumberOfDigits" hoofdstuk="H5" />
 
@@ -156,7 +196,13 @@ Maak een methode met de naam `Lions.`
 
 ### **Voorbeeldinteractie(s)**
 
-![](/img/img-3113.png)
+```text
+Na 1 jaar zijn er 57 leeuwen
+Na 2 jaar zijn er 66 leeuwen
+Na 3 jaar zijn er 76 leeuwen
+Na 4 jaar zijn er 87 leeuwen
+Na 5 jaar zijn er 101 leeuwen
+```
 
 
 <OefeningAssistent oefening="H5-Lions" hoofdstuk="H5" />
@@ -183,7 +229,19 @@ Zet volgende flowchart om in code:
 
 #### **Voorbeeldinteractie(s)**
 
-![](/img/img-3115.png)
+```text
+Geef n in: 20
+Even getal 2. De som van de getallen tot nu is: 2
+Even getal 4. De som van de getallen tot nu is: 6
+Even getal 6. De som van de getallen tot nu is: 12
+Even getal 8. De som van de getallen tot nu is: 20
+Even getal 10. De som van de getallen tot nu is: 30
+Even getal 12. De som van de getallen tot nu is: 42
+Even getal 14. De som van de getallen tot nu is: 56
+Even getal 16. De som van de getallen tot nu is: 72
+Even getal 18. De som van de getallen tot nu is: 90
+Even getal 20. De som van de getallen tot nu is: 110
+```
 
 #### **Testscenario's**
 
@@ -211,7 +269,11 @@ Gebruik een while loop. Gebruik een extra if om ervoor te zorgen dat er op het e
 
 #### **Voorbeeldinteractie(s)**
 
-![](/img/img-3116.png)
+```text
+Geef een getal (groter dan 1):
+> 12
+Factoren zijn: 1, 2, 3, 4, 6, 12
+```
 
 #### **Testscenario's**
 
@@ -250,7 +312,23 @@ Noem de methode voor deze oefening `RNATranscription`.
 
 #### Voorbeeldinteractie(s)
 
-![](/img/img-3117.png)
+```text
+Geef de letter in (stoppen met 'stop')
+> G
+Geef de letter in (stoppen met 'stop')
+> C
+Geef de letter in (stoppen met 'stop')
+> T
+Geef de letter in (stoppen met 'stop')
+> A
+Geef de letter in (stoppen met 'stop')
+> jkjfhskj
+Geef de letter in (stoppen met 'stop')
+> G
+Geef de letter in (stoppen met 'stop')
+> stop
+De RNA string is: CGAUC
+```
 
 #### **Testscenario's**
 
@@ -288,7 +366,27 @@ Voor de eerste drie zaken kom je toe met een variabele. Voor de laatste is dit l
 
 #### voorbeeldinteractie(s)
 
-![](/img/img-3118.png)
+```text
+Geef een getal
+> 7
+De balans is 7
+De som van de positieve getallen is 7
+De som van de negatieve getallen is 0
+Het gemiddelde is 7
+Geef een getal
+> -3
+De balans is 4
+De som van de positieve getallen is 7
+De som van de negatieve getallen is -3
+Het gemiddelde is 2
+Geef een getal
+> 11
+De balans is 15
+De som van de positieve getallen is 18
+De som van de negatieve getallen is -3
+Het gemiddelde is 5
+Geef een getal
+```
 
 (Dit programma kan blijven verder lopen zo lang je wil.)
 
@@ -332,15 +430,34 @@ Zet volgende flowcharts om in code: (als er geen update vermeld is, wordt de wac
 
 **Basis**
 
-![...](/img/img-3121.png)
-
-![](/img/img-3122.png)
+```text
+-100
+-99
+-98
+-97
+-96
+-95
+...
+96
+97
+98
+99
+100
+```
 
 Uitbreiding:
 
-![...](/img/img-3123.png)
-
-![](/img/img-3124.png)
+```text
+-100
+-98
+-96
+-94
+-92
+...
+96
+98
+100
+```
 
 <OefeningAssistent oefening="H5-Minus100Plus100" hoofdstuk="H5" />
 
@@ -361,7 +478,20 @@ Maak een methode met de naam `AMultiplicationTable`.
 
 **voorbeeldinteractie(s)**
 
-![](/img/img-3125.png)
+```text
+Van welk getal wil je de tafel van vermenigvuldiging zien?
+> 5
+1 x 5 is 5
+2 x 5 is 10
+3 x 5 is 15
+4 x 5 is 20
+5 x 5 is 25
+6 x 5 is 30
+7 x 5 is 35
+8 x 5 is 40
+9 x 5 is 45
+10 x 5 is 50
+```
 
 **Testscenario's**
 
@@ -385,7 +515,32 @@ Maak een methode met de naam `Multiples6And8`.
 
 **voorbeeldinteractie(s)**
 
-![](/img/img-3126.png)
+```text
+6
+8
+12
+16
+18
+24
+30
+32
+36
+40
+42
+48
+54
+56
+60
+64
+66
+72
+78
+80
+84
+88
+90
+96
+```
 
 ##
 
@@ -409,7 +564,11 @@ Vraag aan de gebruiker hoeveel getallen moeten getoond worden van de reeks.
 
 ### Voorbeeldinteractie
 
-![](/img/img-3127.png)
+```text
+Geef het aantal getallen op die je wil zien van de reeks: 12
+De fibonacci lijst is:
+0 1 1 2 3 5 8 13 21 34 55 89
+```
 
 
 <OefeningAssistent oefening="H5-Fibonacci" hoofdstuk="H5" />
@@ -433,9 +592,17 @@ Je mag veronderstellen dat de gebruiker minstens 2 intypt\*\*.\*\*
 
 **voorbeeldinteractie(s)**
 
-![](/img/img-3128.png)
+```text
+Geef getal in:
+> 8
+8 is geen priemgetal
+```
 
-![](/img/img-3129.png)
+```text
+Geef getal in:
+> 11
+11 is een priemgetal
+```
 
 **Testscenario's**
 
@@ -461,7 +628,13 @@ Je kan een deel van de code van de vorige oefening gebruiken
 
 **voorbeeldinteractie(s)**
 
-![](/img/img-3130.png)
+```text
+Priemgetallen van (laagste getal):
+> 2
+tot en met (hoogste getal):
+> 10
+ 2 3 5 7
+```
 
 **Testscenario's**
 

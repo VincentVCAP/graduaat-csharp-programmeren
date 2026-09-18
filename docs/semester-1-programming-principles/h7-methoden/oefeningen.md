@@ -31,7 +31,21 @@ De andere methodes zijn:
 
 #### Voorbeeldinteractie
 
-![](/img/img-3133.png)
+```text
+Geef de diameter van de cirkel: 12,4
+De straal van de cirkel is 6,200
+De ontrek van de cirkel is 38,956
+De straal van de cirkel is 120,763
+Geef twee getallen:
+> 25,2
+> 25,1999
+Het grootste getal van 25,2 en 25,1999 is 25,2
+Geef een geheel getal:
+> 133
+Getal 133 is een oneven getal
+De reeks van oneven getallen van 1 tot 133 is:
+1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99 101 103 105 107 109 111 113 115 117 119 121 123 125 127 129 131 133
+```
 
 <OefeningAssistent oefening="H7-VoidOperations" hoofdstuk="H7" />
 
@@ -90,7 +104,12 @@ Je kan eventueel volgende flowchart gebruiken:
 
 Voorbeeldinteractie
 
-![](/img/img-3134.png)
+```text
+Geef voornaam: Jan
+Geef achternaam: Van den Poel
+student (false/true):false
+email: jan.vandenpoel@ap.be
+```
 
 <OefeningAssistent oefening="H7-EmailadresGenerator" hoofdstuk="H7" />
 
@@ -106,7 +125,7 @@ Schrijf een methode `DrawTriangle`. Deze methode verwacht twee zaken: een karakt
 
 #### Voorbeeldinteractie
 
-```csharp
+```text
 Hoe hoog is de driehoek?
 > 4
 Welk karakter gebruiken we als patroon?
@@ -117,7 +136,7 @@ Welk karakter gebruiken we als patroon?
 ####
 ```
 
-```csharp
+```text
 Hoe hoog is de driehoek?
 > 3
 Welk karakter gebruiken we als patroon?

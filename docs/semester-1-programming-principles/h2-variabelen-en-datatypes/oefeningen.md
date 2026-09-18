@@ -25,7 +25,7 @@ Noem de methode voor deze oefening `AddUp`.
 
 #### voorbeeldinteractie(s)
 
-```csharp
+```text
 Wat is het eerste getal?
 > 1
 Wat is het tweede getal?
@@ -80,7 +80,13 @@ Noem de methode voor deze oefening `FuelConsumption`.
 
 #### voorbeeldinteractie(s)
 
-![](/img/img-3042.png)
+```text
+Geef het aantal liter in de tank voor de rit: 75
+Geef het aantal liter in de tank na de rit: 22
+Geef de kilometerstand van je auto voor de rit: 40060
+Geef de kilometerstand van je auto na de rit: 40698
+Het verbruik van de auto is: 8,307210031347962
+```
 
 ### Technische hulp
 
@@ -125,7 +131,7 @@ Noem de methode voor deze oefening `LittleMath`.
 
 #### voorbeeldinteractie(s)
 
-```csharp
+```text
 23
 280
 12
@@ -167,7 +173,7 @@ Noem de methode voor deze oefening `Average`.
 
 #### voorbeeldinteractie(s)
 
-```csharp
+```text
 12
 ```
 
@@ -202,17 +208,17 @@ Noem de methode voor deze oefening `MultiplicationTables`. Je kent nog geen luss
 
 #### voorbeeldinteractie(s)
 
-```csharp
+```text
 1 * 411 is 411.
 ```
 
-```csharp
+```text
 2 * 411 is 822.
 ```
 
 (enzovoort)
 
-```csharp
+```text
 10 * 411 is 4110.
 ```
 
@@ -255,7 +261,7 @@ Noem de methode voor deze oefening `Space`.
 
 #### voorbeeldinteractie(s)
 
-```csharp
+```text
 Op Mercurius voel je je alsof je 26.22kg weegt.
 Op Venus voel je je alsof je 62.79kg weegt.
 Op Aarde voel je je alsof je 69kg weegt.
@@ -303,7 +309,14 @@ Bereken apart de BTW en de verkoopprijs BTW inbegrepen.
 
 #### voorbeeldinteractie(s)
 
-![](/img/img-3043.png)
+```text
+Wat is de inkoopprijs van de fiets?
+> 1850
+Hoeveel procent is de BTW?
+> 21
+BTW: 388,5 euro
+De prijs van de fiets BTW inbegrepen: 2238,5 euro
+```
 
 <OefeningAssistent oefening="H2-BicycleSeller" hoofdstuk="H2" />
 

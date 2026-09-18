@@ -21,7 +21,11 @@ Schrijf in de klasse `GevorderdeTekstverwerking`een methode `SumOfNumbers`. Deze
 
 ### Voorbeeldinteractie
 
-![](/img/img-3044.png)
+```text
+Gelieve getallen gescheiden door ';'  in te geven
+> 12;4;78;100;6;8
+12+4+78+100+6+8 = 208
+```
 
 <OefeningAssistent oefening="H10-SumOfNumbers" hoofdstuk="H10" />
 
@@ -45,7 +49,15 @@ Vervolgens wordt de tekst getoond aan de gebruiker.
 
 ### Voorbeeldinteractie
 
-![](/img/img-3045.png)
+```text
+Geef een tekst in:
+> Joepie
+Geef de gewenste lengte van de tekst op, die moet minimaal 6 zijn
+> 20
+Geef het 'padding karakter':
+> =
+=======Joepie=======
+```
 
 <OefeningAssistent oefening="H10-CentralAlignmentText" hoofdstuk="H10" />
 
@@ -73,7 +85,26 @@ Pas door middel van stringformattering en string methodes de code aan, zodat:
 
 ### Voorbeeldinteractie
 
-![](/img/img-3046.png)
+```text
+Wat is het budget voor je kerstinkopen?
+> 100
+Wat is de prijs van cadeau 1?
+> 20
+Wat is de prijs van cadeau 2?
+> 3
+Wat is de prijs van cadeau 3?
+> 7
+Wat is de prijs van cadeau 4?
+> 33
+Wat is de prijs van cadeau 5?
+> 0
+Info over je aankopen:
+=====================
+Totaal bedrag:            $63.00.
+Duurste cadeau:           $33.00.
+Goedkoopste cadeau:       $3.00.
+Gemiddelde prijs:         $15.75.
+```
 
 
 <OefeningAssistent oefening="H10-NeatlyOrderedChristmasShoppingList" hoofdstuk="H10" />
@@ -126,7 +157,26 @@ Er wordt ook bijgehouden hoeveel pogingen de gebruiker er over gedaan heeft tot 
 
 ### Voorbeeldinteractie
 
-![](/img/img-3048.png)
+```text
+*********
+Geef letter in, of typ het volledige woord indien je het denkt te weten:
+> e
+**e******
+Geef letter in, of typ het volledige woord indien je het denkt te weten:
+> a
+**e***aa*
+Geef letter in, of typ het volledige woord indien je het denkt te weten:
+> b
+**e***aa*
+Geef letter in, of typ het volledige woord indien je het denkt te weten:
+> nieuwjaar
+Niet correct! Probeer een letter te geven.
+**e***aa*
+Geef letter in, of typ het volledige woord indien je het denkt te weten:
+> Nieuwjaar
+Correct! U heeft het juiste woord gevonden.
+Benodigde pogingen: 5.
+```
 
 
 <OefeningAssistent oefening="H10-Galgje" hoofdstuk="H10" />
@@ -149,9 +199,69 @@ Er wordt ook bijgehouden hoeveel pogingen de gebruiker er over gedaan heeft tot 
 
 ### *Voorbeeldinteractie*
 
-![](/img/img-3049.png)
+```text
+Hoe veel cellen telt je spreadsheet "laad" om een bestaande textcel te laden
+> 8
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|        |        |        |        |        |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+> D
+Wat wil je hier invullen?
+> 5
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|        |        |        |5       |        |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+> A
+Wat wil je hier invullen?
+> D+3
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|D+3     |        |        |5       |        |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+> A
+Wat wil je hier invullen?
+> =D+3
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|8       |        |        |5       |        |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+> B
+Wat wil je hier invullen?
+> =D+A
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|8       |13      |        |5       |        |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+> bewaar
+Geef de naam van je TextCell bestand: TextCell1
+Je TextCell bestand is bewaard.
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|8       |13      |        |5       |        |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+```
 
-![](/img/img-3050.png)
+```text
+Hoe veel cellen telt je spreadsheet "laad" om een bestaande textcel te laden
+> laad
+Geef je TextCell bestand (zonder extensie aptx)
+> aaa
+Bestand niet gevonden!
+Geef je TextCell bestand (zonder extensie aptx)
+> TextCell1
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|8       |13      |        |5       |        |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+> E
+Wat wil je hier invullen?
+> =A+B+D
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|8       |13      |        |5       |26      |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+> bewaar
+Geef de naam van je TextCell bestand: TextCell2
+Je TextCell bestand is bewaard.
+|A       |B       |C       |D       |E       |F       |G       |H       |
+|8       |13      |        |5       |26      |        |        |        |
+Welke cel wil je wijzigen - "bewaar" om je TextCel bestand op ts slaan, "stop" om te stoppen?
+> stop
+```
 
 ##
 

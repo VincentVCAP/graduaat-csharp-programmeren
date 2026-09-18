@@ -61,7 +61,7 @@ Console.WriteLine($"{"hallo",-20} wereld");
 
 Dit levert:
 
-```csharp
+```text
                hallo wereld
 hallo                wereld
 ```

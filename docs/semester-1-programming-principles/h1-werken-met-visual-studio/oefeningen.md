@@ -18,7 +18,20 @@ Een definitie van een methode bevat één taak die kan worden uitgevoerd. Onze e
 
 Neem aandachtig volgende code over, zodat jouw bestand **exact** dit bevat:
 
-![](/img/img-3031.png)
+```csharp showLineNumbers
+using System;
+
+namespace LaboOefeningen
+{
+    internal class EenProgrammaSchrijvenInCSharp
+    {
+        public static void MyFirstMethod()
+        {
+            Console.WriteLine("Mijn eerste methode werkt!");
+        }
+    }
+}
+```
 
 
 Belangrijke onderdelen:
@@ -37,7 +50,12 @@ Belangrijke onderdelen:
 
 Standaard voert de code in de klasse `Program`, in de methode `Main` uit. Dat is het beginpunt van ons programma. We kunnen de body van `Main` aanpassen. We zullen hierin aangeven dat onze eigen methode moet worden opgeroepen als volgt:
 
-![](/img/img-3032.png)
+```csharp
+static void Main(string[] args)
+{
+    EenProgrammaSchrijvenInCSharp.MyFirstMethod();
+}
+```
 
 
 We noemen de code in de body een "oproep" van de methode `MyFirstMethod`. Hierin staat niet hoe die methode werkt. Er staat alleen dat we ze willen gebruiken.
@@ -63,7 +81,15 @@ Kijk naar de voorbeeldinteractie om te zien wat er verder moet gebeuren.
 
 #### voorbeeldinteractie(s)
 
-![](/img/img-3033.png)
+```text
+Dit is mijn eerste C#-programma
+...............................
+Typ je voornaam: Jef
+Typ je achternaam: Peeters
+
+Dus je naam is: Peeters Jef
+Of: Jef Peeters
+```
 
 
 ### Technische hulp
@@ -101,7 +127,7 @@ Schrijf dit programma als een methode met de naam `Rubbish`binnen de klasse `Een
 
 #### voorbeeldinteractie(s)
 
-```csharp
+```text
 Wat is je favoriete kleur?
 > blauw
 Wat is je favoriete eten?

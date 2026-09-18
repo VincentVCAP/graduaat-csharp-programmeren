@@ -40,7 +40,9 @@ static void Main(string[] args)
 
 Dan krijgen we volgende, terechte, foutmelding:
 
-![](/img/img-3011.png)
+```text
+Use of unassigned local variable 'tweede'
+```
 
 Door nu het out keyword te gebruiken geven we expliciet aan dat we beseffen dat de parameter in kwestie pas binnen de methode een waarde zal toegekend krijgen.
 
@@ -69,7 +71,7 @@ static void Main(string[] args)
 
 Dit geeft terug als output:
 
-```
+```text
 Getal1 bedraagt in method:6
 Getal2 bedraagt in method:12
 Eerste bedraagt na method:5
@@ -99,7 +101,7 @@ static void Main(string[] args)
 
 De uitvoer is de volgende, zoals verwacht: :
 
-```
+```text
 Getal1 bedraagt in method:6
 Getal2 bedraagt in method:12
 Eerste bedraagt na method:5

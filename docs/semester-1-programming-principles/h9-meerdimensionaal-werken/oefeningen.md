@@ -47,7 +47,18 @@ Maak in een methode `MultiplicationTables`een twee dimensionale array van 10 rij
 
 ### Voorbeeldinteractie
 
-![](/img/img-3155.png)
+```text
+001 002 003 004 005 006 007 008 009 010
+002 004 006 008 010 012 014 016 018 020
+003 006 009 012 015 018 021 024 027 030
+004 008 012 016 020 024 028 032 036 040
+005 010 015 020 025 030 035 040 045 050
+006 012 018 024 030 036 042 048 054 060
+007 014 021 028 035 042 049 056 063 070
+008 016 024 032 040 048 056 064 072 080
+009 018 027 036 045 054 063 072 081 090
+010 020 030 040 050 060 070 080 090 100
+```
 
 
 ```csharp
@@ -84,7 +95,17 @@ Toon de samenstelling van de teams zoals in het voorbeeld.
 
 ### Voorbeeldinteractie
 
-![](/img/img-3156.png)
+```text
+Wat is de naam van team 1?
+> Warriors
+Wat is de naam van team 2?
+> Victory
+Wat is de naam van team 3?
+> GoForIt
+Warriors: Els Ali
+Victory: John Hanna
+GoForIt: Toon Mora
+```
 
 
 <OefeningAssistent oefening="H9-MakingTeams" hoofdstuk="H9" />
@@ -114,7 +135,17 @@ Toon tenslotte in `Multiplications` het behaalde resultaat.
 
 ### Voorbeeldinteractie
 
-![](/img/img-3158.png)
+```text
+Hoeveel is 2 x 5?
+> 10
+Correct!
+Hoeveel is 3 x 8?
+> 22
+Fout
+Hoeveel is 8 x 2?
+...
+Je haalde 6 punten
+```
 
 
 <OefeningAssistent oefening="H9-Multiplications" hoofdstuk="H9" />
@@ -162,7 +193,7 @@ Schrijf in de klasse `Meerdimensionaal` een methode `RowSums`. Deze maakt een tw
 
 ### Voorbeeldinteractie
 
-```csharp
+```text
 Hoe veel rijen telt je array?
 > 3
 Hoe veel kolommen telt je array?
@@ -237,7 +268,7 @@ Deze oefening kan je niet rechtstreeks oproepen via het keuzemenu voor deze klas
 
 ### Voorbeeldinteractie
 
-```csharp
+```text
 Wat wil je doen?
 1. een pixel kleuren
 2. afbeelding tonen
@@ -265,7 +296,7 @@ Deze oefening kan je niet rechtstreeks oproepen via het keuzemenu voor deze klas
 
 ### Voorbeeldinteractie
 
-```csharp
+```text
 Wat wil je doen?
 1. een pixel kleuren
 2. afbeelding tonen
@@ -303,7 +334,21 @@ Je gaat vervolgens vertrekkende van deze positie een aantal willekeurige spronge
 
 ### Voorbeeldinteractie
 
-![](/img/img-3161.png)
+```text
+Hoeveel keer wil je je paard laten springen?
+> 1000
+Wat is de initiële positie van het paard (A1..H8)
+> C3
+De heatmap ziet er als volgt uit:
+002 009 011 015 011 007 006 011
+014 014 010 017 016 014 005 011
+007 013 017 014 017 022 020 006
+009 022 025 014 021 018 014 010
+020 021 017 027 024 022 020 009
+011 013 026 035 029 032 022 011
+015 015 028 018 021 015 017 011
+005 008 019 014 026 014 013 004
+```
 
 <OefeningAssistent oefening="H9-HeatmapKnightMoves" hoofdstuk="H9" />
 

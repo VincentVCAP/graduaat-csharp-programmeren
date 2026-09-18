@@ -104,4 +104,6 @@ if (productIndex < 0) {
     System.Console.WriteLine("Het product is niet aanwezig.");
 }
 else {
-    Syst
+    System.Console.WriteLine($"{product} kost {prijzen[productIndex]} euro.");
+}
+```

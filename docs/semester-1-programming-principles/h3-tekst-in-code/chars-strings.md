@@ -22,7 +22,7 @@ Console.WriteLine(eenGetal);
 
 De output van dit programma zal dan zijn:
 
-```csharp
+```text
 1
 1
 ```

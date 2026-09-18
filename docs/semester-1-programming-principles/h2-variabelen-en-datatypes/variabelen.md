@@ -78,7 +78,13 @@ eenGetal = "4";
 
 Als je bovenstaande probeert te compileren dan krijg je volgende error-boodschappen:
 
-![](/img/img-3040.png)
+```text
+Error List — Entire Solution: 2 Errors, 0 Warnings
+
+Code     Description
+CS0029   Cannot implicitly convert type 'int' to 'string'
+CS0029   Cannot implicitly convert type 'string' to 'int'
+```
 
 #### Literal bepaalt het datatype
 

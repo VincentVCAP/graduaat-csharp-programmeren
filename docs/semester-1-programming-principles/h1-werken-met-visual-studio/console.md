@@ -112,7 +112,7 @@ Test het programma en voer je naam in wanneer de cursor knippert.
 
 Voorbeelduitvoer (lijn 3 is wat de gebruiker heeft ingetypt)
 
-```csharp
+```text
 Hoi, ik ben het!
 Wie ben jij?!
 tim [enter]
@@ -127,7 +127,7 @@ Wanneer je de inhoud van een variabele wil gebruiken in een methode zoals `Write
 
 De uitvoer wordt dan:
 
-```csharp
+```text
 Hoi, ik ben het!
 Wie ben jij?!
 tim [enter]
@@ -152,7 +152,7 @@ Console.Write("hoe gaat het met je?");
 
 Voer je programma uit en test het resultaat. Je krijgt nu:
 
-```csharp
+```text
 Hoi, ik ben het!
 Wie ben jij?!
 tim [enter]
@@ -169,7 +169,7 @@ Console.Write(" hoe gaat het met je?");
 
 Je uitvoer wordt nu:
 
-```csharp
+```text
 Hoi, ik ben het!
 Wie ben jij?!
 tim [enter]

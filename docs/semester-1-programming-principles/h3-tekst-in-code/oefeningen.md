@@ -19,7 +19,7 @@ Noem de methode voor deze oefening `CapitalLetters`.
 
 #### voorbeeldinteractie(s) <a href="#voorbeeldinteracties" id="voorbeeldinteracties"></a>
 
-```csharp
+```text
 Welke tekst moet ik omzetten?
 > Hello World
 HELLO WORLD
@@ -88,7 +88,11 @@ Noem de methode voor deze oefening `VATCalculation`.
 
 ### voorbeeldinteractie(s) <a href="#voorbeeldinteracties-3" id="voorbeeldinteracties-3"></a>
 
-![](/img/img-3054.png)
+```text
+Geef het bedrag in: 100
+Geef BTW percentage in: 21
+Het bedrag 100 met 21% btw bedraagt 121
+```
 
 ### Technische hulp <a href="#technische-hulp-3" id="technische-hulp-3"></a>
 
@@ -121,7 +125,7 @@ Gebruik `Console.ReadLine` om tekst in te lezen en hou bij in een variabele. Pas
 
 ### Programmaverloop <a href="#programmaverloop-4" id="programmaverloop-4"></a>
 
-```csharp
+```text
 Geef je tekst in
 > Oefening baart kunst!
 Oefeningb@@rtkunst!
@@ -154,7 +158,7 @@ Op basis van de voornaam van de student en de naam van de cursus wordt de map ge
 
 ### Programmaverloop <a href="#programmaverloop-5" id="programmaverloop-5"></a>
 
-```csharp
+```text
 Wat is je naam?
 > Vincent
 Wat is de naam van de cursus?
@@ -181,7 +185,7 @@ Laat de lottocijfers allemaal achter elkaar ingeven, gescheiden door komma's, zo
 
 ### Voorbeeldinteractie <a href="#voorbeeldinteractie" id="voorbeeldinteractie"></a>
 
-```csharp
+```text
 Wat zijn je cijfers (tussen 01 en 45)?
 > 05,08,13,18,27,44
 Je cijfers zijn:
@@ -210,7 +214,7 @@ We veronderstellen dat de gebruiker een getal van exact vijf cijfers ingeeft, de
 
 Onderstaand voorbeeld komt uit op 27, want 6 + 3 + 9 + 2 + 7 is 27.
 
-```csharp
+```text
 Gelieve een getal in te voeren dat bestaat uit exact 5 decimale cijfers.
 > 63927
 De som is 27.
@@ -235,7 +239,7 @@ We veronderstellen dat de gebruiker een juist mailadres invult. Noem je methode 
 
 ### Voorbeeldinteractie <a href="#voorbeeldinteractie-3" id="voorbeeldinteractie-3"></a>
 
-```csharp
+```text
 Geef je e-mailadres:
 > ann.debrabandere@ap.be
 Je naam uit je e-mail is: ANN.DEBRABANDERE
@@ -260,7 +264,7 @@ We veronderstellen dat de gebruiker een voornaam zonder spaties invult. Noem je 
 
 ### Voorbeeldinteractie <a href="#voorbeeldinteractie-4" id="voorbeeldinteractie-4"></a>
 
-```csharp
+```text
 Geef je naam:
 > Ann De Brabandere
 De eerste letter van je naam is: A.
@@ -292,7 +296,7 @@ Noem je methode `AccessCode`. De code van vier tot vijf cijfers wordt als volgt 
 
 ### Voorbeeldinteractie <a href="#voorbeeldinteractie-5" id="voorbeeldinteractie-5"></a>
 
-```csharp
+```text
 Geef je naam: > Janssens
 Geef je geboortejaar: > 2001
 Geef je postcode: > 2000

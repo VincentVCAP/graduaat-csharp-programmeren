@@ -15,7 +15,6 @@
 
 Maak een array gevuld met afwisselend true en false (de array is 30 lang). Toon ook de inhoud van de array op het scherm; alle elementen naast elkaar.
 
-Je kan eventueel onderstaande flowchart gebruiken.
 
 #### Technische analyse
 
@@ -23,7 +22,10 @@ Je kan eventueel onderstaande flowchart gebruiken.
 
 #### Voorbeeldinteractie
 
-![](/img/img-3141.png)
+```text
+Maak een array gevuld met afwisselen true en false(lengte is 30)
+True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False
+```
 
 #### **Uitbreiding**
 
@@ -35,7 +37,10 @@ Zorg ervoor dat er op het einde geen komma staat.
 
 #### Voorbeeldinteractie
 
-![](/img/img-3142.png)
+```text
+Maak een array gevuld met afwisselen true en false(lengte is 30)
+True,False,True,False,True,False,True,False,True,False,True,False,True,False,True,False,True,False,True,False,True,False,True,False,True,False,True,False,True,False
+```
 
 
 <OefeningAssistent oefening="H6-ArrayTrueFalse" hoofdstuk="H6" />
@@ -59,13 +64,27 @@ Vervolgens vraagt het programma de gebruiker om een getal in te voeren. Het prog
 
 Merk op: je kan in principe de statistieken al bijhouden terwijl de getallen worden ingevoerd, maar hier moet je ze pas achteraf berekenen. Doe het ook zo.
 
-Je kan eventueel onderstaande flowchart gebruiken.  
-
-
-
 #### **Voorbeeldinteractie**
 
-![](/img/img-3144.png)
+```text
+Voer 10 gehele getallen in
+> 0
+> 1
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> 9
+******
+Som is 45, Gemiddelde is 4,5, Grootste getal is 9
+******
+Geef minimum getal in?
+> 3
+3 4 5 6 7 8 9
+```
 
 <OefeningAssistent oefening="H6-ArrayExercise" hoofdstuk="H6" />
 
@@ -87,15 +106,34 @@ Maak een programma dat de gebruiker een boodschappenlijstje laat samenstellen.
 * Daarna, in de winkel, kan de gebruiker aangeven welke items er gekocht worden. De gebruiker kan dit blijven doen zolang er 'ja' geantwoord wordt op de vraag 'Nog winkelen?'. Als de gebruiker een item intypt dat niet op de lijst staat, wordt er een bericht getoond.
 * Na het winkelen toont het programma welke items van de lijst niet gekocht zijn.
 
-Je kan eventueel onderstaande flowchart gebruiken.  
-
 #### **Technische analyse**
 
 
 
 #### **Voorbeeldinteractie**
 
-![](/img/img-3146.png)
+```text
+We gaan de boodschappenlijst samenstellen. Hoeveel items wil je opschrijven?
+> 3
+Wat is item 1 op je lijst?
+> kaas
+Wat is item 2 op je lijst?
+> eieren
+Wat is item 3 op je lijst?
+> boter
+Dit is je gesorteerde lijst:
+1: boter
+2: eieren
+3: kaas
+Op naar de winkel!
+Welk item heb je gekocht?
+> kaas
+Nog winkelen? (Ja of Nee)
+> nee
+Naar huis met de boodschappen!
+Volgende items van je lijst ben je vergeten te kopen:
+boter eieren
+```
 
 <OefeningAssistent oefening="H6-Shopping" hoofdstuk="H6" />
 
@@ -117,7 +155,22 @@ Maak een programma dat kan gebruikt worden om kerstinkopen te doen, rekening hou
 
 #### Voorbeeldinteractie
 
-![](/img/img-3147.png)
+```text
+Wat is het budget voor je kerstinkopen?
+> 500
+Hoeveel cadeautjes wil je kopen?
+> 2
+Prijs van cadeau 1?
+> 200
+Prijs van cadeau 2?
+> 330
+Je bent al 30,0 euro over het budget!
+Info over je aankopen:
+Totaal bedrag: 530,0 euro.
+Duurste cadeau: 330,0 euro.
+Goedkoopste cadeau: 200,0 euro.
+Gemiddelde prijs: 265,0 euro.
+```
 
 <OefeningAssistent oefening="H6-ChristmasShopping" hoofdstuk="H6" />
 
@@ -160,7 +213,26 @@ for (int i = 0; i < lottoTrekking.Length; i++) {
 
 #### Voorbeeldinteractie
 
-![](/img/img-3148.png)
+```text
+Geef je lotto getallen (getallen moeten tussen 1 en 42 liggen)
+Geef lotto nummer 1
+> 11
+Geef lotto nummer 2
+> 22
+Geef lotto nummer 3
+> 33
+Geef lotto nummer 4
+> 4
+Geef lotto nummer 5
+> 9
+Geef lotto nummer 6
+> 23
+Je gekozen cijfers zijn:
+4 9 11 22 23 33
+De trekking cijfers zijn:
+2 6 13 32 34 35
+Je hebt 0 Euro gewonnen
+```
 
 <OefeningAssistent oefening="H6-Lottery" hoofdstuk="H6" />
 
@@ -168,7 +240,6 @@ for (int i = 0; i < lottoTrekking.Length; i++) {
 
 #### **Leerdoelen**
 
-* Arrays in flowcharts gebruiken
 * Opzoeken waarde in integer arrays – zelf geschreven methode
 
 #### **Functionele analyse**
@@ -179,15 +250,42 @@ Zoek een getal in een reeks van getallen.
 
 De gebruiker geeft eerst 10 getallen in die je in een array zet. Vervolgens geeft de gebruiker een te zoeken getal in. Schrijf zelf de code (dus maak geen gebruik van een reeds bestaande methode) om te zien of dit getal al dan niet in de array zit.
 
-Je kan eventueel onderstaande flowchart gebruiken.
-
-
-
 #### Voorbeeldinteractie
 
-<!-- TODO: afbeelding ontbreekt in static/img (heette img-0134.png in de GitBook-export) -->
+```text
+Geef 10 willekeurige gehele getallen
+> 10
+> 11
+> 12
+> 13
+> 14
+> 15
+> 16
+> 17
+> 18
+> 19
+Welke geheel getal wil je zoeken?
+> 14
+Je zocht 14, die is gevonden op index 4
+```
 
-<!-- TODO: afbeelding ontbreekt in static/img (heette img-0135.png in de GitBook-export) -->
+```text
+Geef 10 willekeurige gehele getallen
+> 10
+> 11
+> 12
+> 13
+> 14
+> 15
+> 16
+> 17
+> 18
+> 19
+Welke geheel getal wil je zoeken?
+> 8
+Je zocht 8, jammer die is niet gevonden
+```
+
 
 <OefeningAssistent oefening="H6-IntegerIndexOf" hoofdstuk="H6" />
 
@@ -195,7 +293,6 @@ Je kan eventueel onderstaande flowchart gebruiken.
 
 **Leerdoelen**
 
-* Arrays in flowcharts gebruiken
 * De array gebruiken, in een array zoeken.
 
 **Functionele analyse**
@@ -204,17 +301,21 @@ Heel eenvoudig uitgelegd zal het algoritme de te zoeken waarde vergelijken met d
 
 #### **Technische analyse**
 
-Je kan eventueel onderstaande flowchart gebruiken. 
-
 Om twee strings te ordenen, gebruik je `string1.CompareTo(string2)`. Dit levert -1 als string1 voor string2 komt, 1 als string1 na string2 komt en 0 als ze op dezelfde plaats komen.
-
-
 
 #### Voorbeeldinteractie
 
-<!-- TODO: afbeelding ontbreekt in static/img (heette img-0136.png in de GitBook-export) -->
+```text
+Welke automerk wil U zoeken?
+> Opel
+Je zocht Opel, die is gevonden op index 6
+```
 
-<!-- TODO: afbeelding ontbreekt in static/img (heette img-0137.png in de GitBook-export) -->
+```text
+Welke automerk wil U zoeken?
+> blabla
+Je zocht blabla, jammer die is niet gevonden
+```
 
 <OefeningAssistent oefening="H6-BinarySearch" hoofdstuk="H6" />
 
@@ -240,7 +341,7 @@ Maak een een alternatieve versie van H6-Shopping. Maak ditmaal gebruik van List\
 
 #### **Voorbeeldinteractie**
 
-```csharp
+```text
 Wat is item 1 op je lijst?
 > kaas
 Wat is item 2 op je lijst?
@@ -285,7 +386,7 @@ Maak een een alternatieve versie van H6-ChristmasShopping. Maak ditmaal gebruik 
 
 #### Voorbeeldinteractie
 
-```csharp
+```text
 Wat is het budget voor je kerstinkopen?
 > 500
 Prijs van cadeau 1?

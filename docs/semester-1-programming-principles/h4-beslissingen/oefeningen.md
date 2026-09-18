@@ -34,13 +34,27 @@ Maak een methode met de naam `ShoeSeller`. Maak gebruik van een `if.` Zet volgen
 
 **Basis:**
 
-![](/img/img-3067.png)
+```text
+Hoeveel paar schoenen wil je kopen?
+> 1
+De prijs voor 1 paar schoenen is 50 euro.
+```
 
-![](/img/img-3068.png)
+```text
+Hoeveel paar schoenen wil je kopen?
+> 4
+De prijs voor 4 paar schoenen is 180 euro.
+```
 
 **Uitbreiding:**
 
-![](/img/img-3069.png)
+```text
+Heb je een klantenkaart? (ja of nee)
+> nee
+Hoeveel paar schoenen wil je kopen?
+> 3
+De prijs voor 3 paar schoenen is 150 euro.
+```
 
 <OefeningAssistent oefening="H4-ShoeSeller" hoofdstuk="H4" />
 
@@ -79,9 +93,17 @@ Zet volgende flowchart om in code:
 
 #### **Voorbeeldinteractie(s)**
 
-![](/img/img-3071.png)
+```text
+Geef een getal:
+> 5
+Het getal 5 is oneven
+```
 
-![](/img/img-3072.png)
+```text
+Geef een getal:
+> 18
+Het getal 18 is even
+```
 
 <OefeningAssistent oefening="H4-EvenOrOdd" hoofdstuk="H4" />
 
@@ -109,11 +131,23 @@ Zet volgende flowchart om in code:
 
 **Voorbeeldinteractie(s)**
 
-![](/img/img-3074.png)
+```text
+Geef een getal:
+> 17
+Het getal 17 is positief.
+```
 
-![](/img/img-3075.png)
+```text
+Geef een getal:
+> -5
+Het getal -5 is negatief
+```
 
-![](/img/img-3076.png)
+```text
+Geef een getal:
+> 0
+Het getal is nul.
+```
 
 <OefeningAssistent oefening="H4-PositiveNegativeZero" hoofdstuk="H4" />
 
@@ -150,7 +184,13 @@ Maak gebruik van een `if` – `else if` – `else if` …
 
 #### **Voorbeeldinteractie**
 
-![](/img/img-3077.png)
+```text
+Wat is je gewicht?
+> 75
+Wat is je lengte in meter?
+> 1,79
+Je hebt een BMI van 23,4. Je hebt een normaal gewicht.
+```
 
 <OefeningAssistent oefening="H4-BMICalculator" hoofdstuk="H4" />
 
@@ -174,7 +214,12 @@ Maak gebruik van een `if` – `else if` - `else`
 
 **Voorbeeldinteractie**
 
-![](/img/img-3078.png)
+```text
+Geeft het eerste getal in: 98
+Geeft het tweede getal in: 13
+Geeft het derde getal in: 77
+Het eerste getal (98) is het grootste.
+```
 
 <OefeningAssistent oefening="H4-LargestNumberOfThree" hoofdstuk="H4" />
 
@@ -197,7 +242,12 @@ Maak gebruik van een `if` – `else`.
 
 **Voorbeeldinteractie**
 
-![](/img/img-3079.png)
+```text
+Geef het resultaat in van het eerste examen: 60
+Geef het resultaat in van het tweede examen: 35
+Geef het resultaat in van het derde examen: 52
+Je bent niet geslaagd!
+```
 
 <OefeningAssistent oefening="H4-Exams" hoofdstuk="H4" />
 
@@ -221,11 +271,29 @@ Denk eraan dat de gegeven formule wiskundig gedefinieerd is. Houd rekening met h
 
 #### **V**oorbeeldinteractie(s)
 
-![](/img/img-3080.png)
+```text
+Wat wil je berekenen:spanning, weerstand of stroomsterkte?
+> spanning
+Wat is de weerstand? 30
+Wat is de stroomsterkte? 5
+De spanning is 150,00.
+```
 
-![](/img/img-3081.png)
+```text
+Wat wil je berekenen:spanning, weerstand of stroomsterkte?
+> weerstand
+Wat is de spanning? 220
+Wat is de stroomsterkte? 10
+De weerstand is 22,00.
+```
 
-![](/img/img-3082.png)
+```text
+Wat wil je berekenen:spanning, weerstand of stroomsterkte?
+> stroomsterkte
+Wat is de weerstand? 20
+Wat is de spanning? 30
+De stroomsterkte is 1,50.
+```
 
 <OefeningAssistent oefening="H4-OhmsLaw" hoofdstuk="H4" />
 
@@ -248,7 +316,10 @@ Je hebt een schrikkeljaar als het jaartal deelbaar is door 4, behalve als het oo
 
 #### Voorbeeldinteractie
 
-![](/img/img-3083.png)
+```text
+Geef het jaartal in: 2024
+2024 is een schrikkeljaar
+```
 
 
 <OefeningAssistent oefening="H4-LeapYear" hoofdstuk="H4" />
@@ -274,10 +345,17 @@ Het standaard zakgeld is 20 euro. Dit bedrag kan vermeerderd of verminderd worde
 
 #### Voorbeeldinteractie
 
-![](/img/img-3084.png)
+```text
+Wat waren je punten op 20?
+> 18
+Je zakgeld bedraagt 32,0 euro.
+```
 
-
-![](/img/img-3085.png)
+```text
+Wat waren je punten op 20?
+> 9
+Je zakgeld bedraagt 14,0 euro.
+```
 
 
 <OefeningAssistent oefening="H4-PocketMoney" hoofdstuk="H4" />
@@ -300,13 +378,34 @@ Elke klasse die je tot hiertoe in dit project gemaakt hebt, voorzie je dus van e
 
 #### Voorbeeldinteractie
 
-![](/img/img-3086.png)
+```text
+Welke oefening kies je?
+1 - Hoofdstuk 1 - Werken met Visual Studio Code
+2 - Hoofdstuk 2 - Variabelen en datatypes
+3 - Hoofdstuk 3 - Strings en hun methoden
+4 - Hoofdstuk 4 - Beslissingen
+> 5
+```
 
-![](/img/img-3087.png)
+```text
+Ongeldige keuze
+```
 
-![](/img/img-3088.png)
+```text
+Welke oefening kies je?
+1 - Hoofdstuk 1 - Werken met Visual Studio Code
+2 - Hoofdstuk 2 - Variabelen en datatypes
+3 - Hoofdstuk 3 - Strings en hun methoden
+4 - Hoofdstuk 4 - Beslissingen
+> 1
+```
 
-![](/img/img-3089.png)
+```text
+Welke oefening kies je?
+1 - MijnEersteProgramma
+2 - Rommelzin
+3 - Gekleurde-rommelzin
+```
 
 <OefeningAssistent oefening="H4-Menu" hoofdstuk="H4" />
 
