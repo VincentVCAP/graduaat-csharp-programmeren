@@ -11,12 +11,12 @@ function HeroSection() {
         <p className={styles.heroLabel}>Graduaat Programmeren — AP Hogeschool</p>
         <h1 className={styles.heroTitle}>Programmeren &amp; OOP</h1>
         <p className={styles.heroSub}>
-          Alle cursusinhoud voor <strong>Programming Principles</strong> en{' '}
+          Alle cursusinhoud voor <strong>Basis Programmeren</strong> en{' '}
           <strong>Object-Oriented Programming</strong> op één plaats.
         </p>
         <div className={styles.heroButtons}>
           <Link className={styles.btnPrimary} to="/semester-1-programming-principles/h1-werken-met-visual-studio">
-            Semester 1 — Programming Principles
+            Semester 1 — Basis Programmeren
           </Link>
           <Link className={styles.btnSecondary} to="/semester-2-oop/h11-klassen-en-objecten">
             Semester 2 — OOP
@@ -36,7 +36,7 @@ function CardGrid() {
       emoji: '📖',
     },
     {
-      title: 'Semester 1 — Programming Principles',
+      title: 'Semester 1 — Basis Programmeren',
       description: 'Variabelen, datatypes, beslissingen, loops, methoden, arrays en meer.',
       to: '/semester-1-programming-principles/h1-werken-met-visual-studio',
       badge: '1',

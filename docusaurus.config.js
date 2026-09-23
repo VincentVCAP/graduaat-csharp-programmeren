@@ -9,7 +9,7 @@ const isMainSite = owner === 'vincentvcap';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Programmeren & OOP',
-  tagline: 'Cursus Programming Principles & Object-Oriented Programming',
+  tagline: 'Cursus Basis Programmeren & Object-Oriented Programming',
   favicon: 'img/favicon.png',
 
   // Wie de site publiceert wordt uit de omgeving gehaald, zodat een fork vanzelf naar
@@ -109,7 +109,7 @@ const config = {
           {
             title: 'Cursus',
             items: [
-              { label: 'Semester 1', to: '/semester-1-programming-principles/h0-werken-met-visual-studio' },
+              { label: 'Semester 1', to: '/semester-1-programming-principles/h1-werken-met-visual-studio' },
               { label: 'Semester 2', to: '/semester-2-oop/h11-klassen-en-objecten' },
             ],
           },

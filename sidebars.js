@@ -19,7 +19,7 @@ const sidebars = {
     // ─── SEMESTER 1 ───────────────────────────────────────────────
     {
       type: 'category',
-      label: 'Semester 1: Programming Principles',
+      label: 'Semester 1: Basis Programmeren',
       items: [
         {
           type: 'category',
